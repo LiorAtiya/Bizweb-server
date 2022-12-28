@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
     res.send('Hello From server of Facework')
 })
 
-const port = process.env.PORT || 5015
+const port = process.env.PORT || 5015;
 app.listen(port, () => {
     console.log("Server Started with http://localhost:" + port + "/");
 })
