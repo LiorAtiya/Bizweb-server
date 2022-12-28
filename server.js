@@ -36,6 +36,7 @@ app.use('/api/auth', authRoute);
 app.use('/api/business', businessRoute);
 app.use('/api/calender',calenderRoute);
 
-app.listen(5015, () => {
+const port = process.env.PORT || 5015
+app.listen(port, () => {
     console.log("Server Started");
 })
