@@ -34,9 +34,13 @@ app.use(bodyParser.json())
 app.use('/api/users', userRoute);
 app.use('/api/auth', authRoute);
 app.use('/api/business', businessRoute);
-app.use('/api/calender',calenderRoute);
+app.use('/api/calender', calenderRoute);
+
+app.get('/', (req, res) => {
+    res.send('Hello From server of Facework')
+})
 
 const port = process.env.PORT || 5015
 app.listen(port, () => {
-    console.log("Server Started");
+    console.log("Server Started with http://localhost:" + port + "/");
 })
