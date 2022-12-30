@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken")
 const JWT_SECRET = "fdsfdsdcdswere()fdsfds32423fscdsf343fdfdfdfxasdggg"
 
-//Register
+//Register new user
 router.post('/register', async (req, res) => {
     const { firstname, lastname, username,
         email, password } = req.body;
@@ -36,7 +36,7 @@ router.post('/register', async (req, res) => {
     }
 })
 
-//Login
+//Login user
 router.post('/login', async (req, res) => {
     const { email, password } = req.body;
 

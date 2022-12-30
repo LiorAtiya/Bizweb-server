@@ -18,9 +18,9 @@ cloudinary.config({
 
 //For location API
 const apiKey = 'AAPK59deace2cae94e53bbcf5811a8821134Oo-deTYayYmeeCCCei_3SsXpHWolWHqZmMY4lt8TMnqFsD1I4_JoAOZ7O8vSEO8K'
-const authentication = ApiKeyManager.fromKey(apiKey); 
+const authentication = ApiKeyManager.fromKey(apiKey);
 
-//Add business
+//Add new business
 router.post('/add', async (req, res) => {
     const { category, name, description,
         city, address, phone, backgroundPicture } = req.body;
@@ -31,10 +31,9 @@ router.post('/add', async (req, res) => {
         if (oldName) {
             return res.send({ status: "Business Exists" });
         }
-    
+
         const coordination = await geocode({
             address: address + " " + city,
-            // postal: 38103,
             countryCode: "Israel",
             authentication,
         })
@@ -53,14 +52,13 @@ router.post('/add', async (req, res) => {
             backgroundPicture
         });
 
-        //create new calender for business
+        //Create new calender for business
         const event = await Calender.create({
-            // _id: businessID,
             businessID: business._id,
             dates: [],
             availableHours: [],
         });
-        console.log(business);
+        console.log("Created new business")
         res.send(business);
     } catch (error) {
         res.send({ status: "error" })
@@ -84,18 +82,7 @@ router.put('/:id', async (req, res) => {
     }
 })
 
-//Update background picture of business
-router.put("/:id/background", async (req, res) => {
-        try {
-            await Business.findByIdAndUpdate({ _id: req.params.id }, { backgroundPicture: req.body.backgroundPicture })
-            console.log("Added new review");
-            res.status(200).json();
-        } catch (err) {
-            res.status(500).json(err);
-        }
-})
-
-//get one business
+//Get business
 router.get("/:id", async (req, res) => {
     try {
         const business = await Business.findById(req.params.id);
@@ -112,6 +99,7 @@ router.get("/:id", async (req, res) => {
 router.get("/", async (req, res) => {
     try {
         const allBusiness = await Business.find({ type: "name" });
+        console.log('Get all business')
         res.status(200).json(allBusiness);
     } catch (err) {
         res.status(500).json(err)
@@ -137,7 +125,7 @@ router.put("/:id/reviews", async (req, res) => {
 router.delete("/:id/reviews", async (req, res) => {
     try {
         await Business.findOneAndUpdate({ _id: req.params.id }, { $pull: { "reviews": { id: req.body.id } } });
-        console.log("Removed new review");
+        console.log("Removed review");
         res.send("OK - 200 ");
     } catch (err) {
         res.status(500).json(err);
@@ -167,13 +155,14 @@ router.put("/:id/gallery", async (req, res) => {
     }
 })
 
-//Remove image from gallery
+//Remove picture from gallery
 router.delete("/:id/gallery", async (req, res) => {
     try {
         //Remove from cloudinary
         await cloudinary.uploader.destroy(req.body.id);
         //Remove from mongodb
         await Business.findOneAndUpdate({ _id: req.params.id }, { $pull: { "gallery": { id: req.body.id } } });
+        console.log("Removed picture");
         res.status(200).send();
     } catch (error) {
         res.status(400).send();
@@ -186,6 +175,47 @@ router.get("/:id/gallery", async (req, res) => {
         const user = await Business.findById(req.params.id);
         res.status(200).json(user.gallery)
         console.log("Get gallery");
+    } catch (err) {
+        res.status(500).json(err);
+    }
+})
+
+//Update background picture of business
+router.put("/:id/background", async (req, res) => {
+    try {
+        await Business.findByIdAndUpdate({ _id: req.params.id }, { backgroundPicture: req.body.backgroundPicture })
+        console.log("Updated background picture");
+        res.status(200).json();
+    } catch (err) {
+        res.status(500).json(err);
+    }
+})
+
+//Get the top 5 business
+router.get("/home/top5", async (req, res) => {
+    try {
+        const allBusiness = await Business.find({ type: "name" });
+        const mapSpecificValue = allBusiness.map(business => {
+            const { _id, gallery, city, address,
+                coordination, phone, createdAt,
+                updatedAt, __v, ...other } = business._doc
+
+            other.totalStars = 0;
+            other.reviews.forEach(review => other.totalStars += review.stars);
+
+            return other;
+        })
+        
+        const sortByTotalStars = mapSpecificValue.slice(0);
+        sortByTotalStars.sort(function (a, b) {
+            return b.totalStars - a.totalStars;
+        });
+
+        const top5 = sortByTotalStars.slice(0, 5);
+
+        console.log(top5);
+        res.status(200).json(top5);
+
     } catch (err) {
         res.status(500).json(err);
     }

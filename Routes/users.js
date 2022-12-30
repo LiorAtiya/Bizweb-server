@@ -43,7 +43,7 @@ router.put('/:id', async (req, res) => {
 //     }
 // })
 
-//get user
+//Get user
 router.get("/:id", async (req, res) => {
     try {
         const user = await User.findById(req.params.id);
@@ -55,20 +55,15 @@ router.get("/:id", async (req, res) => {
     }
 })
 
-//Add new business
+//Add new business to list of user
 router.put("/:id/business", async (req, res) => {
-    if (req.body.userID == req.params.id) {
-        const { business } = req.body;
-        try {
-            await User.findByIdAndUpdate({ _id: req.params.id }, { $push: { business: business } })
-            const user = await User.findById(req.params.id);
-            // console.log(user);
-            res.status(200).json(user);
-        } catch (err) {
-            res.status(500).json(err);
-        }
-    } else {
-
+    const { business } = req.body;
+    try {
+        await User.findByIdAndUpdate({ _id: req.params.id }, { $push: { business: business } })
+        const user = await User.findById(req.params.id);
+        res.status(200).json(user);
+    } catch (err) {
+        res.status(500).json(err);
     }
 })
 

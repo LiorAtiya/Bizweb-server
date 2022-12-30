@@ -13,7 +13,8 @@ const calenderRoute = require('./Routes/calander')
 dotenv.config();
 const app = express();
 
-//============ Connection to database ================    
+//============ Connection to database ================   
+mongoose.set("strictQuery", true); 
 mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
 })
@@ -36,11 +37,13 @@ app.use('/api/auth', authRoute);
 app.use('/api/business', businessRoute);
 app.use('/api/calender', calenderRoute);
 
+//Home page
 app.get('/', (req, res) => {
     res.send('Hello From server of Facework')
 })
 
-const port = process.env.PORT || 5015;
+// const port = process.env.PORT || 5015;
+const port = 5015
 app.listen(port, () => {
     console.log("Server Started with http://localhost:" + port + "/");
 })
