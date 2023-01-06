@@ -206,14 +206,14 @@ router.get("/home/top5", async (req, res) => {
             return other;
         })
         
+        //Sort business by total stars
         const sortByTotalStars = mapSpecificValue.slice(0);
         sortByTotalStars.sort(function (a, b) {
             return b.totalStars - a.totalStars;
         });
 
+        //Get the top 5 business
         const top5 = sortByTotalStars.slice(0, 5);
-
-        console.log(top5);
         res.status(200).json(top5);
 
     } catch (err) {

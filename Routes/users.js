@@ -89,10 +89,10 @@ router.put("/:id/newappointment", async (req, res) => {
 //Delete appointment
 router.delete("/:id/delete-appointment", async (req, res) => {
     try {
-        await User.findOneAndUpdate({ _id: req.params.id }, { $pull: { "myAppointments": { id: req.body.id } } });
+        await User.findOneAndUpdate({ _id: req.params.id }, { $pull: { "myAppointments": { id: req.body.id , date: req.body.date, time: req.body.time } } });
         console.log("Removed appointment");
         const user = await User.findOne({ '_id': req.params.id });
-        console.log(user);
+
         return res.json(user);
     } catch (err) {
         res.status(500).json(err);
