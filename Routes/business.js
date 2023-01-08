@@ -221,4 +221,64 @@ router.get("/home/top5", async (req, res) => {
     }
 })
 
+//Get business with the nearest available appointment
+router.get("/home/quickappointment", async (req, res) => {
+    try {
+        const {category, city } = req.body;
+
+        const allBusiness = await Business.find({ type: "name" });
+        //filter business by category & city
+        const filteredBusiness = allBusiness.filter(busi => {
+            return busi.category === category && busi.city === city;
+        })
+
+        //Get calender of filtered business
+        const allCalenders = await Calender.find({ type: "businessID" });
+        const filteredCalendersBusiness = filteredBusiness.map(busi => {
+            return allCalenders.find(item => item.businessID === busi._id.toString());
+        });
+
+        // Get current time
+        let min, hours,currentTime;
+        if (new Date().getHours() < 10) {
+            hours = '0'+new Date().getHours()
+        }else {
+            hours = new Date().getHours()
+        }
+        if (new Date().getMinutes() < 10) {
+            min = '0'+new Date().getMinutes()
+        }else {
+            min = new Date().getMinutes()
+        }
+        currentTime = hours+":"+min;
+
+        //Get current date
+        let currentDate = new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear()
+
+        let earliest = [];
+        filteredCalendersBusiness.forEach(calender => {
+            calender.availableHours.forEach(hour => {
+                console.log(hour);
+                console.log("current time: "+currentTime+" | current date: "+currentDate)
+                console.log("hour.time - currentTime: "+(parseInt(hour.time) - parseInt(currentTime))); 
+                if((hour.date === currentDate) && (parseInt(hour.time) - parseInt(currentTime) > 0 )) {
+                    if(earliest.length === 0){
+                        const tempEarliest = [calender, hour];
+                        earliest = tempEarliest;
+                    }else {
+                        if ((parseInt(hour.time) - parseInt(currentTime)) < (parseInt(earliest[1].time) - parseInt(currentTime))) {
+                            earliest = [calender, hour];
+                        }
+                    }
+                }
+            })
+        })
+
+        console.log(earliest);
+        res.status(200).json(earliest);
+    } catch (err) {
+        res.status(500).json(err);
+    }
+})
+
 module.exports = router;
