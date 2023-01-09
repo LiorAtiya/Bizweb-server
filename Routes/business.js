@@ -205,7 +205,7 @@ router.get("/home/top5", async (req, res) => {
 
             return other;
         })
-        
+
         //Sort business by total stars
         const sortByTotalStars = mapSpecificValue.slice(0);
         sortByTotalStars.sort(function (a, b) {
@@ -222,9 +222,9 @@ router.get("/home/top5", async (req, res) => {
 })
 
 //Get business with the nearest available appointment
-router.get("/home/quickappointment", async (req, res) => {
+router.post("/home/quickappointment", async (req, res) => {
     try {
-        const {category, city } = req.body;
+        const { category, city } = req.body;
 
         const allBusiness = await Business.find({ type: "name" });
         //filter business by category & city
@@ -239,18 +239,23 @@ router.get("/home/quickappointment", async (req, res) => {
         });
 
         // Get current time
-        let min, hours,currentTime;
+        let min, hours, currentTime;
         if (new Date().getHours() < 10) {
-            hours = '0'+new Date().getHours()
-        }else {
+            hours = '0' + new Date().getHours()
+        } else {
             hours = new Date().getHours()
         }
         if (new Date().getMinutes() < 10) {
-            min = '0'+new Date().getMinutes()
-        }else {
+            min = '0' + new Date().getMinutes()
+        } else {
             min = new Date().getMinutes()
         }
-        currentTime = hours+":"+min;
+        currentTime = hours + ":" + min;
+
+        //Parse to int
+        currentTime = currentTime.split(':').reduce(function (seconds, v) {
+            return + v + seconds * 60;
+        }, 0) / 60;
 
         //Get current date
         let currentDate = new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear()
@@ -258,15 +263,21 @@ router.get("/home/quickappointment", async (req, res) => {
         let earliest = [];
         filteredCalendersBusiness.forEach(calender => {
             calender.availableHours.forEach(hour => {
-                console.log(hour);
-                console.log("current time: "+currentTime+" | current date: "+currentDate)
-                console.log("hour.time - currentTime: "+(parseInt(hour.time) - parseInt(currentTime))); 
-                if((hour.date === currentDate) && (parseInt(hour.time) - parseInt(currentTime) > 0 )) {
-                    if(earliest.length === 0){
+    
+                let availableHour = hour.time.split(':').reduce(function (seconds, v) {
+                    return + v + seconds * 60;
+                }, 0) / 60;
+
+                if ((hour.date === currentDate) && (availableHour - currentTime > 0)) {
+                    if (earliest.length === 0) {
                         const tempEarliest = [calender, hour];
                         earliest = tempEarliest;
-                    }else {
-                        if ((parseInt(hour.time) - parseInt(currentTime)) < (parseInt(earliest[1].time) - parseInt(currentTime))) {
+                    } else {
+                        let earliestTime = earliest[1].time.split(':').reduce(function (seconds, v) {
+                            return + v + seconds * 60;
+                        }, 0) / 60;
+
+                        if ((availableHour - currentTime) < (earliestTime - currentTime)) {
                             earliest = [calender, hour];
                         }
                     }
@@ -274,7 +285,9 @@ router.get("/home/quickappointment", async (req, res) => {
             })
         })
 
-        console.log(earliest);
+        const business = await Business.findOne({ '_id': earliest[0].businessID });
+        earliest[0] = business;
+
         res.status(200).json(earliest);
     } catch (err) {
         res.status(500).json(err);
