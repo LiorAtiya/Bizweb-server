@@ -1,5 +1,8 @@
 const router = require('express').Router()
 const User = require('../Models/userDetails')
+const CategoryEntries = require('../Models/categoryEntries');
+const BigML = require("../Models/bml");
+
 const bcrypt = require('bcryptjs')
 
 //Update personal user details
@@ -52,6 +55,47 @@ router.get("/:id", async (req, res) => {
         res.status(200).json(other)
     } catch (err) {
         res.status(500).json(err)
+    }
+})
+
+//Add new record of category entry
+router.post("/:id/categoryEntry", async (req, res) => {
+    const { firstname, lastname, username,
+        email, category } = req.body;
+    
+    try {
+        //create new record
+        const newRecord = await CategoryEntries.create({
+            firstname,
+            lastname,
+            username,
+            email, 
+            category,
+        });
+
+        res.status(200).json(newRecord);
+    } catch (error) {
+        res.status(500).json(err);
+    }
+})
+
+router.get("/:id/trainBigML", async (req, res) => {
+    
+    try {
+        var recordsFound = await BigML.createModel();
+        res.status(200).json(recordsFound);
+    } catch (error) {
+        res.status(500).json(err);
+    }
+})
+
+router.post("/:id/prediction", async (req, res) => {
+
+    try {
+        var result = await BigML.predictAll(req.body);
+        res.status(200).json(result);
+    } catch (error) {
+        res.status(500).json(err);
     }
 })
 
