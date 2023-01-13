@@ -238,12 +238,12 @@ router.post("/home/quickappointment", async (req, res) => {
             return allCalenders.find(item => item.businessID === busi._id.toString());
         });
 
-        // Get current time
+        // Get current time (+2 for server of railway.app)
         let min, hours, currentTime;
-        if (new Date().getHours() < 10) {
-            hours = '0' + new Date().getHours()
+        if (new Date().getHours()+2 < 10) {
+            hours = '0' + new Date().getHours()+2
         } else {
-            hours = new Date().getHours()
+            hours = new Date().getHours()+2
         }
         if (new Date().getMinutes() < 10) {
             min = '0' + new Date().getMinutes()
@@ -279,7 +279,7 @@ router.post("/home/quickappointment", async (req, res) => {
                         }, 0) / 60;
 
                         if ((availableHour - currentTime) < (earliestTime - currentTime)) {
-                            earliest = [calender, hour, (availableHour+"-"+hours+ ":" +min)];
+                            earliest = [calender, hour, (+"-"+hours+ ":" +min)];
                         }
                     }
                 }
