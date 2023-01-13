@@ -279,7 +279,7 @@ router.post("/home/quickappointment", async (req, res) => {
                         }, 0) / 60;
 
                         if ((availableHour - currentTime) < (earliestTime - currentTime)) {
-                            earliest = [calender, hour, (+"-"+hours+ ":" +min)];
+                            earliest = [calender, hour, (hours+ ":" +min)];
                         }
                     }
                 }
