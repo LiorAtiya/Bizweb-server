@@ -257,6 +257,7 @@ router.post("/home/quickappointment", async (req, res) => {
             return + v + seconds * 60;
         }, 0) / 60;
 
+
         //Get current date
         let currentDate = new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear()
 
@@ -278,7 +279,7 @@ router.post("/home/quickappointment", async (req, res) => {
                         }, 0) / 60;
 
                         if ((availableHour - currentTime) < (earliestTime - currentTime)) {
-                            earliest = [calender, hour, (availableHour+ "-" +currentTime)];
+                            earliest = [calender, hour, (hour+ ":" +min)];
                         }
                     }
                 }
