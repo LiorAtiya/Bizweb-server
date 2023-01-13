@@ -240,10 +240,10 @@ router.post("/home/quickappointment", async (req, res) => {
 
         // Get current time (+2 for server of railway.app)
         let min, hours, currentTime;
-        if (new Date().getHours()+2 < 10) {
-            hours = '0' + new Date().getHours()+2
+        if ((new Date().getHours()+2) < 10) {
+            hours = '0' + (new Date().getHours()+2)
         } else {
-            hours = new Date().getHours()+2
+            hours = (new Date().getHours()+2)
         }
         if (new Date().getMinutes() < 10) {
             min = '0' + new Date().getMinutes()
