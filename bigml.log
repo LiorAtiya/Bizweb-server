@@ -1,1 +1,57 @@
 {"date":"Fri Jan 13 2023 15:37:24 GMT+0200 (Israel Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\n/Users/lior-atiya/Desktop/Programming/Facework-server/Routes/business.js:245\n        } else {\n        ^\n\nSyntaxError: Unexpected token '}'\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (/Users/lior-atiya/Desktop/Programming/Facework-server/server.js:10:23)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","os":{"loadavg":[1.73583984375,1.876953125,1.96337890625],"uptime":416888},"process":{"argv":["/usr/local/bin/node","/Users/lior-atiya/Desktop/Programming/Facework-server/server.js"],"cwd":"/Users/lior-atiya/Desktop/Programming/Facework-server","execPath":"/usr/local/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18931832,"external":20196688,"heapTotal":80936960,"heapUsed":54213328,"rss":136101888},"pid":77223,"uid":501,"version":"v16.14.0"},"stack":"/Users/lior-atiya/Desktop/Programming/Facework-server/Routes/business.js:245\n        } else {\n        ^\n\nSyntaxError: Unexpected token '}'\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1032:15)\n    at Module._compile (node:internal/modules/cjs/loader:1067:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (/Users/lior-atiya/Desktop/Programming/Facework-server/server.js:10:23)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)","trace":[{"column":18,"file":"node:vm","function":"Object.compileFunction","line":352,"method":"compileFunction","native":false},{"column":15,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1032,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1067,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1155,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":23,"file":"/Users/lior-atiya/Desktop/Programming/Facework-server/server.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false}]}
+{"level":"error","message":"Error processing request: TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value \"undefined\" for header \"content-length\". Retrying."}
+{"date":"Fri Jan 13 2023 15:49:40 GMT+0200 (Israel Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: err is not defined\nReferenceError: err is not defined\n    at /Users/lior-atiya/Desktop/Programming/Facework-server/Routes/users.js:88:30","os":{"loadavg":[2.033203125,2.3544921875,2.1982421875],"uptime":417624},"process":{"argv":["/usr/local/bin/node","/Users/lior-atiya/Desktop/Programming/Facework-server/server.js"],"cwd":"/Users/lior-atiya/Desktop/Programming/Facework-server","execPath":"/usr/local/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18407833,"external":19539563,"heapTotal":63569920,"heapUsed":59294248,"rss":60588032},"pid":77978,"uid":501,"version":"v16.14.0"},"stack":"ReferenceError: err is not defined\n    at /Users/lior-atiya/Desktop/Programming/Facework-server/Routes/users.js:88:30","trace":[{"column":30,"file":"/Users/lior-atiya/Desktop/Programming/Facework-server/Routes/users.js","function":null,"line":88,"method":null,"native":false}]}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 404 The requested URI is not found(undefined)"}
+{"level":"error","message":"Request processing error: Error: Request failed with status code 404"}
+{"level":"error","message":"Retrying get for undefined (undefined).. "}

@@ -57,8 +57,8 @@ router.delete('/delete-event', async (req, res) => {
         //delete event
         await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "dates": { date: req.body.date, time: req.body.time } } });
 
-        //Add to availableHours
-        await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $push: { "availableHours": { date: req.body.date, time: req.body.time } } })
+        // //Add to availableHours
+        // await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $push: { "availableHours": { date: req.body.date, time: req.body.time } } })
 
         //********************* Return this *********************** */
         // //Sending SMS to client about the appointment
