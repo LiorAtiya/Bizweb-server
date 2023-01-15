@@ -240,10 +240,10 @@ router.post("/home/quickappointment", async (req, res) => {
 
         // Get current time (+2 for server of railway.app)
         let min, hours, currentTime;
-        if ((new Date().getHours()+2) < 10) {
-            hours = '0' + (new Date().getHours()+2)
+        if ((new Date().getHours() + 2) < 10) {
+            hours = '0' + (new Date().getHours() + 2)
         } else {
-            hours = (new Date().getHours()+2)
+            hours = (new Date().getHours() + 2)
         }
         if (new Date().getMinutes() < 10) {
             min = '0' + new Date().getMinutes()
@@ -252,7 +252,7 @@ router.post("/home/quickappointment", async (req, res) => {
         }
         currentTime = hours + ":" + min;
 
-        //Parse to int
+        //Parse time to int
         currentTime = currentTime.split(':').reduce(function (seconds, v) {
             return + v + seconds * 60;
         }, 0) / 60;
@@ -261,19 +261,39 @@ router.post("/home/quickappointment", async (req, res) => {
         //Get current date
         let currentDate = new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear()
 
+        currentDate = parseInt(currentDate.split('/').reduce(function (first, second) {
+            return second + first;
+        }, ""));
+
         let earliest = [];
         filteredCalendersBusiness.forEach(calender => {
             calender.availableHours.forEach(hour => {
-    
+
+                //Parse time to int
                 let availableHour = hour.time.split(':').reduce(function (seconds, v) {
                     return + v + seconds * 60;
                 }, 0) / 60;
 
-                if ((hour.date === currentDate) && (availableHour - currentTime > 0)) {
+                let parseDate = parseInt(hour.date.split('/').reduce(function (first, second) {
+                    return second + first;
+                }, ""));
+
+                if ((parseDate >= currentDate) && (availableHour - currentTime > 0)) {
+
+                    let earliestDate;
+
+                    if (earliest.length != 0) {
+                        earliestDate = parseInt(earliest[1].date.split('/').reduce(function (first, second) {
+                            return second + first;
+                        }, ""));
+                    }
+
                     if (earliest.length === 0) {
                         const tempEarliest = [calender, hour];
                         earliest = tempEarliest;
-                    } else {
+
+                    } else if ((earliestDate - currentDate) > (parseDate - currentDate)) //Check earliest date
+                    {
                         let earliestTime = earliest[1].time.split(':').reduce(function (seconds, v) {
                             return + v + seconds * 60;
                         }, 0) / 60;
