@@ -274,11 +274,16 @@ router.post("/home/quickappointment", async (req, res) => {
                     return + v + seconds * 60;
                 }, 0) / 60;
 
+                //Parse date to int
                 let parseDate = parseInt(hour.date.split('/').reduce(function (first, second) {
                     return second + first;
                 }, ""));
 
-                if ((parseDate >= currentDate) && (availableHour - currentTime > 0)) {
+                // console.log("availableHour - currentTime = res is: " + (availableHour - currentTime));
+
+                //Checks that the date or time has not exceeded the current time
+                if ((parseDate > currentDate) ||
+                    ((parseDate === currentDate) && (availableHour - currentTime > 0))) {
 
                     let earliestDate;
 
@@ -292,7 +297,7 @@ router.post("/home/quickappointment", async (req, res) => {
                         const tempEarliest = [calender, hour];
                         earliest = tempEarliest;
 
-                    } else if ((earliestDate - currentDate) > (parseDate - currentDate)) //Check earliest date
+                    } else if ((earliestDate - currentDate) >= (parseDate - currentDate)) //Check earliest date
                     {
                         let earliestTime = earliest[1].time.split(':').reduce(function (seconds, v) {
                             return + v + seconds * 60;
