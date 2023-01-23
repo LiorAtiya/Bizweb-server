@@ -24,7 +24,8 @@ router.post('/create-event', async (req, res) => {
             name: req.body.name,
             phone: req.body.phone,
             comments: req.body.comments,
-
+            expiredTime: req.body.expiredTime,
+            expiredDate: req.body.expiredDate
         }
 
         if (req.body.userID) appointment.userID = req.body.userID;
@@ -49,7 +50,7 @@ router.post('/create-event', async (req, res) => {
         const appointment = {
             date: req.body.date,
             time: req.body.time,
-            expitredTime: req.body.expitredTime,
+            expiredTime: req.body.expiredTime,
             expiredDate: req.body.expiredDate
         }
         const afterUpdate = await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $push: { "availableHours": appointment } })
