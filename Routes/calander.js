@@ -24,6 +24,7 @@ router.post('/create-event', async (req, res) => {
             name: req.body.name,
             phone: req.body.phone,
             comments: req.body.comments,
+
         }
 
         if (req.body.userID) appointment.userID = req.body.userID;
@@ -44,7 +45,14 @@ router.post('/create-event', async (req, res) => {
         res.send(afterUpdate);
 
     } else { //Admin add more available hours
-        const afterUpdate = await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $push: { "availableHours": { date: req.body.date, time: req.body.time } } })
+
+        const appointment = {
+            date: req.body.date,
+            time: req.body.time,
+            expitredTime: req.body.expitredTime,
+            expiredDate: req.body.expiredDate
+        }
+        const afterUpdate = await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $push: { "availableHours": appointment } })
         res.send(afterUpdate);
     }
 }
@@ -107,7 +115,8 @@ router.delete('/delete-expired-events', async (req, res) => {
 
     //Remove hour from available hours
     const events = await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "availableHours": { expitredDate: { $lte: validityDate }, expiredTime: { $lt: validityTime } } } });
-    res.send(events)
+    console.log("")
+    res.status(200).json(events);
 })
 
 //Get all the events of business
