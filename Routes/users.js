@@ -90,7 +90,6 @@ router.get("/:id/trainBigML", async (req, res) => {
 })
 
 router.post("/:id/prediction", async (req, res) => {
-
     try {
         var result = await BigML.predictAll(req.body);
         res.status(200).json(result);

@@ -26,7 +26,7 @@ router.post('/create-event', async (req, res) => {
             comments: req.body.comments,
         }
 
-        if(req.body.userID) appointment.userID = req.body.userID;
+        if (req.body.userID) appointment.userID = req.body.userID;
 
         //Add event to list of appointments
         const afterUpdate = await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $push: { "dates": appointment } })
@@ -75,6 +75,38 @@ router.delete('/delete-event', async (req, res) => {
     }
 
     res.send("Delete event & add to availableHours");
+})
+
+//delete expired events from calender
+router.delete('/delete-expired-events', async (req, res) => {
+
+    // Get current time (+2 for server of railway.app)
+    let min, hours, currentTime;
+    if ((new Date().getHours() + 2) < 10) {
+        hours = '0' + (new Date().getHours() + 2)
+    } else {
+        hours = (new Date().getHours() + 2)
+    }
+    if (new Date().getMinutes() < 10) {
+        min = '0' + new Date().getMinutes()
+    } else {
+        min = new Date().getMinutes()
+    }
+    currentTime = hours + ":" + min;
+
+    //Parse time to int
+    validityTime = currentTime.split(':').reduce(function (seconds, v) {
+        return + v + seconds * 60;
+    }, 0) / 60;
+
+    //Get current date
+    let currentDate = new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear()
+    validityDate = parseInt(currentDate.split('/').reduce(function (first, second) {
+        return second + first;
+    }, ""));
+
+    //Remove hour from available hours
+    await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "availableHours": { date: { $lt: validityDate }, time: { $lt: validityTime } } } });
 })
 
 //Get all the events of business

@@ -26,19 +26,20 @@ router.post('/add', async (req, res) => {
         city, address, phone, backgroundPicture } = req.body;
 
     try {
-        //checks if the user already exist in database
+        //Checks if the user already exist in database
         const oldName = await Business.findOne({ 'name': name });
         if (oldName) {
             return res.send({ status: "Business Exists" });
         }
 
+        //Get coordination from given address
         const coordination = await geocode({
             address: address + " " + city,
             countryCode: "Israel",
             authentication,
         })
 
-        //create new business
+        //Create new business
         const business = await Business.create({
             category,
             name,
@@ -52,12 +53,13 @@ router.post('/add', async (req, res) => {
             backgroundPicture
         });
 
-        //Create new calender for business
+        //Create new calender for business (another schema)
         const event = await Calender.create({
             businessID: business._id,
             dates: [],
             availableHours: [],
         });
+
         console.log("Created new business")
         res.send(business);
     } catch (error) {
@@ -278,8 +280,6 @@ router.post("/home/quickappointment", async (req, res) => {
                 let parseDate = parseInt(hour.date.split('/').reduce(function (first, second) {
                     return second + first;
                 }, ""));
-
-                // console.log("availableHour - currentTime = res is: " + (availableHour - currentTime));
 
                 //Checks that the date or time has not exceeded the current time
                 if ((parseDate > currentDate) ||
