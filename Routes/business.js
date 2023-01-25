@@ -87,10 +87,19 @@ router.delete('/delete', async (req, res) => {
 
 //Update info of business
 router.put('/:id', async (req, res) => {
+
+    //Get coordination from given address
+    const coordination = await geocode({
+        address: address + " " + city,
+        countryCode: "Israel",
+        authentication,
+    })
+    
     try {
         //NEED TO CHECK WHY ITS REPLACE BODY INSTEAD UPDATE
         const user = await Business.findByIdAndUpdate(req.params.id, {
-            $set: req.body
+            $set: req.body,
+            $set: {coordination: coordination}
         });
         res.status(200).json('business has been updated')
     } catch (err) {
