@@ -69,7 +69,7 @@ router.post('/add', async (req, res) => {
 })
 
 //Delete business
-router.delete('/delete', async (req,res) => {
+router.delete('/delete', async (req, res) => {
     try {
         const { businessID, userID } = req.body
         //Delete business
@@ -87,18 +87,14 @@ router.delete('/delete', async (req,res) => {
 
 //Update info of business
 router.put('/:id', async (req, res) => {
-    if (req.body.userId == req.params.id) {
-        try {
-            //NEED TO CHECK WHY ITS REPLACE BODY INSTEAD UPDATE
-            const user = await Business.findByIdAndUpdate(req.params.id, {
-                $set: req.body
-            });
-            res.status(200).json('business has been updated')
-        } catch (err) {
-            return res.status(500).json(err);
-        }
-    } else {
-        return res.status(403).json('You can update only your business');
+    try {
+        //NEED TO CHECK WHY ITS REPLACE BODY INSTEAD UPDATE
+        const user = await Business.findByIdAndUpdate(req.params.id, {
+            $set: req.body
+        });
+        res.status(200).json('business has been updated')
+    } catch (err) {
+        return res.status(500).json(err);
     }
 })
 
