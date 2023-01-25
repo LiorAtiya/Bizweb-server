@@ -99,9 +99,9 @@ router.put('/:id', async (req, res) => {
         const user = await Business.findByIdAndUpdate(req.params.id, {
             $set: req.body
         });
-        await Business.findByIdAndUpdate(req.params.id, {
-            $set: {coordination: coordination}
-        });
+        
+        await Business.findByIdAndUpdate(req.params.id, { coordination: coordination });
+
         res.status(200).json('business has been updated')
     } catch (err) {
         return res.status(500).json(err);
