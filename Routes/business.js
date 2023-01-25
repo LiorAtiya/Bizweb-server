@@ -90,7 +90,7 @@ router.put('/:id', async (req, res) => {
 
     //Get coordination from given address
     const coordination = await geocode({
-        address: address + " " + city,
+        address: req.body.address + " " + req.body.city,
         countryCode: "Israel",
         authentication,
     })
@@ -99,7 +99,7 @@ router.put('/:id', async (req, res) => {
         const user = await Business.findByIdAndUpdate(req.params.id, {
             $set: req.body
         });
-        
+
         await Business.findByIdAndUpdate(req.params.id, { coordination: coordination });
 
         res.status(200).json('business has been updated')
