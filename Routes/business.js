@@ -96,9 +96,10 @@ router.put('/:id', async (req, res) => {
     })
     
     try {
-        //NEED TO CHECK WHY ITS REPLACE BODY INSTEAD UPDATE
         const user = await Business.findByIdAndUpdate(req.params.id, {
-            $set: req.body,
+            $set: req.body
+        });
+        await Business.findByIdAndUpdate(req.params.id, {
             $set: {coordination: coordination}
         });
         res.status(200).json('business has been updated')
