@@ -35,13 +35,12 @@ router.post('/create-event', async (req, res) => {
         //Remove hour from available hours
         await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "availableHours": { date: req.body.date, time: req.body.time } } });
 
-        //********************* Return this *********************** */
-        // //Sending SMS to client about the appointment
-        // client.messages.create({
-        //     body: `שלום ${req.body.name} \n נקבע לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
-        //     to: '+972' + req.body.phone,
-        //     from: '+14059934995'
-        // }).then((message) => console.log(message.body));
+        //Sending SMS to client about the appointment
+        client.messages.create({
+            body: `שלום ${req.body.name} \n נקבע לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
+            to: '+972' + req.body.phone,
+            from: '+14059934995'
+        }).then((message) => console.log(message.body));
 
         res.send(afterUpdate);
 
@@ -69,13 +68,12 @@ router.delete('/delete-event', async (req, res) => {
         // //Add to availableHours
         // await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $push: { "availableHours": { date: req.body.date, time: req.body.time } } })
 
-        //********************* Return this *********************** */
-        // //Sending SMS to client about the appointment
-        // client.messages.create({
-        //     body: `שלום ${req.body.name} \n התבטל לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
-        //     to: '+972' + req.body.phone,
-        //     from: '+14059934995'
-        // }).then((message) => console.log(message.body));
+        //Sending SMS to client about the appointment
+        client.messages.create({
+            body: `שלום ${req.body.name} \n התבטל לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
+            to: '+972' + req.body.phone,
+            from: '+14059934995'
+        }).then((message) => console.log(message.body));
 
         console.log(req.body);
         return res.json(req.body);
