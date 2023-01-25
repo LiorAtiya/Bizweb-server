@@ -116,6 +116,7 @@ router.delete('/delete-expired-events', async (req, res) => {
 
     //Remove hour from available hours
     const events = await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "availableHours": { expiredDate: { $lte: validityDate }, expiredTime: { $lt: validityTime } } } });
+    //Remove from list of appointments
     await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "dates": { expiredDate: { $lte: validityDate }, expiredTime: { $lt: validityTime } } } });
     res.status(200).json(events);
 })

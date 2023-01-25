@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const Business = require('../Models/businessDetails');
 const Calender = require('../Models/calender');
+const User = require('../Models/userDetails')
 //Images cloud API
 const cloudinary = require('cloudinary');
 //Location API
@@ -64,6 +65,23 @@ router.post('/add', async (req, res) => {
         res.send(business);
     } catch (error) {
         res.send({ status: "error" })
+    }
+})
+
+//Delete business
+router.delete('/delete', async (req,res) => {
+    try {
+        const { businessID, userID } = req.body
+        //Delete business
+        await Business.deleteOne({ _id: businessID });
+        //Delete from list of user
+        await User.findOneAndUpdate({ _id: userID }, { $pull: { "business": businessID } });
+        //Delete calender of business
+        await Calender.deleteOne({ businessID: businessID });
+
+        res.status(200).json('business has been removed')
+    } catch (err) {
+        return res.status(500).json(err);
     }
 })
 
