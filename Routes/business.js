@@ -100,7 +100,7 @@ router.put('/:id', async (req, res) => {
             $set: req.body
         });
 
-        await Business.findByIdAndUpdate(req.params.id, { coordination: coordination });
+        await Business.findByIdAndUpdate(req.params.id, { coordination: coordination.candidates[0] });
 
         res.status(200).json('business has been updated')
     } catch (err) {
