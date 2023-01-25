@@ -5,7 +5,7 @@ require('dotenv').config();
 
 //For Sending SMS API (Twillio)
 const accountSid = 'AC6e9f3c0fbcdb78099ad021619a63b6e3'
-const authToken = '11f7df5764cae7a0df472b869dbe0a51'
+const authToken = '96f87975ef3724144edc05d18e6443cf'
 const client = require('twilio')(accountSid, authToken, {
     lazyLoading: true
 });
