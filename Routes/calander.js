@@ -1,5 +1,8 @@
 const router = require('express').Router();
 const Calender = require('../Models/calender')
+//WebSocket
+const http = require('http');
+const socketIo = require('socket.io');
 
 require('dotenv').config();
 
@@ -8,6 +11,63 @@ const accountSid = 'AC6e9f3c0fbcdb78099ad021619a63b6e3'
 const authToken = '96f87975ef3724144edc05d18e6443cf'
 const client = require('twilio')(accountSid, authToken, {
     lazyLoading: true
+});
+
+const server = http.createServer(app);
+const io = socketIo(server);
+
+//============ Connection to socket ================   
+io.on('connection', socket => {
+    console.log('New client connected');
+
+    socket.on('newAppointment', async appointment => {
+        //client made an appointment
+        if (appointment.busy) {
+
+            const newAppointment = {
+                date: appointment.date,
+                time: appointment.time,
+                busy: appointment.busy,
+                name: appointment.name,
+                phone: appointment.phone,
+                comments: appointment.comments,
+                expiredTime: appointment.expiredTime,
+                expiredDate: appointment.expiredDate
+            }
+
+            if (appointment.userID) newAppointment.userID = appointment.userID;
+
+            //Add event to list of appointments
+            const afterUpdate = await Calender.findOneAndUpdate({ businessID: appointment.businessID }, { $push: { "dates": newAppointment } })
+            //Remove hour from available hours
+            await Calender.findOneAndUpdate({ businessID: appointment.businessID }, { $pull: { "availableHours": { date: appointment.date, time: appointment.time } } });
+
+            // //Sending SMS to client about the appointment
+            // client.messages.create({
+            //     body: `שלום ${req.body.name} \n נקבע לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
+            //     to: '+972' + req.body.phone,
+            //     from: '+14059934995'
+            // }).then((message) => console.log(message.body));
+
+            //Update live in the client side
+            socket.emit('updatedAppointmentsList', afterUpdate);
+
+        } else { //Admin add more available hours
+
+            const appointment = {
+                date: req.body.date,
+                time: req.body.time,
+                expiredTime: req.body.expiredTime,
+                expiredDate: req.body.expiredDate
+            }
+            const afterUpdate = await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $push: { "availableHours": appointment } })
+            res.send(afterUpdate);
+        }
+    });
+
+    socket.on('disconnect', () => {
+        console.log('Client disconnected');
+    });
 });
 
 //Create new event in the calender
@@ -64,9 +124,6 @@ router.delete('/delete-event', async (req, res) => {
     try {
         //delete event
         await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "dates": { date: req.body.date, time: req.body.time } } });
-
-        // //Add to availableHours
-        // await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $push: { "availableHours": { date: req.body.date, time: req.body.time } } })
 
         //Sending SMS to client about the appointment
         client.messages.create({

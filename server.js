@@ -11,11 +11,15 @@ const authRoute = require('./Routes/auth')
 const businessRoute = require('./Routes/business')
 const calenderRoute = require('./Routes/calander')
 
+//WebSocket
+const http = require('http');
+const socketIo = require('socket.io');
+
 dotenv.config();
 const app = express();
 
 //============ Connection to database ================   
-mongoose.set("strictQuery", true); 
+mongoose.set("strictQuery", true);
 mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
 })
@@ -24,6 +28,18 @@ mongoose.connect(process.env.MONGODB_URI, {
     })
     .catch((e) => console.log(e));
 
+//============ Connection to socket ================   
+io.on('connection', socket => {
+    console.log('New client connected');
+
+    socket.on('newAppointment', appointment => {
+        console.log(`Message received: ${appointment}`);
+    });
+
+    socket.on('disconnect', () => {
+        console.log('Client disconnected');
+    });
+});
 
 //Middleware
 app.use(express.json())
