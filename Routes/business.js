@@ -2,6 +2,7 @@ const router = require('express').Router();
 const Business = require('../Models/businessDetails');
 const Calender = require('../Models/calender');
 const User = require('../Models/userDetails')
+
 //Images cloud API
 const cloudinary = require('cloudinary');
 //Location API
@@ -163,7 +164,7 @@ router.get("/:id/reviews", async (req, res) => {
     try {
         const user = await Business.findById(req.params.id);
         res.status(200).json(user.reviews)
-        console.log("Get all reviews");
+        console.log("\u001b[35m" + "Get all reviews" + "\u001b[0m");
     } catch (err) {
         res.status(500).json(err);
     }
@@ -200,7 +201,7 @@ router.get("/:id/gallery", async (req, res) => {
     try {
         const user = await Business.findById(req.params.id);
         res.status(200).json(user.gallery)
-        console.log("Get gallery");
+        console.log("\u001b[35m" + "Get gallery" + "\u001b[0m");
     } catch (err) {
         res.status(500).json(err);
     }
