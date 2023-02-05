@@ -35,12 +35,12 @@ router.post('/create-event', async (req, res) => {
         //Remove hour from available hours
         await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "availableHours": { date: req.body.date, time: req.body.time } } });
 
-        // //Sending SMS to client about the appointment
-        // client.messages.create({
-        //     body: `שלום ${req.body.name} \n נקבע לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
-        //     to: '+972' + req.body.phone,
-        //     from: '+14059934995'
-        // }).then((message) => console.log(message.body));
+        //Sending SMS to client about the appointment
+        client.messages.create({
+            body: `שלום ${req.body.name} \n נקבע לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
+            to: '+972' + req.body.phone,
+            from: '+14059934995'
+        }).then((message) => console.log(message.body));
 
         res.send(afterUpdate);
 

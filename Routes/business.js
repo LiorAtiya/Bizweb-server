@@ -126,7 +126,7 @@ router.get("/:id", async (req, res) => {
 router.get("/", async (req, res) => {
     try {
         const allBusiness = await Business.find({ type: "name" });
-        console.log('Get all business')
+        console.log("\u001b[35m" + 'Get all business' + "\u001b[0m");
         res.status(200).json(allBusiness);
     } catch (err) {
         res.status(500).json(err)
