@@ -18,6 +18,7 @@ const BusinessDetailsSchema = new mongoose.Schema({
     },
     gallery: Array,
     reviews: Array,
+    shop: Array,
     city: {
         type: String,
         require: true,
@@ -40,6 +41,7 @@ const BusinessDetailsSchema = new mongoose.Schema({
         type: String,
         require: true,
     },
+    tabs: Array
 },
     { timestamps: true }
 );

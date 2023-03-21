@@ -62,14 +62,14 @@ router.get("/:id", async (req, res) => {
 router.post("/:id/categoryEntry", async (req, res) => {
     const { firstname, lastname, username,
         email, category } = req.body;
-    
+
     try {
         //create new record
         const newRecord = await CategoryEntries.create({
             firstname,
             lastname,
             username,
-            email, 
+            email,
             category,
         });
 
@@ -80,7 +80,7 @@ router.post("/:id/categoryEntry", async (req, res) => {
 })
 
 router.get("/:id/trainBigML", async (req, res) => {
-    
+
     try {
         var recordsFound = await BigML.createModel();
         res.status(200).json(recordsFound);
@@ -132,11 +132,82 @@ router.put("/:id/newappointment", async (req, res) => {
 //Delete appointment
 router.delete("/:id/delete-appointment", async (req, res) => {
     try {
-        await User.findOneAndUpdate({ _id: req.params.id }, { $pull: { "myAppointments": { id: req.body.id , date: req.body.date, time: req.body.time } } });
+        await User.findOneAndUpdate({ _id: req.params.id }, { $pull: { "myAppointments": { id: req.body.id, date: req.body.date, time: req.body.time } } });
         console.log("Removed appointment");
         const user = await User.findOne({ '_id': req.params.id });
 
         return res.json(user);
+    } catch (err) {
+        res.status(500).json(err);
+    }
+})
+
+//Add/Increase new product to cart
+router.put("/:id/increase-quantity", async (req, res) => {
+    try {
+        const user = await User.findOne({ '_id': req.params.id });
+        const itemIndex = user.myShoppingCart.findIndex((item) => item.id === req.body.id);
+        if (itemIndex >= 0) {
+            user.myShoppingCart[itemIndex].quantity += 1;
+            const afterChange = user.myShoppingCart[itemIndex].quantity;
+            const query = { '_id': req.params.id, "myShoppingCart.id": req.body.id };
+            const updateDocument = {
+                $set: { "myShoppingCart.$.quantity": afterChange }
+            };
+            const result = await User.updateOne(query, updateDocument);
+
+            console.log("\u001b[35m" + "increased product to cart" + "\u001b[0m");
+        } else {
+            await User.findByIdAndUpdate({ _id: req.params.id }, { $push: { myShoppingCart: req.body } })
+            console.log("\u001b[35m" + "Added new product to cart" + "\u001b[0m");
+        }
+        res.status(200).json(user);
+    } catch (err) {
+        res.status(500).json(err);
+    }
+})
+
+//Decrease product from my cart
+router.put("/:id/decrease-quantity", async (req, res) => {
+    try {
+        const user = await User.findOne({ '_id': req.params.id });
+        const itemIndex = user.myShoppingCart.findIndex((item) => item.id === req.body.id);
+        if (user.myShoppingCart[itemIndex].quantity > 1) {
+            user.myShoppingCart[itemIndex].quantity -= 1;
+            const afterChange = user.myShoppingCart[itemIndex].quantity;
+            const query = { '_id': req.params.id, "myShoppingCart.id": req.body.id };
+            const updateDocument = {
+                $set: { "myShoppingCart.$.quantity": afterChange }
+            };
+            const result = await User.updateOne(query, updateDocument);
+
+            console.log("\u001b[35m" + "decreased product from cart" + "\u001b[0m");
+        } else {
+            await User.findByIdAndUpdate({ _id: req.params.id }, { $pull: { myShoppingCart: req.body } })
+            console.log("\u001b[35m" + "Removed product from cart" + "\u001b[0m");
+        }
+        res.status(200).json(user);
+    } catch (err) {
+        res.status(500).json(err);
+    }
+})
+
+router.delete("/:id/remove-product-from-cart", async (req, res) => {
+    try {
+        await User.findOneAndUpdate({ _id: req.params.id }, { $pull: { "myShoppingCart": { id: req.body.productID } } });
+        console.log("\u001b[35m" + "Remove product from cart" + "\u001b[0m");
+        res.status(200)
+    } catch (err) {
+        res.status(500).json(err);
+    }
+})
+
+//Clear my cart
+router.delete("/:id/clear-cart", async (req, res) => {
+    try {
+        await User.findByIdAndUpdate({ _id: req.params.id }, { myShoppingCart: [] })
+        console.log("\u001b[35m" + "Clear cart" + "\u001b[0m");
+        res.status(200)
     } catch (err) {
         res.status(500).json(err);
     }

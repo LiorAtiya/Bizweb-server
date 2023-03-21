@@ -35,6 +35,10 @@ const UserDetailsSchema = new mongoose.Schema({
     myAppointments: {
         type: Array,
         default: [],
+    },
+    myShoppingCart: {
+        type: Array,
+        default: [],
     }
 },
     { timestamps: true }
