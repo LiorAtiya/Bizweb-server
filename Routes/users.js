@@ -192,6 +192,7 @@ router.put("/:id/decrease-quantity", async (req, res) => {
     }
 })
 
+//Remove product from my cart
 router.delete("/:id/remove-product-from-cart", async (req, res) => {
     try {
         await User.findOneAndUpdate({ _id: req.params.id }, { $pull: { "myShoppingCart": { id: req.body.productID } } });
