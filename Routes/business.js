@@ -184,16 +184,16 @@ router.put("/:id/shop", async (req, res) => {
     }
 })
 
-// //Remove product from shop
-// router.delete("/:id/shop", async (req, res) => {
-//     try {
-//         await Business.findOneAndUpdate({ _id: req.params.id }, { $pull: { "reviews": { id: req.body.id } } });
-//         console.log("Removed review");
-//         res.send("OK - 200 ");
-//     } catch (err) {
-//         res.status(500).json(err);
-//     }
-// })
+//Remove product from shop
+router.delete("/:id/shop", async (req, res) => {
+    try {
+        await Business.findOneAndUpdate({ _id: req.params.id }, { $pull: { shop: { id: req.body } } });
+        console.log("Removed product from shop");
+        res.send("OK - 200 ");
+    } catch (err) {
+        res.status(500).json(err);
+    }
+})
 
 //Get shop of business
 router.get("/:id/shop", async (req, res) => {
