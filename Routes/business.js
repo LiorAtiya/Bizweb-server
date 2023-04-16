@@ -176,8 +176,8 @@ router.get("/:id/reviews", async (req, res) => {
 router.put("/:id/shop", async (req, res) => {
     try {
         //Add new product
-        await Business.findByIdAndUpdate({ _id: req.params.id }, { $push: { shop: req.body } })
-        console.log("Added new product to shop");
+        await Business.findByIdAndUpdate({ _id: req.params.id }, { $push: { shop: req.body } });
+        console.log("\u001b[35m" + "Added new product to shop" + "\u001b[0m");
         res.send("OK - 200 ");
     } catch (err) {
         res.status(500).json(err);
@@ -187,8 +187,8 @@ router.put("/:id/shop", async (req, res) => {
 //Remove product from shop
 router.delete("/:id/shop", async (req, res) => {
     try {
-        await Business.findOneAndUpdate({ _id: req.params.id }, { $pull: { shop: { id: req.body } } });
-        console.log("Removed product from shop");
+        await Business.findOneAndUpdate({ _id: req.params.id }, { $pull: { shop: { id: req.body.productID } } });
+        console.log("\u001b[35m" + "Removed product from shop" + "\u001b[0m");
         res.send("OK - 200 ");
     } catch (err) {
         res.status(500).json(err);
