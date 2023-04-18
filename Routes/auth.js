@@ -8,7 +8,7 @@ const JWT_SECRET = "fdsfdsdcdswere()fdsfds32423fscdsf343fdfdfdfxasdggg"
 router.post('/register', async (req, res) => {
     const { firstname, lastname, username,
         email, password } = req.body;
-    
+
     //Encrypt password
     const encrypedPassword = await bcrypt.hash(password, 10);
 
@@ -58,4 +58,34 @@ router.post('/login', async (req, res) => {
     res.json({ status: "error", error: "Invalid Password" })
 })
 
+//Fast Login user (Facebook / Google)
+router.post('/fast-login', async (req, res) => {
+    const { firstname, lastname, username,
+        email } = req.body;
+    
+    try {
+        //checks if the user exist in database
+        const user = await User.findOne({ 'email': email });
+        if (!user) {
+            //create new user
+            const newUser = await User.create({
+                firstname,
+                lastname,
+                username,
+                email,
+                password: '',
+                business: [],
+                myAppointments: [],
+            });
+
+            res.send(newUser)
+        } else {
+            res.send(user)
+        }
+
+    } catch (error) {
+        res.send({ status: "error" })
+    }
+
+})
 module.exports = router;
