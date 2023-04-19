@@ -1,5 +1,6 @@
 const express = require("express");
 const dotenv = require('dotenv');
+dotenv.config();
 const mongoose = require("mongoose");
 const helmet = require('helmet');
 const morgan = require('morgan');
@@ -11,7 +12,6 @@ const authRoute = require('./Routes/auth')
 const businessRoute = require('./Routes/business')
 const calenderRoute = require('./Routes/calander')
 
-dotenv.config();
 const app = express();
 
 // Connection to database   

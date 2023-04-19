@@ -5,7 +5,7 @@ const mongodb = require('./mongodb');
 const fsPromises = fs.promises;
 
 // https://bigml.com/dashboard/datasets
-const connection = new bigml.BigML('LIORATIYA', '32c48e9131baa4930cb24d5f094a0e6b12d7de01')
+const connection = new bigml.BigML('LIORATIYA', process.env.BIGML_APIKEY)
 const source = new bigml.Source(connection);
 
 const BigML = {

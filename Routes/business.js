@@ -9,8 +9,6 @@ const cloudinary = require('cloudinary');
 const ApiKeyManager = require('@esri/arcgis-rest-request').ApiKeyManager;
 const geocode = require('@esri/arcgis-rest-geocoding').geocode;
 
-require('dotenv').config();
-
 //Connect to cloudinary
 cloudinary.config({
     cloud_name: process.env.CLOUD_NAME,
@@ -19,7 +17,7 @@ cloudinary.config({
 })
 
 //For location API
-const apiKey = 'AAPK59deace2cae94e53bbcf5811a8821134Oo-deTYayYmeeCCCei_3SsXpHWolWHqZmMY4lt8TMnqFsD1I4_JoAOZ7O8vSEO8K'
+const apiKey = process.env.LOCATION_APIKEY
 const authentication = ApiKeyManager.fromKey(apiKey);
 
 //Add new business

@@ -4,8 +4,8 @@ const Calender = require('../Models/calender')
 require('dotenv').config();
 
 //For Sending SMS API (Twillio)
-const accountSid = 'AC6e9f3c0fbcdb78099ad021619a63b6e3'
-const authToken = '96f87975ef3724144edc05d18e6443cf'
+const accountSid = process.env.TWILLIO_ACCOUNTSID
+const authToken = process.env.TWILLIO_AUTHTOKEN
 const client = require('twilio')(accountSid, authToken, {
     lazyLoading: true
 });
