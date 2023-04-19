@@ -63,12 +63,17 @@ router.post('/fast-login', async (req, res) => {
     const { firstname, lastname, username,
         email } = req.body;
     
+    console.log('firstname', firstname)
+    console.log('lastname', lastname)
+    console.log('username', username)
+    console.log('email', email)
+    
     try {
-
         //checks if the user exist in database
         const user = await User.findOne({ 'email': email });
 
         if (!user) {
+            console.log('test4')
             //create new user
             const newUser = await User.create({
                 firstname,
@@ -86,7 +91,7 @@ router.post('/fast-login', async (req, res) => {
         }
 
     } catch (error) {
-        res.send({ status: "error" })
+        res.status(500).json(error);
     }
 
 })
