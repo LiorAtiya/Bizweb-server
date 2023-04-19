@@ -64,8 +64,10 @@ router.post('/fast-login', async (req, res) => {
         email } = req.body;
     
     try {
+
         //checks if the user exist in database
         const user = await User.findOne({ 'email': email });
+
         if (!user) {
             //create new user
             const newUser = await User.create({
