@@ -3,12 +3,12 @@ const Calender = require('../Models/calender')
 
 require('dotenv').config();
 
-//For Sending SMS API (Twillio)
-const accountSid = process.env.TWILLIO_ACCOUNTSID
-const authToken = process.env.TWILLIO_AUTHTOKEN
-const client = require('twilio')(accountSid, authToken, {
-    lazyLoading: true
-});
+// //For Sending SMS API (Twillio)
+// const accountSid = process.env.TWILLIO_ACCOUNTSID
+// const authToken = process.env.TWILLIO_AUTHTOKEN
+// const client = require('twilio')(accountSid, authToken, {
+//     lazyLoading: true
+// });
 
 //Create new event in the calender
 router.post('/create-event', async (req, res) => {
@@ -35,12 +35,12 @@ router.post('/create-event', async (req, res) => {
         //Remove hour from available hours
         await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "availableHours": { date: req.body.date, time: req.body.time } } });
 
-        //Sending SMS to client about the appointment
-        client.messages.create({
-            body: `שלום ${req.body.name} \n נקבע לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
-            to: '+972' + req.body.phone,
-            from: '+14059934995'
-        }).then((message) => console.log(message.body));
+        // //Sending SMS to client about the appointment
+        // client.messages.create({
+        //     body: `שלום ${req.body.name} \n נקבע לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
+        //     to: '+972' + req.body.phone,
+        //     from: '+14059934995'
+        // }).then((message) => console.log(message.body));
 
         res.send(afterUpdate);
 
@@ -65,12 +65,12 @@ router.delete('/delete-event', async (req, res) => {
         //delete event
         await Calender.findOneAndUpdate({ businessID: req.body.businessID }, { $pull: { "dates": { date: req.body.date, time: req.body.time } } });
 
-        //Sending SMS to client about the appointment
-        client.messages.create({
-            body: `שלום ${req.body.name} \n התבטל לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
-            to: '+972' + req.body.phone,
-            from: '+14059934995'
-        }).then((message) => console.log(message.body));
+        // //Sending SMS to client about the appointment
+        // client.messages.create({
+        //     body: `שלום ${req.body.name} \n התבטל לך תור בתאריך ${req.body.date} בשעה ${req.body.time}`,
+        //     to: '+972' + req.body.phone,
+        //     from: '+14059934995'
+        // }).then((message) => console.log(message.body));
 
         console.log(req.body);
         return res.json(req.body);
