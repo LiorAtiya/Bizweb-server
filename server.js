@@ -40,7 +40,7 @@ app.use('/api/calender', calenderRoute);
 
 //Home page
 app.get('/', (req, res) => {
-    res.send('Hello From server of Facework')
+    res.send('Hello From server of Bizweb')
 })
 
 //Connection to server
