@@ -38,10 +38,10 @@ app.use('/api/auth', authRoute);
 app.use('/api/business', businessRoute);
 app.use('/api/calender', calenderRoute);
 
-//Home page
-app.get('/', (req, res) => {
-    res.send('Hello From server of Bizweb')
-})
+// //Home page
+// app.get('/', (req, res) => {
+//     res.send('Hello From server of Bizweb')
+// })
 
 //Connection to server
 const port = process.env.PORT || 5015;
