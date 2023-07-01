@@ -127,3 +127,25 @@
 {"level":"error","message":"Remote request failed: Error: Request failed with status code 401 Unauthorized access(undefined)"}
 {"level":"error","message":"Request processing error: Error: Request failed with status code 401"}
 {"level":"error","message":"Origin resources could not be retrieved: Error: Retries limit exceeded"}
+{"date":"Fri Jun 30 2023 13:08:53 GMT+0300 (Israel Daylight Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'message')\nTypeError: Cannot read properties of undefined (reading 'message')\n    at /Users/lior-atiya/Desktop/Programming/React/Bizweb/Back-end/node_modules/bigml/lib/BigML.js:217:58\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[1.28759765625,1.60009765625,1.8525390625],"uptime":130826},"process":{"argv":["/usr/local/bin/node","/Users/lior-atiya/Desktop/Programming/React/Bizweb/Back-end/server.js"],"cwd":"/Users/lior-atiya/Desktop/Programming/React/Bizweb/Back-end","execPath":"/usr/local/bin/node","gid":20,"memoryUsage":{"arrayBuffers":19812066,"external":21406360,"heapTotal":70402048,"heapUsed":64255360,"rss":117932032},"pid":13970,"uid":501,"version":"v16.14.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'message')\n    at /Users/lior-atiya/Desktop/Programming/React/Bizweb/Back-end/node_modules/bigml/lib/BigML.js:217:58\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":58,"file":"/Users/lior-atiya/Desktop/Programming/React/Bizweb/Back-end/node_modules/bigml/lib/BigML.js","function":null,"line":217,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 500 Service unavailable({\"code\":-1,\"error\":-20,\"message\":\"An unexpected internal error occurred\"})"}
+{"level":"error","message":"Error processing request: Error: Request failed with status code 500\ndata: [object Object]. Retrying."}
+{"level":"error","message":"Retrying undefined get with arguments: undefined. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 500 Service unavailable({\"code\":-1,\"error\":-20,\"message\":\"An unexpected internal error occurred\"})"}
+{"level":"error","message":"Error processing request: Error: Request failed with status code 500\ndata: [object Object]. Retrying."}
+{"level":"error","message":"Retrying undefined get with arguments: undefined. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 500 Service unavailable({\"code\":-1,\"error\":-20,\"message\":\"An unexpected internal error occurred\"})"}
+{"level":"error","message":"Error processing request: Error: Request failed with status code 500\ndata: [object Object]. Retrying."}
+{"level":"error","message":"Retrying undefined get with arguments: undefined. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 500 Service unavailable({\"code\":-1,\"error\":-20,\"message\":\"An unexpected internal error occurred\"})"}
+{"level":"error","message":"Error processing request: Error: Request failed with status code 500\ndata: [object Object]. Retrying."}
+{"level":"error","message":"Retrying undefined get with arguments: undefined. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 500 Service unavailable({\"code\":-1,\"error\":-20,\"message\":\"An unexpected internal error occurred\"})"}
+{"level":"error","message":"Error processing request: Error: Request failed with status code 500\ndata: [object Object]. Retrying."}
+{"level":"error","message":"Retrying undefined get with arguments: undefined. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 500 Service unavailable({\"code\":-1,\"error\":-20,\"message\":\"An unexpected internal error occurred\"})"}
+{"level":"error","message":"Error processing request: Error: Request failed with status code 500\ndata: [object Object]. Retrying."}
+{"level":"error","message":"Retrying undefined get with arguments: undefined. "}
+{"level":"error","message":"Remote request failed: Error: Request failed with status code 500 Service unavailable({\"code\":-1,\"error\":-20,\"message\":\"An unexpected internal error occurred\"})"}
+{"level":"error","message":"Error processing request: Error: Request failed with status code 500\ndata: [object Object]. Retrying."}
+{"level":"error","message":"Retrying undefined get with arguments: undefined. "}
