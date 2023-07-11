@@ -2,7 +2,6 @@ const router = require('express').Router()
 const User = require('../Models/userDetails')
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken")
-const JWT_SECRET = "fdsfdsdcdswere()fdsfds32423fscdsf343fdfdfdfxasdggg"
 const nodemailer = require('nodemailer');
 
 //Register new user
@@ -48,7 +47,7 @@ router.post('/login', async (req, res) => {
     }
     //Checks if the password match to encrypt password
     if (await bcrypt.compare(password, user.password)) {
-        jwt.sign({ email: user.email }, JWT_SECRET);
+        const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET);
 
         if (res.status(201)) {
             return res.json(user);
@@ -99,7 +98,7 @@ router.post('/forgot-password', async (req, res) => {
         if (!oldUser) {
             return res.sendStatus(404)
         }
-        const secret = JWT_SECRET + oldUser.password
+        const secret = process.env.JWT_SECRET + oldUser.password
         const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, secret, {
             expiresIn: '5m',
         })
@@ -112,8 +111,8 @@ router.post('/forgot-password', async (req, res) => {
             port: 587,
             secure: false,
             auth: {
-                user: 'bizwebisrael@gmail.com',
-                pass: 'smihyerujkuurmwe'
+                user: process.env.EMAIL_USER,
+                pass: process.env.PASSWORD_USER
             }
         });
 
@@ -124,7 +123,7 @@ router.post('/forgot-password', async (req, res) => {
             }, // sender address
             to: [email], // list of receivers
             subject: "Password Reset", // Subject line
-            text: `Enter the password reset link \n${link}`, // plain text body
+            text: `Enter to link for reset the password \n${link}`, // plain text body
         });
 
         return res.sendStatus(200)
@@ -135,23 +134,6 @@ router.post('/forgot-password', async (req, res) => {
     }
 })
 
-// router.get('/reset-password/:id/:token', async (req, res) => {
-//     const { id, token } = req.params;
-//     const oldUser = await User.findOne({ _id: id })
-//     if (!oldUser) {
-//         return res.sendStatus(404)
-//     }
-//     const secret = JWT_SECRET + oldUser.password
-//     try {
-//         const verify = jwt.verify(token, secret);
-//         res.render('index', { email: verify.email, status: 'Not Verified' })
-
-//     } catch (error) {
-//         return res.send('Not Verified')
-
-//     }
-// })
-
 router.post('/reset-password/:id/:token', async (req, res) => {
     const { id, token } = req.params;
     const { password } = req.body;
@@ -159,7 +141,7 @@ router.post('/reset-password/:id/:token', async (req, res) => {
     if (!oldUser) {
         return res.sendStatus(404)
     }
-    const secret = JWT_SECRET + oldUser.password
+    const secret = process.env.JWT_SECRET + oldUser.password
     try {
         const verify = jwt.verify(token, secret);
         const encrypedPassword = await bcrypt.hash(password, 10)

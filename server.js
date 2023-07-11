@@ -31,8 +31,6 @@ app.use(helmet())
 app.use(morgan('common'))
 app.use(cors());
 app.use(bodyParser.json())
-app.set('view engine', 'ejs')
-app.use(express.urlencoded({ extended: false }))
 
 //Routes
 app.use('/api/users', userRoute);
