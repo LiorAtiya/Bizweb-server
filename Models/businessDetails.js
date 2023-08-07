@@ -38,7 +38,7 @@ const BusinessDetailsSchema = new mongoose.Schema({
         require: true,
     },
     backgroundPicture: {
-        type: String,
+        type: Object,
         require: true,
     },
     tabs: Array

@@ -1,0 +1,58 @@
+2023-07-14T07:55:37.741Z error: Invalid Password
+2023-07-14T07:55:40.963Z error: Invalid Password
+2023-07-14T07:55:45.419Z error: Cannot set headers after they are sent to the client
+2023-07-14T07:55:45.425Z error: jwt malformed
+2023-07-14T08:03:17.619Z error: Cannot set headers after they are sent to the client
+2023-07-14T08:03:17.624Z error: jwt malformed
+2023-07-14T08:05:19.748Z error: Cannot set headers after they are sent to the client
+2023-07-14T08:05:19.753Z error: jwt malformed
+2023-07-16T14:36:07.526Z error: records is not defined
+2023-07-16T17:12:22.043Z error: records is not defined
+2023-07-16T19:09:02.169Z error: records is not defined
+2023-07-16T19:09:28.108Z error: Cannot read properties of undefined (reading 'object')
+2023-07-16T19:12:17.541Z error: Cannot read properties of undefined (reading 'object')
+2023-07-16T19:13:40.012Z error: records is not defined
+2023-07-16T22:21:05.305Z error: Invalid Token
+2023-07-16T22:25:24.939Z error: Unauthorized user
+2023-07-17T09:44:56.315Z error: Cast to string failed for value "{
+  id: 'a3fhiwuxmx6kzooqmign',
+  url: 'http://res.cloudinary.com/dk5mqzgcv/image/upload/v1689587088/a3fhiwuxmx6kzooqmign.jpg'
+}" (type Object) at path "backgroundPicture"
+2023-07-27T21:30:11.484Z error: Error validating Facebook access token:
+2023-07-27T21:30:48.341Z error: Error validating Facebook access token: Request failed with status code 400
+2023-07-27T21:31:23.658Z error: Error validating Facebook access token: Request failed with status code 400
+2023-07-28T10:21:19.909Z error: Invalid Password
+2023-07-28T11:00:35.010Z error: Invalid Token
+2023-07-28T11:01:58.708Z error: Invalid Token
+2023-07-28T11:02:14.692Z error: Invalid Token
+2023-07-28T11:03:05.116Z error: Invalid Token
+2023-07-28T11:16:09.690Z error: axios is not defined
+2023-07-28T11:47:42.679Z error: Invalid Password
+2023-07-28T12:26:40.747Z error: jwt malformed
+2023-07-28T15:06:08.506Z error: Wrong number of segments in token: ya29.a0AbVbY6NQ-Nqg7NS4umG9YQmWu7f0FeNzHHvRtEhnVnRrO6rjboe792pdB2kom8hE6xh87xDW-yRfIDuATkLfzfX-mJmsfHc62BXqXkRUQnQpyduH0g4DvVg3HRwex6Z01X1T_9zT8rvxKp7a_HDI9FN_VW43iLIaCgYKAfgSARMSFQFWKvPl74kKuynfeq3UNPumdiNwLQ0166
+2023-07-28T15:08:39.587Z error: Wrong number of segments in token: ya29.a0AbVbY6O5yJf_lexG_VO3CuP3SVtjrUrRaYam5Aq2Q0Ftzj5QK58TPpRfkM7NbZc42ikfrV2Ao0IgXTMP12hhUjpWLnU11nygCyDA6EyFZvaO_22eeEjEA9aYTw9WkOP6rZbFiU0XMK6BIOFI0Bix5xo1EM6yn5IaCgYKAc8SARMSFQFWKvPlaRk_IoPS_hNdq-3hysGQTQ0166
+2023-07-28T15:12:22.841Z error: Wrong number of segments in token: ya29.a0AbVbY6OQQAbd6kQgFoeg2recW0mXXfWe9ohsiZUHMYS5Z4fztgUNYXPP4dazAmnZ-H_3RLUwzKFnB1cgKqCXHty_7mjyOga9f-FJssxf34suIHBXc6PCaAmv9Br-lqgicrDqnwz1_g5yVkVQ4VRom7_DgE5McZwaCgYKAcsSARMSFQFWKvPlC-sFmhUKJowIMM__C44RcQ0166
+2023-07-28T15:50:56.232Z error: Wrong number of segments in token: ya29.a0AbVbY6P4W1OFG5T8QPge-jdZPDiIy4GgSmClDjYLmgoegB2uREjt2ug5FzlIP5SnsUG0tuPShvdL2sA0LFkqq8KbMwjh86zr6m8_A8t9oyfO3vwPDmi_qmWkjx5q3u2bPwgO_11S0HKFKTVRLmSJfnYypT7jrWYaCgYKAdcSARMSFQFWKvPlde_VfW3wuUAr2LKI6cdRiA0166
+2023-07-28T15:52:15.338Z error: Wrong number of segments in token: dsdsdsc23212
+2023-07-28T15:52:51.648Z error: Wrong number of segments in token: ya29.a0AbVbY6MPNoImq7C_7dFEw1bcoIAgSZdF7VEJRZUZzJFOLR746L5N72IYbKDoCI1hPxQsBp0zwYDgUbEZYnEfhbBEqvuvOeXfcQIC2Y46jK6I_A5Ia8UDfDXoDRHQqtya0nLDUGHZJsBIEd8u7G3HNnfRvxURs7MaCgYKAXgSARMSFQFWKvPli9x4y0sMxikaXCArkqOeGg0166
+2023-07-28T15:55:55.858Z error: Wrong number of segments in token: ya29.a0AbVbY6NKXfpf2tmXXtnqr3GGiOLVCJp2z9TvmhHCMpHnkDxNrKQVTfV7qs2jiDHqZHE4ZJxgHDqduu8V64AWiY0ngyV7SlzRwJ4yTJsV5gMKTleTLChQxgTXaXe78g3JxYBsHum39IW_MEaGtjMHJ3u3tC5RTJcaCgYKAZMSARMSFQFWKvPlFNQvqqvxIOVtXmPk6jLqvA0166
+2023-07-28T16:02:25.409Z error: Wrong number of segments in token: ya29.a0AbVbY6NwK5z7ew8c4h_YMcDPCIu6VqcTmg6nyoT-VaEKzeK6iIAaVwVpNuxCUFaUHD63ZG9QeNSc7FG61tl7wNAW80tPtrG1YNaoiIJ2RnHHVR_A8Yg1L6-3eQxPsWBhqJK2b2pV1z8MqPzUv1lWv3IxLdzt0TkaCgYKAU4SARMSFQFWKvPlz4AcnN5mp27g3WcU5_wmew0166
+2023-07-29T18:18:41.819Z error: Wrong number of segments in token: ya29.a0AbVbY6Np7KaM4l9t8Ixn_lgSX2YlS3-9eO-Tv92HDGPEpyqzddws7a9gIJ9EiwtIAYqasEugtZKlU4CvuqfotoMwVHZmRabrtWXGYnBk54W8H6Ia66Lk917OtO4LkrkKlVdWT9hzqVq1z7ZptXVasA_UeNHL7toaCgYKAfcSARMSFQFWKvPlyLnPmgIvHtFA37xS63fGhw0166
+2023-07-29T18:22:25.519Z error: Wrong number of segments in token: ya29.a0AbVbY6MGBgsczU_I3JaOMVjhhprNsFwLnDGBwTZnBDbEcH4Q-jfM8aNaVdqM9Sy2ALY_X5B-XfTgevHWyf485i-xasCW46OA1C-xNr2BYMQYGjVg8h9pThRoyX3T9UGBvKJEz9ykuutwF1n4pRDp0SyDXYPbNSYaCgYKATMSARMSFQFWKvPlOl3TogKAI0ybul2pAXdkSQ0166
+2023-07-29T18:22:41.905Z error: Wrong number of segments in token: ya29.a0AbVbY6MwKpQ3DJWBr8mnfi1H-SyCI8eaJcKvjFSZNGLysAHdLR6l8czLZVJpQfKoKv68IApI_tgee04aMMNPdEtjPRJ32kkhsFIBZtBnut3kdjKutSxWyJYAfDIOQnFYur4_QjwZcbK7_ppkKIEq1DcsSeWgzlkaCgYKAVISARMSFQFWKvPlpL9GmFJhaBB-YjlJPXbUgQ0166
+2023-07-29T18:23:39.804Z error: Wrong number of segments in token: ya29.a0AbVbY6OZxOYDyeFv_VXwBnedNGgt_e4WICV5tD_sqHZwDHkZLrQsjVMals2gkU1poJiFmNxJ1dhwvTOMz9epsITAiXofmjPK3UatdpJwWxMEwrpJznM4SvWsr86gZD1sUQg0FhKFm8IOXaC630vS7iB0ybfs0IEaCgYKAQ8SARMSFQFWKvPlm8iUtK6P9n9Qz7mVJm8qyA0166
+2023-07-29T18:24:42.461Z error: Wrong number of segments in token: ya29.a0AbVbY6N5MZQBM4nYvsBF4Kb9DqYNZImKHH5qzNdaYcGT-gTo_ef3Fqe-VOAR5sbox1FJ1JJ_uD38ZgUeEikW91dnFpWahjRbZw1-PB1eDKUvw3QZAmq_LYXqj_AYy1_fz-woDTvxFtq9RlP4J7zBc5S7Dq-BVZsaCgYKAeoSARMSFQFWKvPlGutE8NtB87nElGHDwYevtQ0166
+2023-07-29T18:25:17.561Z error: Wrong number of segments in token: ya29.a0AbVbY6NJSa9uGOr5tXERWJGWogqTHedUunV3kxOu3iAUG_S0lj8Vjsi3o-ECuF3qNnG_2RgfG3qpXMW5bkXL1LiWRyMk_gTkYhBXYrBGZhOOChwVpIke4cuvXGPveoWXbtVFZxuZwFDDIHOR-C_kbWhRlCr06ooaCgYKAdsSARMSFQFWKvPlKU8kj8tHjRUnvSTKvYryyQ0166
+2023-07-29T18:36:19.586Z error: Wrong number of segments in token: ya29.a0AbVbY6P0HcoczqfcI48M6zti4VA2urXB95PmkKqDsna68S272EL1_nlPVqaO6PdDQfNUdIJv43a_lO-veXrNwT3N6aooAacTBHveJtuTRG4Uz8QgtWH_Siq9k-tfvlivjtmnekoOtyGlQNwHHRA9K-9xyklXQcwaCgYKATsSARMSFQFWKvPllpHsnXS2ud0NsF5YKHHrrA0166
+2023-07-29T23:13:06.742Z error: Wrong number of segments in token: ya29.a0AbVbY6Pgu_SKGCc9TI1ohJwDlqHc4OdgIuod3ejcJIkAHF3EpwmPThU6J901fwiZTdUtQGKA9dtcC3wOCRwd1i0Nv98kBBRhc6MFpFmFbHFRrkVi0cQamUCOlU2mHdxILbzZ295vL1NBPsmoQ6GRWtB1vYC9Q4QaCgYKAUMSARMSFQFWKvPlZBOlW0zA36WT646_Mxuj5A0166
+2023-07-29T23:17:05.931Z error: Wrong number of segments in token: ya29.a0AbVbY6O2EUCJcMldf9u0VYfA8DpkYEkrG7k-Y_7ZO096kwOLgVgCvKNbs2gi2HREh9mrCZwZTrlAada9su2-mBoGdep62fUkJhEP8nyw2jPgX5PBIjaXFG2fZChlnywI8daU_TQj-x8505WT70nXKfOAfxtWrMgaCgYKAckSARMSFQFWKvPl5rPoXvcz0T-pxZDlfa1ShQ0166
+2023-07-29T23:18:16.252Z error: Wrong number of segments in token: ya29.a0AbVbY6PXrS5xO1W3xAmqfFhtej9og3F4QkDBoi4a4_gwSHcpPG94YrlsarWasaqd8EFJTY92DBJqqTPTHZDl4OFEIPrGixESKVEB4udjWzbxqFz4S2VtT6ciOX3ZmvFR6bAuFugVzj2oJ_ZKZE0fz6ePZTEcY-caCgYKAVgSARMSFQFWKvPlcdKfPsyCBUTFsUKd_02gxg0166
+2023-07-29T23:27:19.890Z error: Request failed with status code 400
+2023-07-29T23:28:25.975Z error: invalid algorithm
+2023-07-29T23:29:32.201Z error: invalid algorithm
+2023-07-29T23:59:30.145Z error: jwt malformed
+2023-07-30T12:22:38.673Z error: Cannot set headers after they are sent to the client
+2023-07-31T14:53:39.002Z error: Invalid Password
+2023-08-03T10:32:17.652Z error: Business Exists
+2023-08-06T00:35:05.902Z error: Cannot read properties of undefined (reading 'businessID')
+2023-08-06T00:36:20.697Z error: Cannot read properties of undefined (reading 'businessID')

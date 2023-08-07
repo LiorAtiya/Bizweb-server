@@ -5,17 +5,14 @@ const mongodb = require('./mongodb');
 const fsPromises = fs.promises;
 
 // https://bigml.com/dashboard/datasets
-const connection = new bigml.BigML('LIORATIYA', process.env.BIGML_APIKEY)
+const connection = new bigml.BigML(process.env.BIGML_USER, process.env.BIGML_APIKEY)
 const source = new bigml.Source(connection);
 
 const BigML = {
     // Create a new model (using the category entries records from mongoDB)
     createModel: async function () {
-        records = await mongodb.export2csv();
-        // if (records == 0) {
-        //   console.log(`Didn't find any records in the category entries: ${categoryEntries}`);
-        //   return 0;
-        // }
+        await mongodb.export2csv();
+        
         await sleep(200);
         try {
             var sourceInfoV = await sourceInfo();
@@ -26,7 +23,7 @@ const BigML = {
         } catch (err) {
             console.log("BigML 'createModel' error: " + err);
         }
-        var fileName = "model.txt";
+        var fileName = "Utils/bigML/model.txt";
         await fsPromises
             .writeFile(fileName, modelInfoV.object.resource)
             .then(() => {
@@ -35,7 +32,7 @@ const BigML = {
             .catch((er) => {
                 console.log("BigML write to " + fileName + " error: " + er);
             });
-        return records;
+        
     },
 
     // BigML assumes that the parameter we want to predict is in the last column
@@ -69,7 +66,7 @@ const BigML = {
     predict: async function (prediction, toPredict) {
         var res;
         await fsPromises
-            .readFile("model.txt", "utf8")
+            .readFile("Utils/bigML/model.txt", "utf8")
             .then(async function (data) {
                 await predictBigML(prediction, data, toPredict)
                     .then(function (predictionV) {
@@ -101,7 +98,7 @@ function sleep(ms) {
 // The following three functions intended for creating a BigML model
 async function sourceInfo() {
     return new Promise(async function (resolve, reject) {
-        await source.create("EntrancesDetails.csv", async function (error, sourceInfo) {
+        await source.create("Utils/bigML/EntrancesDetails.csv", async function (error, sourceInfo) {
             if (!error && sourceInfo) {
                 resolve(sourceInfo);
             } else {

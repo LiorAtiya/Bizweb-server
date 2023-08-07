@@ -1,36 +1,27 @@
 const express = require("express");
 const dotenv = require('dotenv');
 dotenv.config();
-const mongoose = require("mongoose");
-const helmet = require('helmet');
-const morgan = require('morgan');
-const bodyParser = require('body-parser')
 const cors = require("cors");
+require('./Models/mongoConnect')
+// const helmet = require('helmet');
+// const morgan = require('morgan');
 
-const userRoute = require('./Routes/users')
-const authRoute = require('./Routes/auth')
-const businessRoute = require('./Routes/business')
-const calenderRoute = require('./Routes/calander')
+const bodyParser = require('body-parser')
+const userRoute = require('./Routes/users.route')
+const authRoute = require('./Routes/auth.route')
+const businessRoute = require('./Routes/business.route')
+const calenderRoute = require('./Routes/calander.route')
 
 const app = express();
 
-// Connection to database   
-mongoose.set("strictQuery", true);
-mongoose.connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-})
-    .then(() => {
-        console.log("Connected to database");
-    })
-    .catch((e) => console.log(e));
-
-
 //Middleware
-app.use(express.json())
-app.use(helmet())
-app.use(morgan('common'))
 app.use(cors());
-app.use(bodyParser.json())
+app.use(express.json())
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// app.use(helmet())
+// app.use(morgan('common'))
 
 //Routes
 app.use('/api/users', userRoute);
@@ -38,11 +29,9 @@ app.use('/api/auth', authRoute);
 app.use('/api/business', businessRoute);
 app.use('/api/calender', calenderRoute);
 
-// //Home page
-// app.get('/', (req, res) => {
-//     res.send('Hello From server of Bizweb')
-// })
-
+app.get("/", () => {
+    console.log('Hello from Bizweb server')
+})
 //Connection to server
 const port = process.env.PORT || 5015;
 app.listen(port, () => {

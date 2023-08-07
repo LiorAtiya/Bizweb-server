@@ -12,7 +12,7 @@ const MongoDB = {
                 csvFields
             });
             const csvData = json2csvParser.parse(data);
-            fs.writeFile("EntrancesDetails.csv", csvData, function(error) {
+            fs.writeFile("Utils/bigML/EntrancesDetails.csv", csvData, function(error) {
                 if (error) throw error;
                 console.log("Write to EntrancesDetails.csv successfully!");
             });

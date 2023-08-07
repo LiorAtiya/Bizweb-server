@@ -1,0 +1,935 @@
+2023-07-14T07:55:37.741Z error: Invalid Password
+2023-07-14T07:55:40.963Z error: Invalid Password
+2023-07-14T07:55:45.419Z info: Login Email: lior4007@gmail.com was successful
+2023-07-14T07:55:45.419Z error: Cannot set headers after they are sent to the client
+2023-07-14T07:55:45.425Z error: jwt malformed
+2023-07-14T08:03:17.618Z info: Login Email: lior4007@gmail.com was successful
+2023-07-14T08:03:17.619Z error: Cannot set headers after they are sent to the client
+2023-07-14T08:03:17.624Z error: jwt malformed
+2023-07-14T08:05:19.746Z info: Login Email: lior4007@gmail.com was successful
+2023-07-14T08:05:19.746Z info: accessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0M2ZmMzlmNzdhMDczMWM5YTBlMGQyOSIsImZpcnN0bmFtZSI6Ikxpb3IiLCJsYXN0bmFtZSI6IkF0aXlhIiwidXNlcm5hbWUiOiJ1c2VyMTY4MTkxMjczNTM5MSIsImVtYWlsIjoibGlvcjQwMDdAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmEkMTAkZTZUWXJ2dnpYdC5CeDBML1A3U3UwZW1lYzZtYzN1bURZeVd2SW5LRnBVekgwbjJYSERpa1MiLCJidXNpbmVzcyI6WyI2NDRmOWUzNmY3ZmZmNzBhNTIxNDNhYjkiLCI2NDdjOGQ0MDM0M2Y2MzVhYWJjM2UwZWUiXSwibXlBcHBvaW50bWVudHMiOlt7ImJ1c2luZXNzSUQiOiI2NDRmOWUzNmY3ZmZmNzBhNTIxNDNhYjkiLCJuYW1lIjoiTGlvciIsInBob25lIjoiMDUwOTg4MzM0NSIsImRhdGUiOiIzLzUvMjAyMyIsInRpbWUiOiIxOTozNSJ9LHsiYnVzaW5lc3NJRCI6IjY0NGY5ZTM2ZjdmZmY3MGE1MjE0M2FiOSIsIm5hbWUiOiJMaW9yIiwicGhvbmUiOiIwNTA5ODgzMzQ1IiwiZGF0ZSI6IjE4LzcvMjAyMyIsInRpbWUiOiIwMDozMCJ9XSwibXlTaG9wcGluZ0NhcnQiOlt7ImlkIjoiaWQxNjgxNDgxOTEzNzQxIiwibmFtZSI6Itee16DXldeZINeX15XXk9ep15kiLCJkZXNjcmlwdGlvbiI6IiIsInByaWNlIjoiMTAwIiwiaW1hZ2UiOltdLCJidXNpbmVzc05hbWUiOiJiaXp3ZWIiLCJxdWFudGl0eSI6Mn0seyJpZCI6ImlkMTY4ODI0MjM5ODgyNSIsIm5hbWUiOiLXk9eV15LXnteQIiwiZGVzY3JpcHRpb24iOiLXkNeZ158iLCJwcmljZSI6IjEyNCIsImltYWdlIjp7ImlkIjoia2hvemtlaWd2Y3pyaWlwanFvajUiLCJ1cmwiOiJodHRwOi8vcmVzLmNsb3VkaW5hcnkuY29tL2RrNW1xemdjdi9pbWFnZS91cGxvYWQvdjE2ODgyNDIzOTUva2hvemtlaWd2Y3pyaWlwanFvajUuanBnIn0sImJ1c2luZXNzTmFtZSI6Ikxpb3IiLCJxdWFudGl0eSI6Mn1dLCJjcmVhdGVkQXQiOiIyMDIzLTA0LTE5VDEzOjU4OjU1LjUxNFoiLCJ1cGRhdGVkQXQiOiIyMDIzLTA3LTEzVDEzOjA2OjMzLjQ0OVoiLCJfX3YiOjB9LCJpYXQiOjE2ODkzMjE5MTl9.avYvetnlCAsEP5r_Oe7nqKbju7mcZAKqCIQYiGG7ZaU
+2023-07-14T08:05:19.748Z error: Cannot set headers after they are sent to the client
+2023-07-14T08:05:19.753Z error: jwt malformed
+2023-07-14T08:09:29.367Z info: Login Email: lior4007@gmail.com was successful
+2023-07-14T08:09:29.368Z info: accessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0M2ZmMzlmNzdhMDczMWM5YTBlMGQyOSIsImZpcnN0bmFtZSI6Ikxpb3IiLCJsYXN0bmFtZSI6IkF0aXlhIiwidXNlcm5hbWUiOiJ1c2VyMTY4MTkxMjczNTM5MSIsImVtYWlsIjoibGlvcjQwMDdAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmEkMTAkZTZUWXJ2dnpYdC5CeDBML1A3U3UwZW1lYzZtYzN1bURZeVd2SW5LRnBVekgwbjJYSERpa1MiLCJidXNpbmVzcyI6WyI2NDRmOWUzNmY3ZmZmNzBhNTIxNDNhYjkiLCI2NDdjOGQ0MDM0M2Y2MzVhYWJjM2UwZWUiXSwibXlBcHBvaW50bWVudHMiOlt7ImJ1c2luZXNzSUQiOiI2NDRmOWUzNmY3ZmZmNzBhNTIxNDNhYjkiLCJuYW1lIjoiTGlvciIsInBob25lIjoiMDUwOTg4MzM0NSIsImRhdGUiOiIzLzUvMjAyMyIsInRpbWUiOiIxOTozNSJ9LHsiYnVzaW5lc3NJRCI6IjY0NGY5ZTM2ZjdmZmY3MGE1MjE0M2FiOSIsIm5hbWUiOiJMaW9yIiwicGhvbmUiOiIwNTA5ODgzMzQ1IiwiZGF0ZSI6IjE4LzcvMjAyMyIsInRpbWUiOiIwMDozMCJ9XSwibXlTaG9wcGluZ0NhcnQiOlt7ImlkIjoiaWQxNjgxNDgxOTEzNzQxIiwibmFtZSI6Itee16DXldeZINeX15XXk9ep15kiLCJkZXNjcmlwdGlvbiI6IiIsInByaWNlIjoiMTAwIiwiaW1hZ2UiOltdLCJidXNpbmVzc05hbWUiOiJiaXp3ZWIiLCJxdWFudGl0eSI6Mn0seyJpZCI6ImlkMTY4ODI0MjM5ODgyNSIsIm5hbWUiOiLXk9eV15LXnteQIiwiZGVzY3JpcHRpb24iOiLXkNeZ158iLCJwcmljZSI6IjEyNCIsImltYWdlIjp7ImlkIjoia2hvemtlaWd2Y3pyaWlwanFvajUiLCJ1cmwiOiJodHRwOi8vcmVzLmNsb3VkaW5hcnkuY29tL2RrNW1xemdjdi9pbWFnZS91cGxvYWQvdjE2ODgyNDIzOTUva2hvemtlaWd2Y3pyaWlwanFvajUuanBnIn0sImJ1c2luZXNzTmFtZSI6Ikxpb3IiLCJxdWFudGl0eSI6Mn1dLCJjcmVhdGVkQXQiOiIyMDIzLTA0LTE5VDEzOjU4OjU1LjUxNFoiLCJ1cGRhdGVkQXQiOiIyMDIzLTA3LTEzVDEzOjA2OjMzLjQ0OVoiLCJfX3YiOjB9LCJpYXQiOjE2ODkzMjIxNjl9.xxLibFldTNuJ6jIXEFR_R6pWTOB-bY817TxGY6ssvBk
+2023-07-14T08:09:29.376Z info: Token Verefied
+2023-07-14T08:13:09.025Z info: Login Email: lior4007@gmail.com was successful
+2023-07-14T08:13:09.025Z info: accessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY0M2ZmMzlmNzdhMDczMWM5YTBlMGQyOSIsImZpcnN0bmFtZSI6Ikxpb3IiLCJsYXN0bmFtZSI6IkF0aXlhIiwidXNlcm5hbWUiOiJ1c2VyMTY4MTkxMjczNTM5MSIsImVtYWlsIjoibGlvcjQwMDdAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmEkMTAkZTZUWXJ2dnpYdC5CeDBML1A3U3UwZW1lYzZtYzN1bURZeVd2SW5LRnBVekgwbjJYSERpa1MiLCJidXNpbmVzcyI6WyI2NDRmOWUzNmY3ZmZmNzBhNTIxNDNhYjkiLCI2NDdjOGQ0MDM0M2Y2MzVhYWJjM2UwZWUiXSwibXlBcHBvaW50bWVudHMiOlt7ImJ1c2luZXNzSUQiOiI2NDRmOWUzNmY3ZmZmNzBhNTIxNDNhYjkiLCJuYW1lIjoiTGlvciIsInBob25lIjoiMDUwOTg4MzM0NSIsImRhdGUiOiIzLzUvMjAyMyIsInRpbWUiOiIxOTozNSJ9LHsiYnVzaW5lc3NJRCI6IjY0NGY5ZTM2ZjdmZmY3MGE1MjE0M2FiOSIsIm5hbWUiOiJMaW9yIiwicGhvbmUiOiIwNTA5ODgzMzQ1IiwiZGF0ZSI6IjE4LzcvMjAyMyIsInRpbWUiOiIwMDozMCJ9XSwibXlTaG9wcGluZ0NhcnQiOlt7ImlkIjoiaWQxNjgxNDgxOTEzNzQxIiwibmFtZSI6Itee16DXldeZINeX15XXk9ep15kiLCJkZXNjcmlwdGlvbiI6IiIsInByaWNlIjoiMTAwIiwiaW1hZ2UiOltdLCJidXNpbmVzc05hbWUiOiJiaXp3ZWIiLCJxdWFudGl0eSI6Mn0seyJpZCI6ImlkMTY4ODI0MjM5ODgyNSIsIm5hbWUiOiLXk9eV15LXnteQIiwiZGVzY3JpcHRpb24iOiLXkNeZ158iLCJwcmljZSI6IjEyNCIsImltYWdlIjp7ImlkIjoia2hvemtlaWd2Y3pyaWlwanFvajUiLCJ1cmwiOiJodHRwOi8vcmVzLmNsb3VkaW5hcnkuY29tL2RrNW1xemdjdi9pbWFnZS91cGxvYWQvdjE2ODgyNDIzOTUva2hvemtlaWd2Y3pyaWlwanFvajUuanBnIn0sImJ1c2luZXNzTmFtZSI6Ikxpb3IiLCJxdWFudGl0eSI6Mn1dLCJjcmVhdGVkQXQiOiIyMDIzLTA0LTE5VDEzOjU4OjU1LjUxNFoiLCJ1cGRhdGVkQXQiOiIyMDIzLTA3LTEzVDEzOjA2OjMzLjQ0OVoiLCJfX3YiOjB9LCJpYXQiOjE2ODkzMjIzODl9.C5Kv1qWqnM0M6bmpGdhBM9Hxv58ZSocqXwimXWvOUzk
+2023-07-14T08:13:09.033Z info: Token Verefied
+2023-07-14T08:28:22.687Z info: Login Email: lior4007@gmail.com was successful
+2023-07-14T08:28:22.696Z info: Token Verefied
+2023-07-16T14:13:16.242Z info: Login Email: lior4007@gmail.com was successful
+2023-07-16T14:13:16.250Z info: Token Verefied
+2023-07-16T14:34:40.011Z info: Login Email: lior4007@gmail.com was successful
+2023-07-16T14:34:40.021Z info: Token Verefied
+2023-07-16T14:34:40.022Z info: Get user info of lior4007@gmail.com
+2023-07-16T14:36:07.526Z error: records is not defined
+2023-07-16T17:10:44.698Z info: Token Verefied
+2023-07-16T17:10:44.845Z info: Add new record of category entry - lior4007@gmail.com
+2023-07-16T17:10:51.342Z info: Token Verefied
+2023-07-16T17:10:51.465Z info: Add new record of category entry - lior4007@gmail.com
+2023-07-16T17:11:02.886Z info: Token Verefied
+2023-07-16T17:11:03.011Z info: Add new record of category entry - lior4007@gmail.com
+2023-07-16T17:12:22.043Z error: records is not defined
+2023-07-16T17:48:34.816Z info: Token Verefied
+2023-07-16T17:48:34.941Z info: Add new record of category entry - lior4007@gmail.com
+2023-07-16T18:17:23.833Z info: Token Verefied
+2023-07-16T18:17:23.953Z info: Add new record of category entry - lior4007@gmail.com
+2023-07-16T19:08:12.816Z info: Login Email: lior4007@gmail.com was successful
+2023-07-16T19:08:12.824Z info: Token Verefied
+2023-07-16T19:08:12.824Z info: Get user info of lior4007@gmail.com
+2023-07-16T19:09:02.169Z error: records is not defined
+2023-07-16T19:09:28.108Z error: Cannot read properties of undefined (reading 'object')
+2023-07-16T19:12:17.541Z error: Cannot read properties of undefined (reading 'object')
+2023-07-16T19:13:17.192Z info: Login Email: lior4007@gmail.com was successful
+2023-07-16T19:13:17.198Z info: Token Verefied
+2023-07-16T19:13:17.199Z info: Get user info of lior4007@gmail.com
+2023-07-16T19:13:40.012Z error: records is not defined
+2023-07-16T19:16:19.058Z info: Train & Create new model in bigML
+2023-07-16T19:17:53.334Z info: Token Verefied
+2023-07-16T19:17:53.465Z info: Add new record of category entry - Nail Polish
+2023-07-16T19:17:59.842Z info: Token Verefied
+2023-07-16T19:17:59.972Z info: Add new record of category entry - Barbershop
+2023-07-16T19:18:34.578Z info: Token Verefied
+2023-07-16T19:18:34.719Z info: Add new record of category entry - Personal Trainers
+2023-07-16T19:32:54.912Z info: Token Verefied
+2023-07-16T19:32:55.038Z info: Add new record of category entry - Nail Polish
+2023-07-16T21:04:31.410Z info: Token Verefied
+2023-07-16T21:04:31.544Z info: Add new record of category entry - Professionals
+2023-07-16T21:35:46.862Z info: Token Verefied
+2023-07-16T21:35:46.995Z info: Add new record of category entry - Nail Polish
+2023-07-16T22:21:05.305Z error: Invalid Token
+2023-07-16T22:25:24.937Z info: Authorized user
+2023-07-16T22:25:24.939Z error: Unauthorized user
+2023-07-16T22:25:25.801Z info: business - שוקולד has been updated
+2023-07-16T22:27:56.801Z info: Token Verefied
+2023-07-16T22:27:56.951Z info: Add new record of category entry - Nail Polish
+2023-07-16T22:28:33.340Z info: Token Verefied
+2023-07-16T22:28:33.472Z info: Add new record of category entry - Barbershop
+2023-07-16T22:30:16.398Z info: Authorized user
+2023-07-16T22:30:17.031Z info: business - שוקולד מריר has been updated
+2023-07-17T09:41:56.137Z info: Token Verefied
+2023-07-17T09:41:56.297Z info: Add new record of category entry - Barbershop
+2023-07-17T09:42:04.361Z info: Token Verefied
+2023-07-17T09:42:04.480Z info: Add new record of category entry - Barbershop
+2023-07-17T09:44:55.696Z info: Authorized user
+2023-07-17T09:44:56.315Z error: Cast to string failed for value "{
+  id: 'a3fhiwuxmx6kzooqmign',
+  url: 'http://res.cloudinary.com/dk5mqzgcv/image/upload/v1689587088/a3fhiwuxmx6kzooqmign.jpg'
+}" (type Object) at path "backgroundPicture"
+2023-07-17T09:51:03.371Z info: Authorized user
+2023-07-17T09:51:04.257Z info: business - שוקולד מריר has been updated
+2023-07-17T09:56:04.967Z info: Token Verefied
+2023-07-17T09:56:05.116Z info: Add new record of category entry - Barbershop
+2023-07-17T10:04:54.740Z info: Authorized user
+2023-07-17T10:04:55.607Z info: business - שוקולד מריר has been updated
+2023-07-17T10:21:20.244Z info: Authorized user
+2023-07-17T10:21:21.988Z info: business - שוקולד מריר has been updated
+2023-07-17T10:24:12.981Z info: Token Verefied
+2023-07-17T10:24:13.125Z info: Add new record of category entry - Nail Polish
+2023-07-17T18:04:35.426Z info: Token Verefied
+2023-07-17T18:04:35.574Z info: Add new record of category entry - Professionals
+2023-07-27T21:30:11.484Z error: Error validating Facebook access token:
+2023-07-27T21:30:48.341Z error: Error validating Facebook access token: Request failed with status code 400
+2023-07-27T21:31:23.658Z error: Error validating Facebook access token: Request failed with status code 400
+2023-07-28T10:21:19.909Z error: Invalid Password
+2023-07-28T10:21:24.107Z info: Login Email: lior4007@gmail.com was successful
+2023-07-28T10:21:24.129Z info: Token Verefied
+2023-07-28T10:21:24.129Z info: Get user info of lior4007@gmail.com
+2023-07-28T11:00:35.010Z error: Invalid Token
+2023-07-28T11:01:58.708Z error: Invalid Token
+2023-07-28T11:02:14.692Z error: Invalid Token
+2023-07-28T11:03:05.116Z error: Invalid Token
+2023-07-28T11:16:09.690Z error: axios is not defined
+2023-07-28T11:38:39.491Z info: Token Verefied
+2023-07-28T11:41:59.356Z info: Token Verefied
+2023-07-28T11:43:30.211Z info: Token Verefied
+2023-07-28T11:44:12.808Z info: Token Verefied
+2023-07-28T11:45:59.058Z info: Token Verefied
+2023-07-28T11:47:42.679Z error: Invalid Password
+2023-07-28T11:48:12.936Z info: Token Verefied
+2023-07-28T12:26:40.747Z error: jwt malformed
+2023-07-28T12:34:11.911Z info: Login Email: lior@gmail.com was successful
+2023-07-28T12:34:11.919Z info: Token Verefied
+2023-07-28T12:34:11.919Z info: Get user info of lior@gmail.com
+2023-07-28T12:36:11.782Z info: Token Verefied
+2023-07-28T12:36:12.048Z info: Add new record of category entry - Barbershop
+2023-07-28T12:36:16.111Z info: Token Verefied
+2023-07-28T12:36:16.354Z info: Add new record of category entry - Nail Polish
+2023-07-28T12:36:18.565Z info: Train & Create new model in bigML
+2023-07-28T12:36:27.785Z info: Token Verefied
+2023-07-28T12:36:27.912Z info: Login Email: lior4007@gmail.com was successful
+2023-07-28T12:36:35.206Z info: Token Verefied
+2023-07-28T12:36:35.454Z info: Add new record of category entry - Barbershop
+2023-07-28T12:36:45.147Z info: Token Verefied
+2023-07-28T12:36:45.383Z info: Add new record of category entry - Nail Polish
+2023-07-28T12:37:30.118Z info: Token Verefied
+2023-07-28T12:37:30.409Z info: Add new record of category entry - Barbershop
+2023-07-28T12:40:22.996Z info: Token Verefied
+2023-07-28T12:40:23.276Z info: Add new record of category entry - Nail Polish
+2023-07-28T12:40:39.597Z info: Token Verefied
+2023-07-28T12:40:39.863Z info: Add new record of category entry - Barbershop
+2023-07-28T12:42:28.716Z info: Token Verefied
+2023-07-28T12:42:28.968Z info: Add new record of category entry - Nail Polish
+2023-07-28T13:05:40.037Z info: Token Verefied
+2023-07-28T13:05:40.336Z info: Add new record of category entry - Personal Trainers
+2023-07-28T13:06:06.309Z info: Token Verefied
+2023-07-28T13:06:06.575Z info: Add new record of category entry - Nail Polish
+2023-07-28T13:06:26.345Z info: Token Verefied
+2023-07-28T13:06:26.606Z info: Add new record of category entry - Nail Polish
+2023-07-28T13:16:11.804Z info: Token Verefied
+2023-07-28T13:16:11.946Z info: Login Email: lior4007@gmail.com was successful
+2023-07-28T15:06:08.506Z error: Wrong number of segments in token: ya29.a0AbVbY6NQ-Nqg7NS4umG9YQmWu7f0FeNzHHvRtEhnVnRrO6rjboe792pdB2kom8hE6xh87xDW-yRfIDuATkLfzfX-mJmsfHc62BXqXkRUQnQpyduH0g4DvVg3HRwex6Z01X1T_9zT8rvxKp7a_HDI9FN_VW43iLIaCgYKAfgSARMSFQFWKvPl74kKuynfeq3UNPumdiNwLQ0166
+2023-07-28T15:08:39.587Z error: Wrong number of segments in token: ya29.a0AbVbY6O5yJf_lexG_VO3CuP3SVtjrUrRaYam5Aq2Q0Ftzj5QK58TPpRfkM7NbZc42ikfrV2Ao0IgXTMP12hhUjpWLnU11nygCyDA6EyFZvaO_22eeEjEA9aYTw9WkOP6rZbFiU0XMK6BIOFI0Bix5xo1EM6yn5IaCgYKAc8SARMSFQFWKvPlaRk_IoPS_hNdq-3hysGQTQ0166
+2023-07-28T15:12:22.841Z error: Wrong number of segments in token: ya29.a0AbVbY6OQQAbd6kQgFoeg2recW0mXXfWe9ohsiZUHMYS5Z4fztgUNYXPP4dazAmnZ-H_3RLUwzKFnB1cgKqCXHty_7mjyOga9f-FJssxf34suIHBXc6PCaAmv9Br-lqgicrDqnwz1_g5yVkVQ4VRom7_DgE5McZwaCgYKAcsSARMSFQFWKvPlC-sFmhUKJowIMM__C44RcQ0166
+2023-07-28T15:50:56.232Z error: Wrong number of segments in token: ya29.a0AbVbY6P4W1OFG5T8QPge-jdZPDiIy4GgSmClDjYLmgoegB2uREjt2ug5FzlIP5SnsUG0tuPShvdL2sA0LFkqq8KbMwjh86zr6m8_A8t9oyfO3vwPDmi_qmWkjx5q3u2bPwgO_11S0HKFKTVRLmSJfnYypT7jrWYaCgYKAdcSARMSFQFWKvPlde_VfW3wuUAr2LKI6cdRiA0166
+2023-07-28T15:52:15.338Z error: Wrong number of segments in token: dsdsdsc23212
+2023-07-28T15:52:51.648Z error: Wrong number of segments in token: ya29.a0AbVbY6MPNoImq7C_7dFEw1bcoIAgSZdF7VEJRZUZzJFOLR746L5N72IYbKDoCI1hPxQsBp0zwYDgUbEZYnEfhbBEqvuvOeXfcQIC2Y46jK6I_A5Ia8UDfDXoDRHQqtya0nLDUGHZJsBIEd8u7G3HNnfRvxURs7MaCgYKAXgSARMSFQFWKvPli9x4y0sMxikaXCArkqOeGg0166
+2023-07-28T15:55:55.858Z error: Wrong number of segments in token: ya29.a0AbVbY6NKXfpf2tmXXtnqr3GGiOLVCJp2z9TvmhHCMpHnkDxNrKQVTfV7qs2jiDHqZHE4ZJxgHDqduu8V64AWiY0ngyV7SlzRwJ4yTJsV5gMKTleTLChQxgTXaXe78g3JxYBsHum39IW_MEaGtjMHJ3u3tC5RTJcaCgYKAZMSARMSFQFWKvPlFNQvqqvxIOVtXmPk6jLqvA0166
+2023-07-28T16:02:25.409Z error: Wrong number of segments in token: ya29.a0AbVbY6NwK5z7ew8c4h_YMcDPCIu6VqcTmg6nyoT-VaEKzeK6iIAaVwVpNuxCUFaUHD63ZG9QeNSc7FG61tl7wNAW80tPtrG1YNaoiIJ2RnHHVR_A8Yg1L6-3eQxPsWBhqJK2b2pV1z8MqPzUv1lWv3IxLdzt0TkaCgYKAU4SARMSFQFWKvPlz4AcnN5mp27g3WcU5_wmew0166
+2023-07-29T18:18:41.819Z error: Wrong number of segments in token: ya29.a0AbVbY6Np7KaM4l9t8Ixn_lgSX2YlS3-9eO-Tv92HDGPEpyqzddws7a9gIJ9EiwtIAYqasEugtZKlU4CvuqfotoMwVHZmRabrtWXGYnBk54W8H6Ia66Lk917OtO4LkrkKlVdWT9hzqVq1z7ZptXVasA_UeNHL7toaCgYKAfcSARMSFQFWKvPlyLnPmgIvHtFA37xS63fGhw0166
+2023-07-29T18:22:25.519Z error: Wrong number of segments in token: ya29.a0AbVbY6MGBgsczU_I3JaOMVjhhprNsFwLnDGBwTZnBDbEcH4Q-jfM8aNaVdqM9Sy2ALY_X5B-XfTgevHWyf485i-xasCW46OA1C-xNr2BYMQYGjVg8h9pThRoyX3T9UGBvKJEz9ykuutwF1n4pRDp0SyDXYPbNSYaCgYKATMSARMSFQFWKvPlOl3TogKAI0ybul2pAXdkSQ0166
+2023-07-29T18:22:41.905Z error: Wrong number of segments in token: ya29.a0AbVbY6MwKpQ3DJWBr8mnfi1H-SyCI8eaJcKvjFSZNGLysAHdLR6l8czLZVJpQfKoKv68IApI_tgee04aMMNPdEtjPRJ32kkhsFIBZtBnut3kdjKutSxWyJYAfDIOQnFYur4_QjwZcbK7_ppkKIEq1DcsSeWgzlkaCgYKAVISARMSFQFWKvPlpL9GmFJhaBB-YjlJPXbUgQ0166
+2023-07-29T18:23:39.804Z error: Wrong number of segments in token: ya29.a0AbVbY6OZxOYDyeFv_VXwBnedNGgt_e4WICV5tD_sqHZwDHkZLrQsjVMals2gkU1poJiFmNxJ1dhwvTOMz9epsITAiXofmjPK3UatdpJwWxMEwrpJznM4SvWsr86gZD1sUQg0FhKFm8IOXaC630vS7iB0ybfs0IEaCgYKAQ8SARMSFQFWKvPlm8iUtK6P9n9Qz7mVJm8qyA0166
+2023-07-29T18:24:42.461Z error: Wrong number of segments in token: ya29.a0AbVbY6N5MZQBM4nYvsBF4Kb9DqYNZImKHH5qzNdaYcGT-gTo_ef3Fqe-VOAR5sbox1FJ1JJ_uD38ZgUeEikW91dnFpWahjRbZw1-PB1eDKUvw3QZAmq_LYXqj_AYy1_fz-woDTvxFtq9RlP4J7zBc5S7Dq-BVZsaCgYKAeoSARMSFQFWKvPlGutE8NtB87nElGHDwYevtQ0166
+2023-07-29T18:25:17.561Z error: Wrong number of segments in token: ya29.a0AbVbY6NJSa9uGOr5tXERWJGWogqTHedUunV3kxOu3iAUG_S0lj8Vjsi3o-ECuF3qNnG_2RgfG3qpXMW5bkXL1LiWRyMk_gTkYhBXYrBGZhOOChwVpIke4cuvXGPveoWXbtVFZxuZwFDDIHOR-C_kbWhRlCr06ooaCgYKAdsSARMSFQFWKvPlKU8kj8tHjRUnvSTKvYryyQ0166
+2023-07-29T18:33:49.213Z info: Token Verefied
+2023-07-29T18:33:49.375Z info: Login Email: lior4007@gmail.com was successful
+2023-07-29T18:36:19.586Z error: Wrong number of segments in token: ya29.a0AbVbY6P0HcoczqfcI48M6zti4VA2urXB95PmkKqDsna68S272EL1_nlPVqaO6PdDQfNUdIJv43a_lO-veXrNwT3N6aooAacTBHveJtuTRG4Uz8QgtWH_Siq9k-tfvlivjtmnekoOtyGlQNwHHRA9K-9xyklXQcwaCgYKATsSARMSFQFWKvPllpHsnXS2ud0NsF5YKHHrrA0166
+2023-07-29T23:13:06.742Z error: Wrong number of segments in token: ya29.a0AbVbY6Pgu_SKGCc9TI1ohJwDlqHc4OdgIuod3ejcJIkAHF3EpwmPThU6J901fwiZTdUtQGKA9dtcC3wOCRwd1i0Nv98kBBRhc6MFpFmFbHFRrkVi0cQamUCOlU2mHdxILbzZ295vL1NBPsmoQ6GRWtB1vYC9Q4QaCgYKAUMSARMSFQFWKvPlZBOlW0zA36WT646_Mxuj5A0166
+2023-07-29T23:17:05.931Z error: Wrong number of segments in token: ya29.a0AbVbY6O2EUCJcMldf9u0VYfA8DpkYEkrG7k-Y_7ZO096kwOLgVgCvKNbs2gi2HREh9mrCZwZTrlAada9su2-mBoGdep62fUkJhEP8nyw2jPgX5PBIjaXFG2fZChlnywI8daU_TQj-x8505WT70nXKfOAfxtWrMgaCgYKAckSARMSFQFWKvPl5rPoXvcz0T-pxZDlfa1ShQ0166
+2023-07-29T23:18:16.252Z error: Wrong number of segments in token: ya29.a0AbVbY6PXrS5xO1W3xAmqfFhtej9og3F4QkDBoi4a4_gwSHcpPG94YrlsarWasaqd8EFJTY92DBJqqTPTHZDl4OFEIPrGixESKVEB4udjWzbxqFz4S2VtT6ciOX3ZmvFR6bAuFugVzj2oJ_ZKZE0fz6ePZTEcY-caCgYKAVgSARMSFQFWKvPlcdKfPsyCBUTFsUKd_02gxg0166
+2023-07-29T23:27:19.890Z error: Request failed with status code 400
+2023-07-29T23:28:25.975Z error: invalid algorithm
+2023-07-29T23:29:32.201Z error: invalid algorithm
+2023-07-29T23:36:29.698Z info: Token Verefied
+2023-07-29T23:36:29.828Z info: Login Email: lior4007@gmail.com was successful
+2023-07-29T23:37:44.693Z info: Token Verefied
+2023-07-29T23:37:44.817Z info: Login Email: lior4007@gmail.com was successful
+2023-07-29T23:39:42.147Z info: Token Verefied
+2023-07-29T23:39:42.262Z info: Login Email: lior4007@gmail.com was successful
+2023-07-29T23:40:01.340Z info: Token Verefied
+2023-07-29T23:40:01.466Z info: Login Email: lior4007@gmail.com was successful
+2023-07-29T23:43:14.478Z info: Token Verefied
+2023-07-29T23:43:14.742Z info: New User: lior4007@gmail.com was registered
+2023-07-29T23:59:30.145Z error: jwt malformed
+2023-07-29T23:59:55.252Z info: Token Verefied
+2023-07-29T23:59:55.380Z info: Login Email: lior4007@gmail.com was successful
+2023-07-30T00:01:09.175Z info: Token Verefied
+2023-07-30T00:01:09.303Z info: Login Email: lior4007@gmail.com was successful
+2023-07-30T00:01:35.103Z info: Token Verefied
+2023-07-30T00:01:35.233Z info: Login Email: lior4007@gmail.com was successful
+2023-07-30T00:07:02.756Z info: Token Verefied
+2023-07-30T00:07:02.878Z info: Login Email: lior4007@gmail.com was successful
+2023-07-30T00:07:05.947Z info: Token Verefied
+2023-07-30T00:07:06.209Z info: Add new record of category entry - Personal Trainers
+2023-07-30T09:44:15.519Z info: Login Email: lior@gmail.com was successful
+2023-07-30T09:44:15.528Z info: Token Verefied
+2023-07-30T09:44:15.528Z info: Get user info of lior@gmail.com
+2023-07-30T10:38:28.637Z info: Token Verefied
+2023-07-30T10:38:28.910Z info: Add new record of category entry - Barbershop
+2023-07-30T11:07:06.147Z info: Token Verefied
+2023-07-30T11:07:06.276Z info: Login Email: lior4007@gmail.com was successful
+2023-07-30T12:17:33.384Z info: Token Verefied
+2023-07-30T12:17:34.291Z info: Add new record of category entry - Barbershop
+2023-07-30T12:17:59.885Z info: Login Email: lior@gmail.com was successful
+2023-07-30T12:17:59.890Z info: Token Verefied
+2023-07-30T12:17:59.890Z info: Get user info of lior@gmail.com
+2023-07-30T12:18:05.721Z info: Token Verefied
+2023-07-30T12:18:05.977Z info: Add new record of category entry - Barbershop
+2023-07-30T12:22:38.357Z info: A new appointment was made by: ליאור at 31/7/2023 | 00:11
+2023-07-30T12:22:38.665Z info: A new appointment to registered user: 63a1d88941280504f541c984
+2023-07-30T12:22:38.673Z error: Cannot set headers after they are sent to the client
+2023-07-30T12:28:15.736Z info: Login Email: lior@gmail.com was successful
+2023-07-30T12:28:15.744Z info: Token Verefied
+2023-07-30T12:28:15.744Z info: Get user info of lior@gmail.com
+2023-07-30T12:28:33.347Z info: Token Verefied
+2023-07-30T12:28:33.616Z info: Add new record of category entry - Barbershop
+2023-07-30T12:34:16.278Z info: Token Verefied
+2023-07-30T12:34:16.278Z info: Get user info of lior@gmail.com
+2023-07-30T12:34:18.839Z info: Token Verefied
+2023-07-30T12:34:18.840Z info: Get user info of lior@gmail.com
+2023-07-30T12:34:20.472Z info: Token Verefied
+2023-07-30T12:34:20.472Z info: Get user info of lior@gmail.com
+2023-07-30T12:34:21.515Z info: Token Verefied
+2023-07-30T12:34:21.515Z info: Get user info of lior@gmail.com
+2023-07-30T12:34:30.710Z info: Token Verefied
+2023-07-30T12:34:30.711Z info: Get user info of lior@gmail.com
+2023-07-30T12:51:55.976Z info: Token Verefied
+2023-07-30T12:51:55.978Z info: Get user info of lior@gmail.com
+2023-07-30T12:51:58.139Z info: Remove event: id1690719758041
+2023-07-30T12:51:58.288Z info: Remove event id1690719758041 from list of user 63a1d88941280504f541c984
+2023-07-30T12:51:58.950Z info: Token Verefied
+2023-07-30T12:51:58.951Z info: Get user info of lior@gmail.com
+2023-07-30T12:52:41.992Z info: Token Verefied
+2023-07-30T12:52:41.993Z info: Get user info of lior@gmail.com
+2023-07-30T12:52:42.589Z info: Token Verefied
+2023-07-30T12:52:42.590Z info: Get user info of lior@gmail.com
+2023-07-30T12:52:48.361Z info: Token Verefied
+2023-07-30T12:52:48.361Z info: Get user info of lior@gmail.com
+2023-07-30T12:52:51.675Z info: Token Verefied
+2023-07-30T12:52:51.677Z info: Get user info of lior@gmail.com
+2023-07-30T12:53:49.601Z info: Token Verefied
+2023-07-30T12:53:49.602Z info: Get user info of lior@gmail.com
+2023-07-30T12:53:50.106Z info: Token Verefied
+2023-07-30T12:53:50.107Z info: Get user info of lior@gmail.com
+2023-07-30T12:53:50.390Z info: Token Verefied
+2023-07-30T12:53:50.391Z info: Get user info of lior@gmail.com
+2023-07-30T12:53:50.654Z info: Token Verefied
+2023-07-30T12:53:50.655Z info: Get user info of lior@gmail.com
+2023-07-30T12:54:05.303Z info: Login Email: lior@gmail.com was successful
+2023-07-30T12:54:05.310Z info: Token Verefied
+2023-07-30T12:54:05.310Z info: Get user info of lior@gmail.com
+2023-07-30T12:54:10.155Z info: Token Verefied
+2023-07-30T12:54:10.156Z info: Get user info of lior@gmail.com
+2023-07-30T12:54:17.510Z info: Token Verefied
+2023-07-30T12:54:17.765Z info: Add new record of category entry - Barbershop
+2023-07-30T12:55:18.932Z info: A new appointment was made by: משה at 31/7/2023 | 00:40
+2023-07-30T12:55:19.206Z info: A new appointment to registered user: 63a1d88941280504f541c984
+2023-07-30T12:55:22.737Z info: Token Verefied
+2023-07-30T12:55:22.737Z info: Get user info of lior@gmail.com
+2023-07-30T12:55:24.042Z info: Token Verefied
+2023-07-30T12:55:24.042Z info: Get user info of lior@gmail.com
+2023-07-30T12:56:25.405Z info: Token Verefied
+2023-07-30T12:56:25.406Z info: Get user info of lior@gmail.com
+2023-07-30T12:57:10.639Z info: Token Verefied
+2023-07-30T12:57:10.639Z info: Get user info of lior@gmail.com
+2023-07-30T12:57:16.131Z info: Token Verefied
+2023-07-30T12:57:16.132Z info: Get user info of lior@gmail.com
+2023-07-30T12:57:18.386Z info: Token Verefied
+2023-07-30T12:57:18.387Z info: Get user info of lior@gmail.com
+2023-07-30T12:57:22.440Z info: Token Verefied
+2023-07-30T12:57:22.441Z info: Get user info of lior@gmail.com
+2023-07-30T12:57:29.870Z info: Token Verefied
+2023-07-30T12:57:29.871Z info: Get user info of lior@gmail.com
+2023-07-30T12:57:44.795Z info: Token Verefied
+2023-07-30T12:57:44.795Z info: Get user info of lior@gmail.com
+2023-07-30T12:58:06.122Z info: Token Verefied
+2023-07-30T12:58:06.122Z info: Get user info of lior@gmail.com
+2023-07-30T12:58:09.764Z info: Token Verefied
+2023-07-30T12:58:09.764Z info: Get user info of lior@gmail.com
+2023-07-30T12:58:43.128Z info: Token Verefied
+2023-07-30T12:58:43.128Z info: Get user info of lior@gmail.com
+2023-07-30T12:59:06.506Z info: Login Email: lior@gmail.com was successful
+2023-07-30T12:59:06.512Z info: Token Verefied
+2023-07-30T12:59:06.513Z info: Get user info of lior@gmail.com
+2023-07-30T12:59:09.210Z info: Token Verefied
+2023-07-30T12:59:09.210Z info: Get user info of lior@gmail.com
+2023-07-30T13:00:19.456Z info: Token Verefied
+2023-07-30T13:00:19.456Z info: Get user info of lior@gmail.com
+2023-07-30T13:00:21.876Z info: Token Verefied
+2023-07-30T13:00:22.147Z info: Add new record of category entry - Barbershop
+2023-07-30T13:01:50.385Z info: A new appointment was made by: safdsfs at 31/7/2023 | 00:35
+2023-07-30T13:01:50.652Z info: A new appointment to registered user: 63a1d88941280504f541c984
+2023-07-30T13:01:53.098Z info: Token Verefied
+2023-07-30T13:01:53.098Z info: Get user info of lior@gmail.com
+2023-07-30T13:01:53.997Z info: Token Verefied
+2023-07-30T13:01:53.997Z info: Get user info of lior@gmail.com
+2023-07-30T13:01:54.893Z info: Token Verefied
+2023-07-30T13:01:54.893Z info: Get user info of lior@gmail.com
+2023-07-30T13:01:55.376Z info: Token Verefied
+2023-07-30T13:01:55.376Z info: Get user info of lior@gmail.com
+2023-07-30T13:01:55.654Z info: Token Verefied
+2023-07-30T13:01:55.654Z info: Get user info of lior@gmail.com
+2023-07-30T13:01:55.928Z info: Token Verefied
+2023-07-30T13:01:55.928Z info: Get user info of lior@gmail.com
+2023-07-30T13:03:50.373Z info: Token Verefied
+2023-07-30T13:03:50.373Z info: Get user info of lior@gmail.com
+2023-07-30T13:03:52.886Z info: Token Verefied
+2023-07-30T13:03:52.887Z info: Get user info of lior@gmail.com
+2023-07-30T13:04:02.322Z info: Token Verefied
+2023-07-30T13:04:02.322Z info: Get user info of lior@gmail.com
+2023-07-30T13:06:14.394Z info: Token Verefied
+2023-07-30T13:06:14.523Z info: Get user info of undefined
+2023-07-30T13:06:31.918Z info: Token Verefied
+2023-07-30T13:06:32.647Z info: Get user info of lior@gmail.com
+2023-07-30T13:06:34.412Z info: Token Verefied
+2023-07-30T13:06:34.538Z info: Get user info of lior@gmail.com
+2023-07-30T13:06:35.437Z info: Token Verefied
+2023-07-30T13:06:35.568Z info: Get user info of lior@gmail.com
+2023-07-30T13:06:42.099Z info: Token Verefied
+2023-07-30T13:06:42.242Z info: Get user info of lior@gmail.com
+2023-07-30T13:07:00.448Z info: Token Verefied
+2023-07-30T13:07:00.571Z info: Get user info of lior@gmail.com
+2023-07-30T13:07:34.968Z info: Token Verefied
+2023-07-30T13:07:35.090Z info: Get user info of lior@gmail.com
+2023-07-30T13:07:37.425Z info: Token Verefied
+2023-07-30T13:07:37.548Z info: Get user info of lior@gmail.com
+2023-07-30T13:07:40.566Z info: Token Verefied
+2023-07-30T13:07:40.693Z info: Get user info of lior@gmail.com
+2023-07-30T13:07:44.730Z info: Token Verefied
+2023-07-30T13:07:44.855Z info: Get user info of lior@gmail.com
+2023-07-30T13:07:48.481Z info: Token Verefied
+2023-07-30T13:07:48.609Z info: Get user info of lior@gmail.com
+2023-07-30T13:08:11.368Z info: Token Verefied
+2023-07-30T13:08:11.494Z info: Get user info of lior@gmail.com
+2023-07-30T13:08:12.805Z info: Remove event: 00:35
+2023-07-30T13:08:12.952Z info: Remove event 00:35 from list of user 63a1d88941280504f541c984
+2023-07-30T13:08:13.196Z info: Token Verefied
+2023-07-30T13:08:13.321Z info: Get user info of lior@gmail.com
+2023-07-30T13:08:17.054Z info: Token Verefied
+2023-07-30T13:08:17.280Z info: Get user info of lior@gmail.com
+2023-07-30T13:09:05.390Z info: Token Verefied
+2023-07-30T13:09:06.036Z info: Add new record of category entry - Barbershop
+2023-07-30T13:10:33.977Z info: Remove event: undefined
+2023-07-30T13:10:34.123Z info: Remove event undefined from list of user 63a1d88941280504f541c984
+2023-07-30T13:16:51.584Z info: A new avilable hour at 31/7/2023 | 01:00
+2023-07-30T13:16:55.857Z info: A new avilable hour at 31/7/2023 | 02:00
+2023-07-30T13:17:01.118Z info: A new avilable hour at 31/7/2023 | 03:00
+2023-07-30T13:17:06.590Z info: A new avilable hour at 31/7/2023 | 04:00
+2023-07-30T13:17:29.183Z info: Token Verefied
+2023-07-30T13:17:29.313Z info: Get user info of lior@gmail.com
+2023-07-30T13:20:20.548Z info: Token Verefied
+2023-07-30T13:20:20.687Z info: Get user info of lior@gmail.com
+2023-07-30T13:20:23.844Z info: Token Verefied
+2023-07-30T13:20:24.108Z info: Add new record of category entry - Barbershop
+2023-07-30T13:21:00.702Z info: A new appointment was made by: fdssfdsfds at 31/7/2023 | 01:00
+2023-07-30T13:21:00.961Z info: A new appointment to registered user: 63a1d88941280504f541c984
+2023-07-30T13:21:03.831Z info: Token Verefied
+2023-07-30T13:21:03.951Z info: Get user info of lior@gmail.com
+2023-07-30T13:25:13.991Z info: Token Verefied
+2023-07-30T13:25:14.266Z info: Add new record of category entry - Barbershop
+2023-07-30T13:25:46.872Z info: A new appointment was made by: dsadsad at 31/7/2023 | 02:00
+2023-07-30T13:25:47.145Z info: A new appointment to registered user: 63a1d88941280504f541c984
+2023-07-30T13:25:49.583Z info: Token Verefied
+2023-07-30T13:25:49.716Z info: Get user info of lior@gmail.com
+2023-07-30T13:25:51.793Z info: Remove event: id1690723260433
+2023-07-30T13:25:51.943Z info: Remove event id1690723260433 from list of user 63a1d88941280504f541c984
+2023-07-30T13:25:52.188Z info: Token Verefied
+2023-07-30T13:25:52.312Z info: Get user info of lior@gmail.com
+2023-07-30T13:25:53.687Z info: Token Verefied
+2023-07-30T13:25:53.811Z info: Get user info of lior@gmail.com
+2023-07-30T13:26:19.953Z info: Token Verefied
+2023-07-30T13:26:20.219Z info: Add new record of category entry - Barbershop
+2023-07-30T15:02:14.117Z info: Token Verefied
+2023-07-30T15:02:14.377Z info: Add new record of category entry - Barbershop
+2023-07-30T15:02:17.642Z info: Token Verefied
+2023-07-30T15:02:17.784Z info: Get user info of lior@gmail.com
+2023-07-31T13:09:45.449Z info: Token Verefied
+2023-07-31T13:09:46.287Z info: Get user info of lior@gmail.com
+2023-07-31T13:24:47.305Z info: Token Verefied
+2023-07-31T13:24:48.943Z info: Get user info of lior@gmail.com
+2023-07-31T14:49:14.870Z info: Login Email: lior@gmail.com was successful
+2023-07-31T14:49:14.879Z info: Token Verefied
+2023-07-31T14:49:14.997Z info: Get user info of lior@gmail.com
+2023-07-31T14:49:27.756Z info: Token Verefied
+2023-07-31T14:49:28.008Z info: Add new record of category entry - Barbershop
+2023-07-31T14:53:39.002Z error: Invalid Password
+2023-08-02T16:56:43.276Z info: Token Verefied
+2023-08-02T16:56:44.059Z info: Login Email: lior4007@gmail.com was successful
+2023-08-02T16:57:06.314Z info: Login Email: lior@gmail.com was successful
+2023-08-02T16:57:06.322Z info: Token Verefied
+2023-08-02T16:57:06.446Z info: Get user info of lior@gmail.com
+2023-08-02T20:36:39.982Z info: Token Verefied
+2023-08-02T20:36:40.373Z info: Business: 644023224779e39f0ddeb69e deleted
+2023-08-02T20:37:02.482Z info: Token Verefied
+2023-08-02T20:37:02.760Z info: Add new record of category entry - Barbershop
+2023-08-02T20:37:05.394Z info: Token Verefied
+2023-08-02T20:37:05.645Z info: Add new record of category entry - Nail Polish
+2023-08-02T20:37:07.328Z info: Token Verefied
+2023-08-02T20:37:07.579Z info: Add new record of category entry - Restaurants
+2023-08-02T20:37:10.714Z info: Token Verefied
+2023-08-02T20:37:10.962Z info: Add new record of category entry - Professionals
+2023-08-02T20:37:15.329Z info: Token Verefied
+2023-08-02T20:37:15.579Z info: Add new record of category entry - Personal Trainers
+2023-08-02T20:37:18.092Z info: Token Verefied
+2023-08-02T20:37:18.348Z info: Add new record of category entry - Private Teachers
+2023-08-02T21:28:36.285Z info: Token Verefied
+2023-08-02T21:28:36.444Z info: Get user info of lior@gmail.com
+2023-08-02T21:28:41.368Z info: Token Verefied
+2023-08-02T21:28:41.518Z info: Get user info of lior@gmail.com
+2023-08-02T21:28:44.347Z info: Token Verefied
+2023-08-02T21:28:44.500Z info: Get user info of lior@gmail.com
+2023-08-02T21:28:53.945Z info: Token Verefied
+2023-08-02T21:28:54.088Z info: Get user info of lior@gmail.com
+2023-08-02T21:29:11.723Z info: Token Verefied
+2023-08-02T21:29:11.867Z info: Get user info of lior@gmail.com
+2023-08-02T21:36:37.049Z info: Token Verefied
+2023-08-02T21:36:37.811Z info: Get user info of lior@gmail.com
+2023-08-02T21:36:39.098Z info: Token Verefied
+2023-08-02T21:36:39.220Z info: Get user info of lior@gmail.com
+2023-08-02T21:36:40.024Z info: Token Verefied
+2023-08-02T21:36:40.144Z info: Get user info of lior@gmail.com
+2023-08-02T21:36:40.990Z info: Token Verefied
+2023-08-02T21:36:41.110Z info: Get user info of lior@gmail.com
+2023-08-02T21:38:03.862Z info: Token Verefied
+2023-08-02T21:38:04.003Z info: Get user info of lior@gmail.com
+2023-08-02T21:38:21.638Z info: Token Verefied
+2023-08-02T21:38:21.803Z info: Remove product: id1679425258357 from cart of user: 63a1d88941280504f541c984
+2023-08-02T21:38:22.210Z info: Token Verefied
+2023-08-02T21:38:22.350Z info: Get user info of lior@gmail.com
+2023-08-02T21:38:56.132Z info: Token Verefied
+2023-08-02T21:38:56.274Z info: Get user info of lior@gmail.com
+2023-08-02T21:38:56.687Z info: Token Verefied
+2023-08-02T21:38:56.829Z info: Get user info of lior@gmail.com
+2023-08-02T21:38:58.915Z info: Token Verefied
+2023-08-02T21:38:59.056Z info: Get user info of lior@gmail.com
+2023-08-02T21:39:00.275Z info: Token Verefied
+2023-08-02T21:39:00.426Z info: Get user info of lior@gmail.com
+2023-08-02T21:39:02.056Z info: Token Verefied
+2023-08-02T21:39:02.203Z info: Get user info of lior@gmail.com
+2023-08-02T21:39:06.412Z info: Token Verefied
+2023-08-02T21:39:06.563Z info: Get user info of lior@gmail.com
+2023-08-02T21:39:08.201Z info: Remove event: id1690723546610
+2023-08-02T21:39:08.367Z info: Remove event id1690723546610 from list of user 63a1d88941280504f541c984
+2023-08-02T21:39:08.639Z info: Token Verefied
+2023-08-02T21:39:08.778Z info: Get user info of lior@gmail.com
+2023-08-02T21:39:54.280Z info: Token Verefied
+2023-08-02T21:39:54.431Z info: Get user info of lior@gmail.com
+2023-08-02T22:17:40.769Z info: Token Verefied
+2023-08-02T22:17:40.935Z info: Get user info of lior@gmail.com
+2023-08-02T22:19:40.824Z info: Token Verefied
+2023-08-02T22:19:41.127Z info: Add new record of category entry - Personal Trainers
+2023-08-02T22:40:52.342Z info: Token Verefied
+2023-08-02T22:40:53.231Z info: Add new record of category entry - Nail Polish
+2023-08-02T23:10:05.258Z info: Get all business
+2023-08-02T23:10:11.383Z info: Token Verefied
+2023-08-02T23:10:11.660Z info: Add new record of category entry - Nail Polish
+2023-08-02T23:10:27.136Z info: Token Verefied
+2023-08-02T23:10:27.269Z info: Get user info of lior@gmail.com
+2023-08-03T10:01:18.369Z info: Get shop of business: 63ef995fbca2676b75e4ad6a
+2023-08-03T10:01:19.004Z info: Get all reviews of business: 63ef995fbca2676b75e4ad6a
+2023-08-03T10:01:39.706Z info: Get all business
+2023-08-03T10:01:39.974Z info: Get shop of business: 63ef995fbca2676b75e4ad6a
+2023-08-03T10:01:40.637Z info: Get all reviews of business: 63ef995fbca2676b75e4ad6a
+2023-08-03T10:02:14.092Z info: Get all business
+2023-08-03T10:02:14.375Z info: Get all reviews of business: 63ef995fbca2676b75e4ad6a
+2023-08-03T10:02:14.380Z info: Get shop of business: 63ef995fbca2676b75e4ad6a
+2023-08-03T10:10:48.918Z info: Token Verefied
+2023-08-03T10:10:49.182Z info: Add new record of category entry - Nail Polish
+2023-08-03T10:10:51.644Z info: Get all reviews of business: 63bf487f1e23eb7c39684069
+2023-08-03T10:10:51.663Z info: Get shop of business: 63bf487f1e23eb7c39684069
+2023-08-03T10:13:27.907Z info: Get all business
+2023-08-03T10:13:32.100Z info: Get all business
+2023-08-03T10:13:45.633Z info: Get all business
+2023-08-03T10:14:19.784Z info: Get all business
+2023-08-03T10:14:20.389Z info: Get all business
+2023-08-03T10:31:54.795Z info: Get all business
+2023-08-03T10:31:58.376Z info: Token Verefied
+2023-08-03T10:31:58.647Z info: Add new record of category entry - Barbershop
+2023-08-03T10:32:17.519Z info: Token Verefied
+2023-08-03T10:32:17.652Z error: Business Exists
+2023-08-03T10:34:09.657Z info: Token Verefied
+2023-08-03T10:34:10.931Z info: Created new business: 64cb82a29903e35bd8583505
+2023-08-03T10:34:14.422Z info: Get all business
+2023-08-03T10:34:15.313Z info: Token Verefied
+2023-08-03T10:34:15.572Z info: Add new record of category entry - Barbershop
+2023-08-03T10:34:17.713Z info: Get all business
+2023-08-03T10:34:22.311Z info: Get all reviews of business: 64cb82a29903e35bd8583505
+2023-08-03T10:34:23.025Z info: Get shop of business: 64cb82a29903e35bd8583505
+2023-08-03T10:34:33.179Z info: Token Verefied
+2023-08-03T10:34:33.439Z info: Add new record of category entry - Barbershop
+2023-08-03T10:34:39.601Z info: Get shop of business: 647c8d40343f635aabc3e0ee
+2023-08-03T10:34:45.252Z info: Token Verefied
+2023-08-03T10:34:45.496Z info: Add new record of category entry - Barbershop
+2023-08-03T10:34:46.243Z info: Get shop of business: 64cb82a29903e35bd8583505
+2023-08-03T10:34:46.361Z info: Get all reviews of business: 64cb82a29903e35bd8583505
+2023-08-03T10:35:09.156Z info: Get all business
+2023-08-03T10:53:13.046Z info: Token Verefied
+2023-08-03T10:53:13.897Z info: Get user info of lior@gmail.com
+2023-08-03T10:53:14.019Z info: Get all business
+2023-08-03T10:53:24.005Z info: Token Verefied
+2023-08-03T10:53:24.122Z info: Get user info of lior@gmail.com
+2023-08-03T10:53:26.315Z info: Token Verefied
+2023-08-03T10:53:26.433Z info: Get user info of lior@gmail.com
+2023-08-03T10:53:26.565Z info: Get all business
+2023-08-03T10:53:28.222Z info: Token Verefied
+2023-08-03T10:53:28.340Z info: Get user info of lior@gmail.com
+2023-08-03T10:53:28.463Z info: Get all business
+2023-08-03T10:53:29.228Z info: Token Verefied
+2023-08-03T10:53:29.345Z info: Get user info of lior@gmail.com
+2023-08-03T10:53:29.461Z info: Get all business
+2023-08-03T10:53:32.824Z info: Token Verefied
+2023-08-03T10:53:32.943Z info: Get user info of lior@gmail.com
+2023-08-03T10:53:33.059Z info: Get all business
+2023-08-03T10:53:40.115Z info: Token Verefied
+2023-08-03T10:53:40.234Z info: Get user info of lior@gmail.com
+2023-08-03T10:53:40.353Z info: Get all business
+2023-08-03T10:53:41.767Z info: Token Verefied
+2023-08-03T10:53:41.885Z info: Get user info of lior@gmail.com
+2023-08-03T10:53:42.007Z info: Get all business
+2023-08-03T10:53:45.763Z info: Token Verefied
+2023-08-03T10:53:45.885Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:02.031Z info: Token Verefied
+2023-08-03T10:54:02.153Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:02.270Z info: Get all business
+2023-08-03T10:54:03.393Z info: Token Verefied
+2023-08-03T10:54:03.512Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:03.627Z info: Get all business
+2023-08-03T10:54:05.969Z info: Token Verefied
+2023-08-03T10:54:06.088Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:06.212Z info: Get all business
+2023-08-03T10:54:06.255Z info: Token Verefied
+2023-08-03T10:54:06.378Z info: Get all business
+2023-08-03T10:54:06.382Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:07.617Z info: Token Verefied
+2023-08-03T10:54:07.740Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:07.848Z info: Get all business
+2023-08-03T10:54:15.533Z info: Token Verefied
+2023-08-03T10:54:15.651Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:16.886Z info: Token Verefied
+2023-08-03T10:54:17.003Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:17.124Z info: Get all business
+2023-08-03T10:54:18.092Z info: Token Verefied
+2023-08-03T10:54:18.207Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:18.325Z info: Get all business
+2023-08-03T10:54:22.634Z info: Token Verefied
+2023-08-03T10:54:22.750Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:32.549Z info: Token Verefied
+2023-08-03T10:54:32.665Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:40.934Z info: Token Verefied
+2023-08-03T10:54:41.050Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:44.554Z info: Token Verefied
+2023-08-03T10:54:44.671Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:44.795Z info: Get all business
+2023-08-03T10:54:45.328Z info: Token Verefied
+2023-08-03T10:54:45.455Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:45.568Z info: Get all business
+2023-08-03T10:54:45.636Z info: Token Verefied
+2023-08-03T10:54:45.759Z info: Get all business
+2023-08-03T10:54:45.763Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:45.914Z info: Token Verefied
+2023-08-03T10:54:46.037Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:46.130Z info: Token Verefied
+2023-08-03T10:54:46.163Z info: Get all business
+2023-08-03T10:54:46.252Z info: Get all business
+2023-08-03T10:54:46.974Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:47.856Z info: Token Verefied
+2023-08-03T10:54:47.976Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:48.101Z info: Get all business
+2023-08-03T10:54:52.317Z info: Token Verefied
+2023-08-03T10:54:52.433Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:52.568Z info: Get all business
+2023-08-03T10:54:54.174Z info: Token Verefied
+2023-08-03T10:54:54.293Z info: Get user info of lior@gmail.com
+2023-08-03T10:54:54.424Z info: Get all business
+2023-08-03T10:54:58.831Z info: Token Verefied
+2023-08-03T10:54:58.953Z info: Get user info of lior@gmail.com
+2023-08-03T11:03:43.405Z info: Token Verefied
+2023-08-03T11:03:43.528Z info: Get user info of lior@gmail.com
+2023-08-03T11:03:43.634Z info: Get all business
+2023-08-03T11:03:44.571Z info: Token Verefied
+2023-08-03T11:03:44.689Z info: Get user info of lior@gmail.com
+2023-08-03T11:03:44.820Z info: Get all business
+2023-08-03T11:03:48.980Z info: Token Verefied
+2023-08-03T11:03:49.107Z info: Get user info of lior@gmail.com
+2023-08-03T11:04:36.282Z info: Token Verefied
+2023-08-03T11:04:36.400Z info: Get user info of lior@gmail.com
+2023-08-03T11:04:45.788Z info: Token Verefied
+2023-08-03T11:04:45.910Z info: Get user info of lior@gmail.com
+2023-08-03T11:04:46.033Z info: Get all business
+2023-08-03T11:04:47.139Z info: Token Verefied
+2023-08-03T11:04:47.258Z info: Get user info of lior@gmail.com
+2023-08-03T11:04:47.378Z info: Get all business
+2023-08-03T11:04:47.702Z info: Token Verefied
+2023-08-03T11:04:47.821Z info: Get user info of lior@gmail.com
+2023-08-03T11:04:47.953Z info: Get all business
+2023-08-03T11:04:47.990Z info: Token Verefied
+2023-08-03T11:04:48.111Z info: Get all business
+2023-08-03T11:04:48.117Z info: Get user info of lior@gmail.com
+2023-08-03T11:04:48.295Z info: Token Verefied
+2023-08-03T11:04:48.414Z info: Get user info of lior@gmail.com
+2023-08-03T11:04:48.528Z info: Get all business
+2023-08-03T11:04:49.345Z info: Token Verefied
+2023-08-03T11:04:49.466Z info: Get user info of lior@gmail.com
+2023-08-03T11:04:49.588Z info: Get all business
+2023-08-03T11:04:50.364Z info: Token Verefied
+2023-08-03T11:04:50.482Z info: Get user info of lior@gmail.com
+2023-08-03T11:04:50.603Z info: Get all business
+2023-08-03T11:05:15.927Z info: Token Verefied
+2023-08-03T11:05:16.048Z info: Get user info of lior@gmail.com
+2023-08-03T11:05:18.450Z info: Token Verefied
+2023-08-03T11:05:18.565Z info: Get user info of lior@gmail.com
+2023-08-03T11:05:18.682Z info: Get all business
+2023-08-03T11:05:19.344Z info: Token Verefied
+2023-08-03T11:05:19.460Z info: Get user info of lior@gmail.com
+2023-08-03T11:05:19.579Z info: Get all business
+2023-08-03T11:05:21.111Z info: Token Verefied
+2023-08-03T11:05:21.232Z info: Get user info of lior@gmail.com
+2023-08-03T11:05:23.324Z info: Token Verefied
+2023-08-03T11:05:23.444Z info: Get user info of lior@gmail.com
+2023-08-03T11:05:24.592Z info: Token Verefied
+2023-08-03T11:05:24.715Z info: Get user info of lior@gmail.com
+2023-08-03T11:05:29.821Z info: Token Verefied
+2023-08-03T11:05:29.940Z info: Get user info of lior@gmail.com
+2023-08-03T11:05:30.063Z info: Get all business
+2023-08-03T11:05:34.575Z info: Token Verefied
+2023-08-03T11:05:34.693Z info: Get user info of lior@gmail.com
+2023-08-03T11:05:34.818Z info: Get all business
+2023-08-03T11:05:35.211Z info: Token Verefied
+2023-08-03T11:05:35.332Z info: Get user info of lior@gmail.com
+2023-08-03T11:05:35.454Z info: Get all business
+2023-08-03T11:05:40.714Z info: Token Verefied
+2023-08-03T11:05:40.835Z info: Get user info of lior@gmail.com
+2023-08-03T11:06:01.382Z info: Token Verefied
+2023-08-03T11:06:01.501Z info: Get user info of lior@gmail.com
+2023-08-03T11:06:01.614Z info: Get all business
+2023-08-03T11:06:09.257Z info: Token Verefied
+2023-08-03T11:06:09.376Z info: Get user info of lior@gmail.com
+2023-08-03T11:06:12.226Z info: Token Verefied
+2023-08-03T11:06:12.345Z info: Get user info of lior@gmail.com
+2023-08-03T11:06:16.393Z info: Token Verefied
+2023-08-03T11:06:16.513Z info: Get user info of lior@gmail.com
+2023-08-03T11:06:17.798Z info: Token Verefied
+2023-08-03T11:06:17.916Z info: Get user info of lior@gmail.com
+2023-08-03T11:06:18.028Z info: Get all business
+2023-08-03T11:06:23.999Z info: Token Verefied
+2023-08-03T11:06:24.122Z info: Get user info of lior@gmail.com
+2023-08-03T11:06:24.237Z info: Get all business
+2023-08-03T11:06:24.858Z info: Token Verefied
+2023-08-03T11:06:24.978Z info: Get user info of lior@gmail.com
+2023-08-03T11:06:25.090Z info: Get all business
+2023-08-03T11:07:10.544Z info: Token Verefied
+2023-08-03T11:07:10.663Z info: Get user info of lior@gmail.com
+2023-08-03T11:07:34.018Z info: Token Verefied
+2023-08-03T11:07:34.135Z info: Get user info of lior@gmail.com
+2023-08-03T11:07:34.253Z info: Get all business
+2023-08-03T11:33:56.724Z info: Token Verefied
+2023-08-03T11:33:57.591Z info: Get user info of lior@gmail.com
+2023-08-03T11:33:57.714Z info: Get all business
+2023-08-03T11:34:15.339Z info: Token Verefied
+2023-08-03T11:34:15.464Z info: Get user info of lior@gmail.com
+2023-08-03T11:34:15.587Z info: Get all business
+2023-08-03T11:34:51.365Z info: Token Verefied
+2023-08-03T11:34:51.488Z info: Get user info of lior@gmail.com
+2023-08-03T11:34:51.611Z info: Get all business
+2023-08-03T11:35:50.912Z info: Token Verefied
+2023-08-03T11:35:51.037Z info: Get user info of lior@gmail.com
+2023-08-03T11:35:51.156Z info: Get all business
+2023-08-03T11:36:02.142Z info: Token Verefied
+2023-08-03T11:36:02.268Z info: Get user info of lior@gmail.com
+2023-08-03T11:36:02.392Z info: Get all business
+2023-08-03T11:36:31.953Z info: Get all business
+2023-08-03T11:37:05.509Z info: Get all business
+2023-08-03T11:37:26.915Z info: Get all business
+2023-08-03T11:37:34.985Z info: Token Verefied
+2023-08-03T11:37:35.112Z info: Get user info of lior@gmail.com
+2023-08-03T11:37:36.725Z info: Token Verefied
+2023-08-03T11:37:36.851Z info: Get user info of lior@gmail.com
+2023-08-03T11:37:38.503Z info: Token Verefied
+2023-08-03T11:37:38.631Z info: Get user info of lior@gmail.com
+2023-08-03T11:37:38.750Z info: Get all business
+2023-08-03T11:37:40.081Z info: Token Verefied
+2023-08-03T11:37:40.209Z info: Get user info of lior@gmail.com
+2023-08-03T11:37:53.457Z info: Token Verefied
+2023-08-03T11:37:53.583Z info: Get user info of lior@gmail.com
+2023-08-03T11:37:53.707Z info: Get all business
+2023-08-03T11:38:13.478Z info: Token Verefied
+2023-08-03T11:38:13.600Z info: Get user info of lior@gmail.com
+2023-08-03T11:38:50.149Z info: Token Verefied
+2023-08-03T11:38:50.273Z info: Get user info of lior@gmail.com
+2023-08-03T11:38:50.394Z info: Get all business
+2023-08-03T11:39:11.815Z info: Token Verefied
+2023-08-03T11:39:11.937Z info: Get user info of lior@gmail.com
+2023-08-03T12:17:33.091Z info: Token Verefied
+2023-08-03T12:17:33.844Z info: Get user info of lior@gmail.com
+2023-08-03T12:17:33.954Z info: Get all business
+2023-08-03T12:17:34.731Z info: Token Verefied
+2023-08-03T12:17:34.847Z info: Get user info of lior@gmail.com
+2023-08-03T12:17:34.962Z info: Get all business
+2023-08-03T12:17:38.643Z info: Token Verefied
+2023-08-03T12:17:38.763Z info: Get user info of lior@gmail.com
+2023-08-03T12:17:50.302Z info: Token Verefied
+2023-08-03T12:17:50.421Z info: Get user info of lior@gmail.com
+2023-08-03T12:17:50.543Z info: Get all business
+2023-08-03T12:18:03.317Z info: Token Verefied
+2023-08-03T12:18:03.433Z info: Get user info of lior@gmail.com
+2023-08-03T12:18:17.653Z info: Token Verefied
+2023-08-03T12:18:17.772Z info: Get user info of lior@gmail.com
+2023-08-03T12:18:19.963Z info: Token Verefied
+2023-08-03T12:18:20.079Z info: Get user info of lior@gmail.com
+2023-08-03T12:18:23.180Z info: Token Verefied
+2023-08-03T12:18:23.299Z info: Get user info of lior@gmail.com
+2023-08-03T12:18:23.412Z info: Get all business
+2023-08-03T12:18:39.893Z info: Token Verefied
+2023-08-03T12:18:40.012Z info: Get user info of lior@gmail.com
+2023-08-03T12:18:58.678Z info: Token Verefied
+2023-08-03T12:18:58.795Z info: Get user info of lior@gmail.com
+2023-08-03T12:18:58.908Z info: Get all business
+2023-08-03T12:18:59.987Z info: Token Verefied
+2023-08-03T12:19:00.104Z info: Get user info of lior@gmail.com
+2023-08-03T12:19:00.219Z info: Get all business
+2023-08-03T12:19:02.794Z info: Token Verefied
+2023-08-03T12:19:02.915Z info: Get user info of lior@gmail.com
+2023-08-03T12:19:42.013Z info: Token Verefied
+2023-08-03T12:19:42.129Z info: Get user info of lior@gmail.com
+2023-08-03T12:20:27.859Z info: Token Verefied
+2023-08-03T12:20:27.978Z info: Get user info of lior@gmail.com
+2023-08-03T12:20:28.096Z info: Get all business
+2023-08-03T12:20:28.761Z info: Token Verefied
+2023-08-03T12:20:28.913Z info: Get user info of lior@gmail.com
+2023-08-03T12:20:29.047Z info: Get all business
+2023-08-03T12:20:29.620Z info: Token Verefied
+2023-08-03T12:20:29.739Z info: Get user info of lior@gmail.com
+2023-08-03T12:20:29.856Z info: Get all business
+2023-08-03T12:20:32.015Z info: Token Verefied
+2023-08-03T12:20:32.292Z info: Add new record of category entry - Barbershop
+2023-08-03T12:20:35.242Z info: Token Verefied
+2023-08-03T12:20:35.364Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:19.794Z info: Token Verefied
+2023-08-03T12:21:19.910Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:24.129Z info: Token Verefied
+2023-08-03T12:21:24.247Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:27.699Z info: Token Verefied
+2023-08-03T12:21:27.816Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:29.477Z info: Token Verefied
+2023-08-03T12:21:29.593Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:29.711Z info: Get all business
+2023-08-03T12:21:37.065Z info: Token Verefied
+2023-08-03T12:21:37.180Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:37.907Z info: Token Verefied
+2023-08-03T12:21:38.023Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:38.141Z info: Get all business
+2023-08-03T12:21:39.818Z info: Token Verefied
+2023-08-03T12:21:39.938Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:40.054Z info: Get all business
+2023-08-03T12:21:40.777Z info: Token Verefied
+2023-08-03T12:21:40.896Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:41.023Z info: Get all business
+2023-08-03T12:21:48.625Z info: Token Verefied
+2023-08-03T12:21:48.742Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:52.427Z info: Token Verefied
+2023-08-03T12:21:52.542Z info: Get user info of lior@gmail.com
+2023-08-03T12:21:53.524Z info: Token Verefied
+2023-08-03T12:21:53.642Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:04.074Z info: Token Verefied
+2023-08-03T12:22:04.189Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:06.734Z info: Token Verefied
+2023-08-03T12:22:06.855Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:06.967Z info: Get all business
+2023-08-03T12:22:08.627Z info: Token Verefied
+2023-08-03T12:22:08.747Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:08.869Z info: Get all business
+2023-08-03T12:22:09.680Z info: Token Verefied
+2023-08-03T12:22:09.807Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:09.931Z info: Get all business
+2023-08-03T12:22:23.211Z info: Token Verefied
+2023-08-03T12:22:23.327Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:24.798Z info: Token Verefied
+2023-08-03T12:22:24.915Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:25.034Z info: Get all business
+2023-08-03T12:22:31.287Z info: Token Verefied
+2023-08-03T12:22:31.402Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:36.548Z info: Token Verefied
+2023-08-03T12:22:36.665Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:37.857Z info: Token Verefied
+2023-08-03T12:22:37.973Z info: Get user info of lior@gmail.com
+2023-08-03T12:22:38.078Z info: Get all business
+2023-08-03T12:22:44.499Z info: Token Verefied
+2023-08-03T12:22:44.624Z info: Get user info of lior@gmail.com
+2023-08-03T12:23:30.410Z info: Token Verefied
+2023-08-03T12:23:30.530Z info: Get user info of lior@gmail.com
+2023-08-03T12:23:30.645Z info: Get all business
+2023-08-04T00:17:11.839Z info: Get all business
+2023-08-04T00:17:13.117Z info: Token Verefied
+2023-08-04T00:17:13.240Z info: Get user info of lior@gmail.com
+2023-08-04T00:17:14.180Z info: Token Verefied
+2023-08-04T00:17:14.298Z info: Get user info of lior@gmail.com
+2023-08-04T00:17:14.415Z info: Get all business
+2023-08-04T00:17:29.864Z info: Token Verefied
+2023-08-04T00:17:29.980Z info: Get user info of lior@gmail.com
+2023-08-04T00:17:30.097Z info: Get all business
+2023-08-04T00:17:44.095Z info: Token Verefied
+2023-08-04T00:17:44.213Z info: Get user info of lior@gmail.com
+2023-08-04T00:17:44.326Z info: Get all business
+2023-08-04T00:17:50.628Z info: Token Verefied
+2023-08-04T00:17:50.743Z info: Get user info of lior@gmail.com
+2023-08-04T00:17:50.860Z info: Get all business
+2023-08-04T08:03:44.057Z info: Get all business
+2023-08-05T23:39:17.493Z info: Get all business
+2023-08-05T23:39:24.036Z info: Token Verefied
+2023-08-05T23:39:24.177Z info: Get user info of lior@gmail.com
+2023-08-05T23:39:25.211Z info: Token Verefied
+2023-08-05T23:39:25.337Z info: Get user info of lior@gmail.com
+2023-08-05T23:39:26.604Z info: Token Verefied
+2023-08-05T23:39:26.730Z info: Get user info of lior@gmail.com
+2023-08-05T23:40:03.089Z info: Token Verefied
+2023-08-05T23:40:03.212Z info: Get user info of lior@gmail.com
+2023-08-05T23:41:16.901Z info: Token Verefied
+2023-08-05T23:41:17.028Z info: Get user info of lior@gmail.com
+2023-08-05T23:41:30.903Z info: Token Verefied
+2023-08-05T23:41:31.032Z info: Get user info of lior@gmail.com
+2023-08-05T23:41:34.900Z info: Token Verefied
+2023-08-05T23:41:35.026Z info: Get user info of lior@gmail.com
+2023-08-05T23:41:39.895Z info: Token Verefied
+2023-08-05T23:41:40.018Z info: Get user info of lior@gmail.com
+2023-08-05T23:41:41.893Z info: Token Verefied
+2023-08-05T23:41:42.020Z info: Get user info of lior@gmail.com
+2023-08-05T23:42:05.908Z info: Token Verefied
+2023-08-05T23:42:06.031Z info: Get user info of lior@gmail.com
+2023-08-05T23:42:19.896Z info: Token Verefied
+2023-08-05T23:42:20.019Z info: Get user info of lior@gmail.com
+2023-08-05T23:42:25.762Z info: Token Verefied
+2023-08-05T23:42:25.890Z info: Get user info of lior@gmail.com
+2023-08-05T23:42:26.017Z info: Get all business
+2023-08-05T23:42:30.300Z info: Token Verefied
+2023-08-05T23:42:30.429Z info: Get user info of lior@gmail.com
+2023-08-05T23:42:48.453Z info: Token Verefied
+2023-08-05T23:42:48.580Z info: Get user info of lior@gmail.com
+2023-08-05T23:42:48.706Z info: Get all business
+2023-08-05T23:42:55.690Z info: Get all business
+2023-08-05T23:42:59.874Z info: Token Verefied
+2023-08-05T23:43:00.007Z info: Get user info of lior@gmail.com
+2023-08-05T23:43:04.953Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-08-05T23:43:05.654Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-08-05T23:43:09.170Z info: Get all business
+2023-08-05T23:43:10.769Z info: Token Verefied
+2023-08-05T23:43:10.898Z info: Get user info of lior@gmail.com
+2023-08-05T23:43:13.291Z info: Token Verefied
+2023-08-05T23:43:13.405Z info: Get user info of lior@gmail.com
+2023-08-05T23:43:13.545Z info: Get all business
+2023-08-05T23:43:15.347Z info: Token Verefied
+2023-08-05T23:43:15.476Z info: Get user info of lior@gmail.com
+2023-08-05T23:43:18.897Z info: Token Verefied
+2023-08-05T23:43:19.027Z info: Get user info of lior@gmail.com
+2023-08-05T23:43:23.525Z info: Token Verefied
+2023-08-05T23:43:23.642Z info: Get user info of lior@gmail.com
+2023-08-05T23:43:23.776Z info: Get all business
+2023-08-05T23:43:27.493Z info: Token Verefied
+2023-08-05T23:43:27.618Z info: Get user info of lior@gmail.com
+2023-08-05T23:43:51.808Z info: Token Verefied
+2023-08-05T23:43:51.924Z info: Get user info of lior@gmail.com
+2023-08-05T23:43:52.063Z info: Get all business
+2023-08-05T23:43:52.973Z info: Token Verefied
+2023-08-05T23:43:53.088Z info: Get user info of lior@gmail.com
+2023-08-05T23:43:53.226Z info: Get all business
+2023-08-05T23:43:56.279Z info: Token Verefied
+2023-08-05T23:43:56.407Z info: Get user info of lior@gmail.com
+2023-08-05T23:45:32.898Z info: Token Verefied
+2023-08-05T23:45:33.028Z info: Get user info of lior@gmail.com
+2023-08-05T23:45:35.511Z info: Token Verefied
+2023-08-05T23:45:35.629Z info: Get user info of lior@gmail.com
+2023-08-05T23:45:35.785Z info: Get all business
+2023-08-05T23:45:39.510Z info: Token Verefied
+2023-08-05T23:45:39.635Z info: Get user info of lior@gmail.com
+2023-08-05T23:45:46.158Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-08-05T23:45:46.168Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-08-05T23:45:49.984Z info: Token Verefied
+2023-08-05T23:45:50.112Z info: Get user info of lior@gmail.com
+2023-08-05T23:46:08.892Z info: Token Verefied
+2023-08-05T23:46:09.014Z info: Get user info of lior@gmail.com
+2023-08-05T23:46:11.483Z info: Token Verefied
+2023-08-05T23:46:11.600Z info: Get user info of lior@gmail.com
+2023-08-05T23:46:11.746Z info: Get all business
+2023-08-05T23:46:14.636Z info: Token Verefied
+2023-08-05T23:46:14.761Z info: Get user info of lior@gmail.com
+2023-08-05T23:46:18.638Z info: Token Verefied
+2023-08-05T23:46:18.761Z info: Get user info of lior@gmail.com
+2023-08-05T23:46:20.670Z info: Token Verefied
+2023-08-05T23:46:20.795Z info: Get user info of lior@gmail.com
+2023-08-05T23:46:23.333Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-08-05T23:46:23.337Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-08-05T23:46:28.454Z info: Token Verefied
+2023-08-05T23:46:28.582Z info: Get user info of lior@gmail.com
+2023-08-05T23:46:30.546Z info: Get shop of business: 63bf43161e23eb7c39683fe2
+2023-08-05T23:46:30.547Z info: Get all reviews of business: 63bf43161e23eb7c39683fe2
+2023-08-05T23:47:04.257Z info: Token Verefied
+2023-08-05T23:47:04.377Z info: Get user info of lior@gmail.com
+2023-08-05T23:47:06.382Z info: Token Verefied
+2023-08-05T23:47:06.498Z info: Get user info of lior@gmail.com
+2023-08-05T23:47:06.631Z info: Get all business
+2023-08-05T23:47:10.327Z info: Token Verefied
+2023-08-05T23:47:10.452Z info: Get user info of lior@gmail.com
+2023-08-05T23:47:12.475Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-08-05T23:47:12.483Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-08-06T00:35:05.902Z error: Cannot read properties of undefined (reading 'businessID')
+2023-08-06T00:36:05.676Z info: Get all business
+2023-08-06T00:36:20.697Z error: Cannot read properties of undefined (reading 'businessID')
+2023-08-06T00:36:46.166Z info: Token Verefied
+2023-08-06T00:36:46.293Z info: Get user info of lior@gmail.com
+2023-08-06T00:36:47.678Z info: Token Verefied
+2023-08-06T00:36:47.804Z info: Get user info of lior@gmail.com
+2023-08-06T00:36:49.934Z info: Token Verefied
+2023-08-06T00:36:50.186Z info: Get all business
+2023-08-06T00:36:50.214Z info: Token Verefied
+2023-08-06T00:36:50.338Z info: Get all business
+2023-08-06T00:36:50.735Z info: Get user info of lior@gmail.com
+2023-08-06T00:36:50.993Z info: Get user info of lior@gmail.com
+2023-08-06T00:36:51.090Z info: Token Verefied
+2023-08-06T00:36:51.206Z info: Get user info of lior@gmail.com
+2023-08-06T00:36:51.339Z info: Get all business
+2023-08-06T00:36:52.101Z info: Token Verefied
+2023-08-06T00:36:52.216Z info: Get user info of lior@gmail.com
+2023-08-06T00:36:52.346Z info: Get all business
+2023-08-06T00:36:52.735Z info: Token Verefied
+2023-08-06T00:36:52.851Z info: Get user info of lior@gmail.com
+2023-08-06T00:36:52.984Z info: Get all business
+2023-08-06T00:36:56.027Z info: Get all business
+2023-08-06T00:36:57.510Z info: Token Verefied
+2023-08-06T00:36:57.635Z info: Get user info of lior@gmail.com
+2023-08-06T00:37:00.009Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-08-06T00:37:00.045Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-08-06T16:26:51.850Z info: Get all business
+2023-08-06T16:26:54.140Z info: Token Verefied
+2023-08-06T16:26:54.260Z info: Get user info of lior@gmail.com
+2023-08-06T16:26:56.627Z info: Get all business
+2023-08-06T16:28:25.326Z info: Get all business
+2023-08-07T08:47:18.314Z info: Get all business
+2023-08-07T08:47:33.094Z info: Get all business
+2023-08-07T08:48:45.037Z info: Get all business
+2023-08-07T08:52:01.376Z info: Get all business
+2023-08-07T09:01:13.844Z info: Get all business
+2023-08-07T09:01:23.532Z info: Get all business
+2023-08-07T09:01:25.516Z info: Get all business
+2023-08-07T09:40:27.101Z info: Get all business
+2023-08-07T09:40:31.981Z info: Get all business
