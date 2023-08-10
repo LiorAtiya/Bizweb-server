@@ -56,3 +56,11 @@
 2023-08-03T10:32:17.652Z error: Business Exists
 2023-08-06T00:35:05.902Z error: Cannot read properties of undefined (reading 'businessID')
 2023-08-06T00:36:20.697Z error: Cannot read properties of undefined (reading 'businessID')
+2023-08-07T10:53:52.843Z error: jwt malformed
+2023-08-07T10:54:14.148Z error: jwt malformed
+2023-08-07T10:54:23.784Z error: invalid algorithm
+2023-08-10T00:03:35.637Z error: jwt malformed
+2023-08-10T10:50:01.124Z error: Cannot read properties of undefined (reading 'businessID')
+2023-08-10T11:00:38.685Z error: jwt malformed
+2023-08-10T11:00:54.973Z error: invalid algorithm
+2023-08-10T11:03:01.251Z error: Cannot read properties of undefined (reading 'businessID')
