@@ -6,7 +6,6 @@ const logger = require("../Utils/logs/logger");
 
 //Register new user
 const register = async (req, res) => {
-
   try {
     const { firstname, lastname, username, email, password } = req.body;
 
@@ -102,6 +101,7 @@ const forgotPassword = async (req, res) => {
   try {
     const oldUser = await User.findOne({ email });
     if (!oldUser) {
+      logger.error(`Email: ${email} Not Found`);
       return res.sendStatus(404);
     }
     const secret = process.env.JWT_SECRET + oldUser.password;
@@ -132,9 +132,10 @@ const forgotPassword = async (req, res) => {
       text: `Enter to link for reset the password \n${link}`, // plain text body
     });
 
+    logger.info(`Email sent to: ${email}`);
     return res.sendStatus(200);
   } catch (error) {
-    console.log(error);
+    logger.error(error);
     return res.sendStatus(500);
   }
 };
@@ -144,6 +145,7 @@ const resetPassword = async (req, res) => {
   const { password } = req.body;
   const oldUser = await User.findOne({ _id: id });
   if (!oldUser) {
+    logger.error(`User: ${id} Not Found`);
     return res.sendStatus(404);
   }
   const secret = process.env.JWT_SECRET + oldUser.password;
@@ -160,6 +162,8 @@ const resetPassword = async (req, res) => {
         },
       }
     );
+
+    logger.info(`Changed the password for the user: ${id}`);
     return res.sendStatus(200);
   } catch (error) {
     console.log(error);

@@ -6,27 +6,24 @@ const bcrypt = require("bcryptjs");
 
 //Update personal user details
 const updateUserInfo = async (req, res) => {
-  if (req.body.userId == req.params.id) {
+  try {
     //Update password
     if (req.body.password) {
-      try {
-        const salt = await bcrypt.genSalt(10);
-        req.body.password = await bcrypt.hash(req.body.password, salt);
-      } catch (err) {
-        return res.status(500).json(err);
-      }
+      const salt = await bcrypt.genSalt(10);
+      req.body.password = await bcrypt.hash(req.body.password, salt);
     }
-    try {
-      //NEED TO CHECK WHY ITS REPLACE BODY INSTEAD UPDATE
-      const user = await User.findByIdAndUpdate(req.params.id, {
-        $set: req.body,
-      });
-      res.status(200).json("Account has been updated");
-    } catch (err) {
-      return res.status(500).json(err);
-    }
-  } else {
-    return res.status(403).json("You can update only your account");
+
+    //NEED TO CHECK WHY ITS REPLACE BODY INSTEAD UPDATE
+    const user = await User.findByIdAndUpdate(req.params.id, {
+      $set: req.body,
+    });
+
+    logger.info(`Account has been updated`);
+    return res.sendStatus(200);
+
+  } catch (error) {
+    logger.error(error);
+    return res.sendStatus(500);
   }
 };
 
@@ -36,7 +33,7 @@ const getUserInfo = async (req, res) => {
     const user = await User.findOne({ email: req.user.email });
     const { password, updatedAt, createdAt, ...other } = user._doc;
     logger.info(`Get user info of ${other.email}`);
-
+    
     return res.status(200).json(other);
   } catch (err) {
     logger.error(err);
@@ -79,7 +76,7 @@ const trainBigML = async (req, res) => {
     await BigML.createModel();
     logger.info(`Train & Create new model in bigML`);
 
-    res.status(200);
+    return res.status(200);
   } catch (error) {
     logger.error(error);
     res.sendStatus(500);
@@ -89,22 +86,23 @@ const trainBigML = async (req, res) => {
 const getPredictionOfBigML = async (req, res) => {
   try {
     var result = await BigML.predictAll(req.body);
-    res.status(200).json(result);
+    return res.status(200).json(result);
   } catch (error) {
-    res.status(500).json(err);
+    return res.status(500);
   }
 };
 
 //Add appointment
 const addNewEvent = async (req, res) => {
+
   try {
     await User.findByIdAndUpdate(
-      { _id: req.params.id },
+      { _id: req.user._id },
       { $push: { myAppointments: req.body } }
     );
 
-    const user = await User.findOne({ _id: req.params.id });
-    logger.info(`A new appointment to registered user: ${req.body.userID}`);
+    const user = await User.findOne({ _id: req.user._id });
+    logger.info(`A new appointment to registered user: ${req.user._id}`);
 
     return res.json(user);
   } catch (err) {
@@ -117,23 +115,23 @@ const addNewEvent = async (req, res) => {
 const deleteEvent = async (req, res) => {
   try {
     await User.findOneAndUpdate(
-      { _id: req.params.id },
+      { _id: req.user._id },
       {
         $pull: {
           myAppointments: {
-            id: req.body.eventID,
+            eventID: req.body.eventID,
           },
         },
       }
     );
     logger.info(
-      `Remove event ${req.body.eventID} from list of user ${req.params.id}`
+      `Remove event ${req.body.eventID} from list of user ${req.user._id}`
     );
-    const user = await User.findOne({ _id: req.params.id });
+    const user = await User.findOne({ _id: req.user._id });
 
     return res.json(user);
   } catch (err) {
-    res.status(500).json(err);
+    return res.status(500);
   }
 };
 
@@ -220,7 +218,7 @@ const removeProductFromCart = async (req, res) => {
 const clearCart = async (req, res) => {
   try {
     await User.findByIdAndUpdate({ _id: req.user._id }, { myShoppingCart: [] });
-    
+
     logger.info(`Clear cart of user: ${req.user._id}`);
     return res.sendStatus(200);
   } catch (err) {

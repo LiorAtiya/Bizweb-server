@@ -18,14 +18,18 @@ const {
 //Update personal user details
 router.put("/:id", updateUserInfo);
 router.get("/", authenticateToken, getUserInfo);
-router.post("/categoryEntry",authenticateToken, addRecordCategoryEntry);
+router.post("/categoryEntry", authenticateToken, addRecordCategoryEntry);
 router.get("/trainBigML", trainBigML);
 router.post("/prediction", getPredictionOfBigML);
-router.put("/:id/newappointment", addNewEvent);
-router.delete("/:id/delete-appointment", deleteEvent);
+router.put("/test/new-appointment", authenticateToken, addNewEvent);
+router.delete("/delete-appointment", authenticateToken, deleteEvent);
 router.put("/increase-quantity", authenticateToken, increaseQuantityInCart);
 router.put("/decrease-quantity", authenticateToken, decreaseQuantityInCart);
-router.delete("/remove-product-from-cart", authenticateToken ,removeProductFromCart);
-router.delete("/clear-cart",authenticateToken, clearCart);
+router.delete(
+  "/remove-product-from-cart",
+  authenticateToken,
+  removeProductFromCart
+);
+router.delete("/clear-cart", authenticateToken, clearCart);
 
 module.exports = router;

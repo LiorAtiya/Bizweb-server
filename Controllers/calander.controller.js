@@ -61,7 +61,7 @@ const deleteEvent = async (req, res) => {
     //delete event
     await Calender.findOneAndUpdate(
       { businessID: req.body.businessID },
-      { $pull: { dates: { id: req.body.eventID } } }
+      { $pull: { dates: { eventID: req.body.eventID } } }
     );
 
     // //Sending SMS to client about the appointment
@@ -81,80 +81,93 @@ const deleteEvent = async (req, res) => {
 
 //delete expired events from calender
 const deleteExpiredEvents = async (req, res) => {
-  // // Get current hour (localhost)
-  // let min, hours, currentTime;
-  // if ((new Date().getHours()) < 10) {
-  //     hours = '0' + (new Date().getHours())
-  // } else {
-  //     hours = (new Date().getHours())
-  // }
-
-  // Get current hour (+2 for server of railway.app)
-  let min, hours, currentTime;
-  if (new Date().getHours() + 2 < 10) {
-    hours = "0" + (new Date().getHours() + 2);
-  } else {
-    hours = new Date().getHours() + 2;
-  }
-
-  if (new Date().getMinutes() < 10) {
-    min = "0" + new Date().getMinutes();
-  } else {
-    min = new Date().getMinutes();
-  }
-  currentTime = hours + ":" + min;
-
-  //Parse time to int
-  validityTime =
-    currentTime.split(":").reduce(function (seconds, v) {
-      return +v + seconds * 60;
-    }, 0) / 60;
-
-  //Get current date
-  let currentDate =
-    new Date().getDate() +
-    "/" +
-    (new Date().getMonth() + 1) +
-    "/" +
-    new Date().getFullYear();
-  validityDate = parseInt(
-    currentDate.split("/").reduce(function (first, second) {
-      return second + first;
-    }, "")
-  );
-
-  //Remove hour from available hours
-  const events = await Calender.findOneAndUpdate(
-    { businessID: req.body.businessID },
-    {
-      $pull: {
-        availableHours: {
-          expiredDate: { $lte: validityDate },
-          expiredTime: { $lt: validityTime },
-        },
-      },
+  try {
+    // Get current hour (localhost)
+    let min, hours, currentTime;
+    if ((new Date().getHours()) < 10) {
+        hours = '0' + (new Date().getHours())
+    } else {
+        hours = (new Date().getHours())
     }
-  );
-  //Remove from list of appointments
-  await Calender.findOneAndUpdate(
-    { businessID: req.body.businessID },
-    {
-      $pull: {
-        dates: {
-          expiredDate: { $lte: validityDate },
-          expiredTime: { $lt: validityTime },
-        },
-      },
+
+    // // Get current hour (+2 for server of railway.app)
+    // let min, hours, currentTime;
+    // if (new Date().getHours() + 2 < 10) {
+    //   hours = "0" + (new Date().getHours() + 2);
+    // } else {
+    //   hours = new Date().getHours() + 2;
+    // }
+
+    if (new Date().getMinutes() < 10) {
+      min = "0" + new Date().getMinutes();
+    } else {
+      min = new Date().getMinutes();
     }
-  );
-  res.status(200).json(events);
+    currentTime = hours + ":" + min;
+
+    //Parse time to int
+    validityTime =
+      currentTime.split(":").reduce(function (seconds, v) {
+        return +v + seconds * 60;
+      }, 0) / 60;
+
+    //Get current date
+    let currentDate =
+      new Date().getDate() +
+      "/" +
+      (new Date().getMonth() + 1) +
+      "/" +
+      new Date().getFullYear();
+    validityDate = parseInt(
+      currentDate.split("/").reduce(function (first, second) {
+        return second + first;
+      }, "")
+    );
+
+    //Remove hour from available hours
+    const events = await Calender.findOneAndUpdate(
+      { businessID: req.body.businessID },
+      {
+        $pull: {
+          availableHours: {
+            expiredDate: { $lte: validityDate },
+            expiredTime: { $lt: validityTime },
+          },
+        },
+      }
+    );
+    //Remove from list of appointments
+    await Calender.findOneAndUpdate(
+      { businessID: req.body.businessID },
+      {
+        $pull: {
+          dates: {
+            expiredDate: { $lte: validityDate },
+            expiredTime: { $lt: validityTime },
+          },
+        },
+      }
+    );
+
+    logger.info(`Deleted expired events`);
+    return res.sendStatus(200);
+  } catch (error) {
+    logger.error(err);
+    return res.sendStatus(500);
+  }
 };
 
 //Get all the events of business
 const getAllEvents = async (req, res) => {
-  const events = await Calender.findOne({ businessID: req.body.businessID });
-  console.log("\u001b[35m" + "Get calender" + "\u001b[0m");
-  res.send(events);
+  try {
+    const events = await Calender.findOne({ businessID: req.body.businessID });
+    logger.info(`Get all events of calender business: ${req.body.businessID}`);
+
+    return res.send(events);
+  } catch (error) {
+    logger.error(err);
+    return res.sendStatus(500);
+  }
 };
 
 module.exports = {

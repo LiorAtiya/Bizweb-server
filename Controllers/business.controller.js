@@ -88,6 +88,25 @@ const addNewBusiness = async (req, res) => {
 const deleteBusiness = async (req, res) => {
   try {
     const { businessID } = req.body;
+
+    const business = await User.findOne({ _id: businessID });
+    if (!business) {
+      logger.error("Business doesn't exists");
+      return res.sendStatus(404);
+    }
+
+    //Delete all pictures of business
+    business.gallery.forEach(async (pic) => {
+      await cloudinary.uploader.destroy(pic.id);
+      logger.info(`Picture id: ${pic.id} was deleted`);
+    });
+
+    //Delete background picture of business
+    await cloudinary.uploader.destroy(req.body.backgroundPicture.id);
+    logger.info(
+      `Background picture id: ${business.backgroundPicture.id} was deleted`
+    );
+
     //Delete business
     await Business.deleteOne({ _id: businessID });
     //Delete from list of user
@@ -142,8 +161,6 @@ const updateDetailsBusiness = async (req, res) => {
 const getInfoBusiness = async (req, res) => {
   try {
     const business = await Business.findById(req.params.id);
-    //Not necessary
-    // const {username,password,updatedAt, ...other} = user._doc
     logger.info(`Get info business: ${business._id}`);
     return res.status(200).json(business);
   } catch (err) {
@@ -267,8 +284,8 @@ const addNewPictureToGallery = async (req, res) => {
       { _id: req.params.id },
       { $push: { gallery: req.body } }
     );
-    console.log("Added new picture");
-    res.send("OK - 200 ");
+    logger.info(`Added new picture to business: ${req.params.id}`);
+    return res.sendStatus(200);
   } catch (err) {
     logger.error(err);
     return res.sendStatus(500);
@@ -285,8 +302,8 @@ const removePictureFromGallery = async (req, res) => {
       { _id: req.params.id },
       { $pull: { gallery: { id: req.body.id } } }
     );
-    console.log("Removed picture");
-    res.status(200).send();
+    logger.info(`Removed picture id: ${req.body.id}`);
+    return res.sendStatus(200);
   } catch (error) {
     logger.error(err);
     return res.sendStatus(500);
@@ -296,9 +313,10 @@ const removePictureFromGallery = async (req, res) => {
 //Get gallery of business
 const getGallery = async (req, res) => {
   try {
-    const user = await Business.findById(req.params.id);
-    res.status(200).json(user.gallery);
-    console.log("\u001b[35m" + "Get gallery" + "\u001b[0m");
+    const business = await Business.findById(req.params.id);
+
+    logger.info(`Get gallery of business: ${req.params.id}`);
+    return res.status(200).json(business.gallery);
   } catch (err) {
     logger.error(err);
     return res.sendStatus(500);
@@ -312,8 +330,9 @@ const updateBackgroundPicture = async (req, res) => {
       { _id: req.params.id },
       { backgroundPicture: req.body.backgroundPicture }
     );
-    console.log("Updated background picture");
-    res.status(200).json();
+
+    logger.info(`Updated background picture of business: ${req.params.id}`);
+    return res.sendStatus(200);
   } catch (err) {
     logger.error(err);
     return res.sendStatus(500);
@@ -352,7 +371,9 @@ const getTopFive = async (req, res) => {
 
     //Get the top 5 business
     const top5 = sortByTotalStars.slice(0, 5);
-    res.status(200).json(top5);
+
+    logger.info(`Get top 5 business`);
+    return res.status(200).json(top5);
   } catch (err) {
     logger.error(err);
     return res.sendStatus(500);
@@ -464,7 +485,8 @@ const quickAppointment = async (req, res) => {
     const business = await Business.findOne({ _id: earliest[0].businessID });
     earliest[0] = business;
 
-    res.status(200).json(earliest);
+    logger.info(`Get the nearest free appointment according to filters - category: ${category} and city: ${city}`);
+    return res.status(200).json(earliest);
   } catch (err) {
     logger.error(err);
     return res.sendStatus(500);

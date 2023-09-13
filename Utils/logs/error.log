@@ -64,3 +64,44 @@
 2023-08-10T11:00:38.685Z error: jwt malformed
 2023-08-10T11:00:54.973Z error: invalid algorithm
 2023-08-10T11:03:01.251Z error: Cannot read properties of undefined (reading 'businessID')
+2023-08-13T14:35:29.104Z error: Cannot read properties of undefined (reading 'businessID')
+2023-08-13T15:27:31.191Z error: jwt malformed
+2023-08-13T15:27:54.813Z error: invalid algorithm
+2023-09-13T11:12:51.350Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T11:25:29.328Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T11:28:05.599Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T11:31:57.241Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T11:42:41.442Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T11:48:48.590Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T11:53:53.296Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T11:54:26.990Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T11:56:38.509Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:05:06.901Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:10:34.604Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:18:15.752Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:23:33.184Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:38:20.242Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:40:35.959Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:41:41.959Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:43:07.551Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:43:55.452Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:45:19.751Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:46:49.521Z error: Cast to ObjectId failed for value "newappointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:49:11.818Z error: Cast to ObjectId failed for value "new-appointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:49:58.463Z error: Cast to ObjectId failed for value "new-appointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:51:24.531Z error: Cast to ObjectId failed for value "new-appointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:52:13.857Z error: Cast to ObjectId failed for value "new-appointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T12:56:05.203Z error: Cast to ObjectId failed for value "new-appointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T13:32:48.231Z error: Cast to ObjectId failed for value "new-appointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T13:38:03.725Z error: Cast to ObjectId failed for value "new-appointment2222" (type string) at path "_id" for model "UserDetails"
+2023-09-13T13:40:20.551Z error: Cast to ObjectId failed for value "new-appointment2222" (type string) at path "_id" for model "UserDetails"
+2023-09-13T13:41:04.306Z error: Cast to ObjectId failed for value "new-appointment2222" (type string) at path "_id" for model "UserDetails"
+2023-09-13T13:43:23.189Z error: Cast to ObjectId failed for value "new-appointment2222" (type string) at path "_id" for model "UserDetails"
+2023-09-13T13:46:36.493Z error: Cast to ObjectId failed for value "new-appointment" (type string) at path "_id" for model "UserDetails"
+2023-09-13T13:47:09.947Z error: Cannot read properties of undefined (reading 'object')
+2023-09-13T13:48:43.972Z error: Cannot read properties of undefined (reading 'object')
+2023-09-13T14:38:42.205Z error: Request failed with status code 400
+2023-09-13T14:38:45.482Z error: Request failed with status code 400
+2023-09-13T14:38:56.084Z error: Request failed with status code 400
+2023-09-13T14:39:10.114Z error: Request failed with status code 400
+2023-09-13T14:57:37.295Z error: Request failed with status code 400
