@@ -89,7 +89,8 @@ const deleteBusiness = async (req, res) => {
   try {
     const { businessID } = req.body;
 
-    const business = await User.findOne({ _id: businessID });
+    const business = await Business.findOne({ _id: businessID });
+
     if (!business) {
       logger.error("Business doesn't exists");
       return res.sendStatus(404);
@@ -102,7 +103,7 @@ const deleteBusiness = async (req, res) => {
     });
 
     //Delete background picture of business
-    await cloudinary.uploader.destroy(req.body.backgroundPicture.id);
+    await cloudinary.uploader.destroy(business.backgroundPicture.id);
     logger.info(
       `Background picture id: ${business.backgroundPicture.id} was deleted`
     );
@@ -326,9 +327,8 @@ const removePictureFromGallery = async (req, res) => {
 //Update background picture of business
 const updateBackgroundPicture = async (req, res) => {
   try {
-
     const business = await Business.findById(req.params.id);
-    
+
     //Remove from cloudinary
     await cloudinary.uploader.destroy(business.backgroundPicture.id);
 
@@ -491,7 +491,9 @@ const quickAppointment = async (req, res) => {
     const business = await Business.findOne({ _id: earliest[0].businessID });
     earliest[0] = business;
 
-    logger.info(`Get the nearest free appointment according to filters - category: ${category} and city: ${city}`);
+    logger.info(
+      `Get the nearest free appointment according to filters - category: ${category} and city: ${city}`
+    );
     return res.status(200).json(earliest);
   } catch (err) {
     logger.error(err);
