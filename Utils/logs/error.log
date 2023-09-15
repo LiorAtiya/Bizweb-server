@@ -105,3 +105,15 @@
 2023-09-13T14:38:56.084Z error: Request failed with status code 400
 2023-09-13T14:39:10.114Z error: Request failed with status code 400
 2023-09-13T14:57:37.295Z error: Request failed with status code 400
+2023-09-14T11:12:40.766Z error: Request failed with status code 400
+2023-09-14T11:15:25.869Z error: Request failed with status code 400
+2023-09-14T18:19:45.728Z error: Missing required parameter - public_id
+2023-09-14T18:22:45.468Z error: Missing required parameter - public_id
+2023-09-14T18:23:51.977Z error: Missing required parameter - public_id
+2023-09-14T18:26:50.327Z error: Missing required parameter - public_id
+2023-09-14T18:29:34.289Z error: Missing required parameter - public_id
+2023-09-14T18:31:24.749Z error: Missing required parameter - public_id
+2023-09-14T18:31:58.996Z error: Missing required parameter - public_id
+2023-09-14T18:32:43.022Z error: Missing required parameter - public_id
+2023-09-15T12:19:20.912Z error: Business doesn't exists
+2023-09-15T12:19:24.768Z error: Business doesn't exists

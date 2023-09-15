@@ -276,6 +276,19 @@ const getShop = async (req, res) => {
   }
 };
 
+//Get gallery of business
+const getGallery = async (req, res) => {
+  try {
+    const business = await Business.findById(req.params.id);
+
+    logger.info(`Get gallery of business: ${req.params.id}`);
+    return res.status(200).json(business.gallery);
+  } catch (err) {
+    logger.error(err);
+    return res.sendStatus(500);
+  }
+};
+
 //Add new picture to gallery
 const addNewPictureToGallery = async (req, res) => {
   try {
@@ -310,22 +323,15 @@ const removePictureFromGallery = async (req, res) => {
   }
 };
 
-//Get gallery of business
-const getGallery = async (req, res) => {
-  try {
-    const business = await Business.findById(req.params.id);
-
-    logger.info(`Get gallery of business: ${req.params.id}`);
-    return res.status(200).json(business.gallery);
-  } catch (err) {
-    logger.error(err);
-    return res.sendStatus(500);
-  }
-};
-
 //Update background picture of business
 const updateBackgroundPicture = async (req, res) => {
   try {
+
+    const business = await Business.findById(req.params.id);
+    
+    //Remove from cloudinary
+    await cloudinary.uploader.destroy(business.backgroundPicture.id);
+
     await Business.findByIdAndUpdate(
       { _id: req.params.id },
       { backgroundPicture: req.body.backgroundPicture }

@@ -3576,3 +3576,722 @@
 2023-09-13T14:58:46.815Z info: Deleted expired events
 2023-09-13T14:58:53.293Z info: Token Verefied
 2023-09-13T14:58:53.420Z info: Get user info of lior@gmail.com
+2023-09-14T11:01:54.876Z info: Token Verefied
+2023-09-14T11:01:55.656Z info: Get user info of lior@gmail.com
+2023-09-14T11:01:55.805Z info: Get all business
+2023-09-14T11:01:57.286Z info: Get top 5 business
+2023-09-14T11:02:55.947Z info: Get top 5 business
+2023-09-14T11:02:56.252Z info: Get all business
+2023-09-14T11:03:00.310Z info: Token Verefied
+2023-09-14T11:03:00.574Z info: Add new record of category entry - Nail Polish
+2023-09-14T11:03:02.031Z info: Get shop of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:03:02.149Z info: Get all events of calender business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:03:02.156Z info: Deleted expired events
+2023-09-14T11:03:02.779Z info: Get gallery of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:03:02.782Z info: Get all reviews of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:03:24.426Z info: Get top 5 business
+2023-09-14T11:12:15.190Z info: Get top 5 business
+2023-09-14T11:12:15.192Z info: Get all business
+2023-09-14T11:12:38.665Z info: Token Verefied
+2023-09-14T11:12:38.797Z info: Get user info of lior@gmail.com
+2023-09-14T11:12:40.766Z error: Request failed with status code 400
+2023-09-14T11:14:14.417Z info: Token Verefied
+2023-09-14T11:14:14.538Z info: Get user info of lior@gmail.com
+2023-09-14T11:14:46.415Z info: Token Verefied
+2023-09-14T11:14:46.538Z info: Get user info of lior@gmail.com
+2023-09-14T11:15:00.414Z info: Token Verefied
+2023-09-14T11:15:00.536Z info: Get user info of lior@gmail.com
+2023-09-14T11:15:07.414Z info: Token Verefied
+2023-09-14T11:15:07.536Z info: Get user info of lior@gmail.com
+2023-09-14T11:15:24.134Z info: Token Verefied
+2023-09-14T11:15:24.257Z info: Get user info of lior@gmail.com
+2023-09-14T11:15:24.377Z info: Get all business
+2023-09-14T11:15:25.869Z error: Request failed with status code 400
+2023-09-14T11:16:25.712Z info: Token Verefied
+2023-09-14T11:16:25.835Z info: Get user info of lior@gmail.com
+2023-09-14T11:18:17.145Z info: Token Verefied
+2023-09-14T11:18:17.268Z info: Get user info of lior@gmail.com
+2023-09-14T11:19:12.127Z info: Token Verefied
+2023-09-14T11:19:12.250Z info: Get user info of lior@gmail.com
+2023-09-14T11:23:47.177Z info: Token Verefied
+2023-09-14T11:23:47.310Z info: Get user info of lior@gmail.com
+2023-09-14T11:23:47.403Z info: Get all business
+2023-09-14T11:23:50.591Z info: Token Verefied
+2023-09-14T11:23:50.732Z info: Remove event: undefined
+2023-09-14T11:23:50.745Z info: Token Verefied
+2023-09-14T11:23:50.902Z info: Remove event undefined from list of user 63a1d88941280504f541c984
+2023-09-14T11:23:51.501Z info: Token Verefied
+2023-09-14T11:23:51.623Z info: Get user info of lior@gmail.com
+2023-09-14T11:23:51.672Z info: Get all business
+2023-09-14T11:24:20.406Z info: Token Verefied
+2023-09-14T11:24:20.532Z info: Get user info of lior@gmail.com
+2023-09-14T11:31:42.557Z info: Token Verefied
+2023-09-14T11:31:42.683Z info: Get user info of lior@gmail.com
+2023-09-14T11:31:42.781Z info: Get all business
+2023-09-14T11:33:52.543Z info: Get top 5 business
+2023-09-14T11:33:53.696Z info: Token Verefied
+2023-09-14T11:33:54.002Z info: Add new record of category entry - Barbershop
+2023-09-14T11:47:33.562Z info: Get top 5 business
+2023-09-14T11:47:35.077Z info: Token Verefied
+2023-09-14T11:47:35.335Z info: Add new record of category entry - Barbershop
+2023-09-14T11:47:37.753Z info: Get top 5 business
+2023-09-14T11:47:40.549Z info: Token Verefied
+2023-09-14T11:47:40.808Z info: Add new record of category entry - Nail Polish
+2023-09-14T11:47:45.795Z info: Get top 5 business
+2023-09-14T11:47:46.572Z info: Token Verefied
+2023-09-14T11:47:46.824Z info: Add new record of category entry - Nail Polish
+2023-09-14T11:48:00.832Z info: Get gallery of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:48:00.836Z info: Get shop of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:48:00.957Z info: Get all reviews of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:48:01.086Z info: Get all events of calender business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:48:01.089Z info: Deleted expired events
+2023-09-14T11:48:02.470Z info: Get top 5 business
+2023-09-14T11:48:03.501Z info: Token Verefied
+2023-09-14T11:48:03.756Z info: Add new record of category entry - Professionals
+2023-09-14T11:48:06.197Z info: Get top 5 business
+2023-09-14T11:48:07.151Z info: Token Verefied
+2023-09-14T11:48:07.404Z info: Add new record of category entry - Restaurants
+2023-09-14T11:50:00.562Z info: Get top 5 business
+2023-09-14T11:50:00.852Z info: Get all business
+2023-09-14T11:50:01.041Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:50:01.044Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:50:01.045Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-14T11:50:01.234Z info: Deleted expired events
+2023-09-14T11:50:01.851Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:17.834Z info: Get all business
+2023-09-14T11:56:17.979Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:18.014Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:18.122Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:18.223Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:18.245Z info: Deleted expired events
+2023-09-14T11:56:19.066Z info: Get all business
+2023-09-14T11:56:19.242Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:19.253Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:19.375Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:19.375Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:19.498Z info: Deleted expired events
+2023-09-14T11:56:22.728Z info: Get all business
+2023-09-14T11:56:22.877Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:22.885Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:22.966Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:23.051Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:23.088Z info: Deleted expired events
+2023-09-14T11:56:23.805Z info: Get all business
+2023-09-14T11:56:23.993Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:23.995Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:24.054Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:24.103Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:24.178Z info: Deleted expired events
+2023-09-14T11:56:24.396Z info: Get all business
+2023-09-14T11:56:24.539Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:24.551Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:24.630Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:24.691Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:24.754Z info: Deleted expired events
+2023-09-14T11:56:30.428Z info: Get all business
+2023-09-14T11:56:30.583Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:30.593Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:30.616Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:30.681Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:30.798Z info: Deleted expired events
+2023-09-14T11:56:31.424Z info: Get all business
+2023-09-14T11:56:31.576Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:31.595Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:31.643Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:31.646Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:31.768Z info: Deleted expired events
+2023-09-14T11:56:32.370Z info: Get all business
+2023-09-14T11:56:32.527Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:32.540Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:32.554Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:32.595Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-14T11:56:32.817Z info: Deleted expired events
+2023-09-14T11:56:37.494Z info: Get top 5 business
+2023-09-14T11:56:39.419Z info: Token Verefied
+2023-09-14T11:56:39.676Z info: Add new record of category entry - Barbershop
+2023-09-14T11:56:41.094Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-14T11:56:41.099Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T11:56:41.102Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-14T11:56:41.106Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-14T11:56:41.226Z info: Deleted expired events
+2023-09-14T11:56:45.020Z info: Get top 5 business
+2023-09-14T11:56:46.283Z info: Token Verefied
+2023-09-14T11:56:46.537Z info: Add new record of category entry - Nail Polish
+2023-09-14T11:56:47.413Z info: Get gallery of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:56:47.415Z info: Get shop of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:56:47.418Z info: Get all reviews of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:56:47.555Z info: Get all events of calender business: 63bf4c5a1e23eb7c396840de
+2023-09-14T11:56:47.558Z info: Deleted expired events
+2023-09-14T11:56:52.217Z info: Get top 5 business
+2023-09-14T11:56:53.499Z info: Token Verefied
+2023-09-14T11:56:53.750Z info: Add new record of category entry - Barbershop
+2023-09-14T11:56:54.423Z info: Get gallery of business: 63bf41eb1e23eb7c39683fd0
+2023-09-14T11:56:54.428Z info: Get all reviews of business: 63bf41eb1e23eb7c39683fd0
+2023-09-14T11:56:54.429Z info: Get shop of business: 63bf41eb1e23eb7c39683fd0
+2023-09-14T11:56:54.557Z info: Get all events of calender business: 63bf41eb1e23eb7c39683fd0
+2023-09-14T11:56:54.678Z info: Deleted expired events
+2023-09-14T11:56:55.661Z info: Get top 5 business
+2023-09-14T11:56:56.428Z info: Token Verefied
+2023-09-14T11:56:56.688Z info: Add new record of category entry - Restaurants
+2023-09-14T11:56:57.916Z info: Get gallery of business: 643be0d1baf66f6959be84ae
+2023-09-14T11:56:58.045Z info: Deleted expired events
+2023-09-14T11:56:58.048Z info: Get all events of calender business: 643be0d1baf66f6959be84ae
+2023-09-14T11:56:58.180Z info: Get shop of business: 643be0d1baf66f6959be84ae
+2023-09-14T11:56:58.183Z info: Get all reviews of business: 643be0d1baf66f6959be84ae
+2023-09-14T11:58:08.055Z info: Get all business
+2023-09-14T11:58:14.892Z info: Get all business
+2023-09-14T11:58:25.682Z info: Get all business
+2023-09-14T11:58:25.873Z info: Get gallery of business: 643be0d1baf66f6959be84ae
+2023-09-14T11:58:25.898Z info: Get shop of business: 643be0d1baf66f6959be84ae
+2023-09-14T11:58:25.899Z info: Get all reviews of business: 643be0d1baf66f6959be84ae
+2023-09-14T11:58:25.988Z info: Get all events of calender business: 643be0d1baf66f6959be84ae
+2023-09-14T11:58:26.118Z info: Deleted expired events
+2023-09-14T11:58:26.940Z info: Get all business
+2023-09-14T11:58:27.124Z info: Get shop of business: 643be0d1baf66f6959be84ae
+2023-09-14T11:58:27.126Z info: Get gallery of business: 643be0d1baf66f6959be84ae
+2023-09-14T11:58:27.201Z info: Get all events of calender business: 643be0d1baf66f6959be84ae
+2023-09-14T11:58:27.276Z info: Get all reviews of business: 643be0d1baf66f6959be84ae
+2023-09-14T11:58:27.330Z info: Deleted expired events
+2023-09-14T11:58:28.904Z info: Get top 5 business
+2023-09-14T11:58:31.703Z info: Token Verefied
+2023-09-14T11:58:31.962Z info: Add new record of category entry - Personal Trainers
+2023-09-14T11:58:33.463Z info: Get top 5 business
+2023-09-14T12:02:47.353Z info: Get all business
+2023-09-14T12:02:47.378Z info: Get top 5 business
+2023-09-14T12:02:48.996Z info: Token Verefied
+2023-09-14T12:02:49.217Z info: Get user info of lior@gmail.com
+2023-09-14T12:02:50.517Z info: Token Verefied
+2023-09-14T12:02:50.642Z info: Get user info of lior@gmail.com
+2023-09-14T12:03:02.467Z info: Get top 5 business
+2023-09-14T12:03:03.791Z info: Token Verefied
+2023-09-14T12:03:04.049Z info: Add new record of category entry - Professionals
+2023-09-14T12:03:04.937Z info: Get gallery of business: 64392e166f55bd13f310249f
+2023-09-14T12:03:04.939Z info: Get shop of business: 64392e166f55bd13f310249f
+2023-09-14T12:03:04.965Z info: Get all reviews of business: 64392e166f55bd13f310249f
+2023-09-14T12:03:05.023Z info: Get all events of calender business: 64392e166f55bd13f310249f
+2023-09-14T12:03:05.146Z info: Deleted expired events
+2023-09-14T12:03:08.297Z info: Get top 5 business
+2023-09-14T12:03:08.664Z info: Token Verefied
+2023-09-14T12:03:08.931Z info: Add new record of category entry - Nail Polish
+2023-09-14T12:03:09.413Z info: Get gallery of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T12:03:09.420Z info: Get all events of calender business: 63bf4c5a1e23eb7c396840de
+2023-09-14T12:03:09.422Z info: Get shop of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T12:03:09.537Z info: Get all reviews of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T12:03:09.547Z info: Deleted expired events
+2023-09-14T12:03:12.472Z info: Get top 5 business
+2023-09-14T12:03:13.324Z info: Token Verefied
+2023-09-14T12:03:13.587Z info: Add new record of category entry - Nail Polish
+2023-09-14T12:03:14.163Z info: Get shop of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T12:03:14.168Z info: Get all reviews of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T12:03:14.170Z info: Get gallery of business: 63bf4c5a1e23eb7c396840de
+2023-09-14T12:03:14.293Z info: Get all events of calender business: 63bf4c5a1e23eb7c396840de
+2023-09-14T12:03:14.732Z info: Deleted expired events
+2023-09-14T12:03:18.782Z info: Get top 5 business
+2023-09-14T12:05:12.668Z info: Get gallery of business: 63ef995fbca2676b75e4ad6a
+2023-09-14T12:05:12.679Z info: Get shop of business: 63ef995fbca2676b75e4ad6a
+2023-09-14T12:05:12.681Z info: Get all reviews of business: 63ef995fbca2676b75e4ad6a
+2023-09-14T12:05:12.805Z info: Get all events of calender business: 63ef995fbca2676b75e4ad6a
+2023-09-14T12:05:12.914Z info: Deleted expired events
+2023-09-14T12:05:22.567Z info: Get top 5 business
+2023-09-14T12:05:22.832Z info: Token Verefied
+2023-09-14T12:05:23.074Z info: Add new record of category entry - Barbershop
+2023-09-14T12:05:23.599Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:05:23.604Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:05:23.720Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:05:23.839Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:05:23.849Z info: Deleted expired events
+2023-09-14T12:05:31.544Z info: Removed review from business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:05:38.224Z info: Get all business
+2023-09-14T12:05:38.386Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:05:38.388Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:05:38.449Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:05:38.481Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:05:38.571Z info: Deleted expired events
+2023-09-14T12:11:57.253Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:15:17.923Z info: Get top 5 business
+2023-09-14T12:15:18.573Z info: Token Verefied
+2023-09-14T12:15:18.840Z info: Add new record of category entry - Barbershop
+2023-09-14T12:15:20.095Z info: Get shop of business: 647c8d40343f635aabc3e0ee
+2023-09-14T12:15:20.101Z info: Get gallery of business: 647c8d40343f635aabc3e0ee
+2023-09-14T12:15:20.230Z info: Deleted expired events
+2023-09-14T12:15:20.821Z info: Get all events of calender business: 647c8d40343f635aabc3e0ee
+2023-09-14T12:16:43.996Z info: Get top 5 business
+2023-09-14T12:16:44.970Z info: Token Verefied
+2023-09-14T12:16:45.218Z info: Add new record of category entry - Barbershop
+2023-09-14T12:36:53.134Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:36:53.143Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:36:53.148Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:36:54.056Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:36:54.172Z info: Deleted expired events
+2023-09-14T12:37:33.603Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:37:35.824Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:37:38.913Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:37:40.463Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:38:01.230Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:38:11.223Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:38:13.881Z info: Get all business
+2023-09-14T12:38:14.037Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:38:14.045Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:38:14.070Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:38:14.137Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:38:14.254Z info: Deleted expired events
+2023-09-14T12:38:23.502Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:38:38.074Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:39:29.463Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:52:29.142Z info: Get top 5 business
+2023-09-14T12:52:30.704Z info: Token Verefied
+2023-09-14T12:52:30.986Z info: Add new record of category entry - Barbershop
+2023-09-14T12:52:38.737Z info: Get all business
+2023-09-14T12:52:43.286Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:52:43.290Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:52:43.305Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:52:44.115Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:52:44.252Z info: Deleted expired events
+2023-09-14T12:52:45.885Z info: Get top 5 business
+2023-09-14T12:52:51.704Z info: Token Verefied
+2023-09-14T12:52:51.962Z info: Add new record of category entry - Barbershop
+2023-09-14T12:52:52.544Z info: Get all events of calender business: 647c8d40343f635aabc3e0ee
+2023-09-14T12:52:52.550Z info: Get gallery of business: 647c8d40343f635aabc3e0ee
+2023-09-14T12:52:52.551Z info: Get shop of business: 647c8d40343f635aabc3e0ee
+2023-09-14T12:52:52.676Z info: Deleted expired events
+2023-09-14T12:52:54.154Z info: Get top 5 business
+2023-09-14T12:52:55.446Z info: Token Verefied
+2023-09-14T12:52:55.723Z info: Add new record of category entry - Barbershop
+2023-09-14T12:53:49.970Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:53:49.975Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:53:49.979Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-14T12:53:50.086Z info: Deleted expired events
+2023-09-14T12:53:50.107Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-14T13:09:53.455Z info: Get all business
+2023-09-14T13:09:53.612Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T13:09:53.617Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-14T13:09:53.716Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-14T13:09:53.719Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-14T13:09:53.845Z info: Deleted expired events
+2023-09-14T13:09:55.069Z info: Get top 5 business
+2023-09-14T13:09:55.659Z info: Token Verefied
+2023-09-14T13:09:55.913Z info: Add new record of category entry - Barbershop
+2023-09-14T13:09:57.323Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-14T13:09:57.326Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-14T13:09:57.329Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-14T13:09:57.333Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-14T13:09:57.454Z info: Deleted expired events
+2023-09-14T13:10:06.464Z info: Get top 5 business
+2023-09-14T13:10:07.706Z info: Token Verefied
+2023-09-14T13:10:07.960Z info: Add new record of category entry - Barbershop
+2023-09-14T13:10:08.816Z info: Get gallery of business: 647c8d40343f635aabc3e0ee
+2023-09-14T13:10:08.819Z info: Get shop of business: 647c8d40343f635aabc3e0ee
+2023-09-14T13:10:08.820Z info: Get all events of calender business: 647c8d40343f635aabc3e0ee
+2023-09-14T13:10:08.936Z info: Deleted expired events
+2023-09-14T13:10:10.335Z info: Get top 5 business
+2023-09-14T13:10:10.867Z info: Token Verefied
+2023-09-14T13:10:11.113Z info: Add new record of category entry - Barbershop
+2023-09-14T13:10:12.308Z info: Get gallery of business: 64cb82a29903e35bd8583505
+2023-09-14T13:10:12.313Z info: Get all events of calender business: 64cb82a29903e35bd8583505
+2023-09-14T13:10:12.430Z info: Get shop of business: 64cb82a29903e35bd8583505
+2023-09-14T13:10:12.443Z info: Get all reviews of business: 64cb82a29903e35bd8583505
+2023-09-14T13:10:12.445Z info: Deleted expired events
+2023-09-14T18:09:30.715Z info: Token Verefied
+2023-09-14T18:09:33.586Z info: Token Verefied
+2023-09-14T18:09:36.171Z info: Get top 5 business
+2023-09-14T18:09:36.400Z info: Add new record of category entry - Personal Trainers
+2023-09-14T18:09:37.096Z info: Get top 5 business
+2023-09-14T18:09:38.363Z info: Get top 5 business
+2023-09-14T18:09:43.868Z info: Add new record of category entry - Professionals
+2023-09-14T18:11:34.072Z info: Get all business
+2023-09-14T18:11:39.398Z info: Token Verefied
+2023-09-14T18:11:42.335Z info: Get top 5 business
+2023-09-14T18:11:42.462Z info: Add new record of category entry - Barbershop
+2023-09-14T18:14:58.601Z info: Token Verefied
+2023-09-14T18:15:00.220Z info: Created new business: 65034da35f489381d09b6df3
+2023-09-14T18:15:01.943Z info: Get top 5 business
+2023-09-14T18:15:02.018Z info: Get all business
+2023-09-14T18:15:03.170Z info: Get top 5 business
+2023-09-14T18:15:03.234Z info: Token Verefied
+2023-09-14T18:15:03.499Z info: Add new record of category entry - Barbershop
+2023-09-14T18:15:19.862Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:15:19.865Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:15:19.891Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:15:20.687Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:15:20.834Z info: Deleted expired events
+2023-09-14T18:18:28.460Z info: Get all business
+2023-09-14T18:18:28.605Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:18:28.611Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:18:28.686Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:18:28.706Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:18:28.804Z info: Deleted expired events
+2023-09-14T18:19:02.446Z info: Token Verefied
+2023-09-14T18:19:02.610Z info: Get user info of lior@gmail.com
+2023-09-14T18:19:15.134Z info: Get top 5 business
+2023-09-14T18:19:17.454Z info: Token Verefied
+2023-09-14T18:19:17.697Z info: Add new record of category entry - Barbershop
+2023-09-14T18:19:19.861Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:19:19.864Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:19:19.870Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:19:19.872Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:19:19.998Z info: Deleted expired events
+2023-09-14T18:19:45.728Z error: Missing required parameter - public_id
+2023-09-14T18:22:45.468Z error: Missing required parameter - public_id
+2023-09-14T18:23:36.927Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:23:40.096Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:23:47.836Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:23:51.977Z error: Missing required parameter - public_id
+2023-09-14T18:23:57.892Z info: Get all business
+2023-09-14T18:23:58.045Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:23:58.046Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:23:58.182Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:23:58.190Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:23:58.301Z info: Deleted expired events
+2023-09-14T18:24:29.454Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:26:50.327Z error: Missing required parameter - public_id
+2023-09-14T18:27:18.253Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:29:25.232Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:29:28.318Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:29:33.085Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:29:34.289Z error: Missing required parameter - public_id
+2023-09-14T18:31:24.749Z error: Missing required parameter - public_id
+2023-09-14T18:31:58.996Z error: Missing required parameter - public_id
+2023-09-14T18:32:43.022Z error: Missing required parameter - public_id
+2023-09-14T18:33:06.039Z info: Updated background picture of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:06.669Z info: Get all business
+2023-09-14T18:33:06.835Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:06.838Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:06.864Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:07.617Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:33:07.747Z info: Deleted expired events
+2023-09-14T18:33:13.232Z info: Get all business
+2023-09-14T18:33:13.382Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:13.387Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:13.515Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:13.526Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:33:13.638Z info: Deleted expired events
+2023-09-14T18:33:52.905Z info: Get top 5 business
+2023-09-14T18:33:53.566Z info: Token Verefied
+2023-09-14T18:33:53.845Z info: Add new record of category entry - Barbershop
+2023-09-14T18:33:56.390Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:56.398Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:56.525Z info: Deleted expired events
+2023-09-14T18:33:57.079Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:33:57.084Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:35:40.258Z info: Updated background picture of business: 65034da35f489381d09b6df3
+2023-09-14T18:35:40.771Z info: Get all business
+2023-09-14T18:35:40.930Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:35:40.942Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:35:41.061Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:35:41.097Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:35:41.221Z info: Deleted expired events
+2023-09-14T18:35:46.682Z info: Get all business
+2023-09-14T18:35:46.845Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:35:46.853Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:35:46.990Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:35:47.048Z info: Deleted expired events
+2023-09-14T18:35:47.565Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:35:48.804Z info: Get top 5 business
+2023-09-14T18:35:50.082Z info: Token Verefied
+2023-09-14T18:35:50.339Z info: Add new record of category entry - Barbershop
+2023-09-14T18:35:51.856Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:35:51.864Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:35:51.876Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:35:51.975Z info: Deleted expired events
+2023-09-14T18:35:52.504Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:41:51.269Z info: Updated background picture of business: 65034da35f489381d09b6df3
+2023-09-14T18:41:58.725Z info: Get all business
+2023-09-14T18:41:58.906Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:41:59.086Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:41:59.296Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-14T18:42:04.043Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:42:04.972Z info: Deleted expired events
+2023-09-14T18:45:39.832Z info: Get top 5 business
+2023-09-14T18:49:51.271Z info: Token Verefied
+2023-09-14T18:49:51.553Z info: Add new record of category entry - Barbershop
+2023-09-14T18:49:52.875Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-14T18:49:52.886Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-14T18:49:53.010Z info: Deleted expired events
+2023-09-14T18:49:53.610Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-14T18:49:53.634Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-15T11:10:20.879Z info: Get all business
+2023-09-15T11:10:21.026Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:10:21.142Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-15T11:10:21.268Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-15T11:10:21.687Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-15T11:10:21.878Z info: Deleted expired events
+2023-09-15T11:14:19.950Z info: Get top 5 business
+2023-09-15T11:14:21.814Z info: Token Verefied
+2023-09-15T11:14:22.116Z info: Add new record of category entry - Barbershop
+2023-09-15T11:15:44.188Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:15:44.190Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-15T11:15:44.192Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-15T11:15:44.899Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-15T11:15:45.059Z info: Deleted expired events
+2023-09-15T11:16:13.247Z info: Updated background picture of business: 65034da35f489381d09b6df3
+2023-09-15T11:16:13.733Z info: Get all business
+2023-09-15T11:16:13.897Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-15T11:16:13.899Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:16:13.929Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-15T11:16:13.989Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-15T11:16:14.110Z info: Deleted expired events
+2023-09-15T11:16:18.375Z info: Get top 5 business
+2023-09-15T11:16:20.305Z info: Token Verefied
+2023-09-15T11:16:20.546Z info: Add new record of category entry - Barbershop
+2023-09-15T11:17:32.693Z info: Get all business
+2023-09-15T11:17:34.570Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:17:34.574Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-15T11:17:34.594Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-15T11:17:34.634Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-15T11:17:34.773Z info: Deleted expired events
+2023-09-15T11:17:40.371Z info: Get top 5 business
+2023-09-15T11:17:41.141Z info: Token Verefied
+2023-09-15T11:17:41.398Z info: Add new record of category entry - Barbershop
+2023-09-15T11:19:41.056Z info: Get all business
+2023-09-15T11:19:43.112Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-15T11:19:43.114Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:19:43.140Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-15T11:19:43.196Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-15T11:19:43.314Z info: Deleted expired events
+2023-09-15T11:20:48.252Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:20:51.249Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:20:54.254Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:20:57.249Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:21:00.250Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:30:41.903Z info: Get all business
+2023-09-15T11:30:42.073Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:30:42.325Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-15T11:30:42.446Z info: Deleted expired events
+2023-09-15T11:30:42.717Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-15T11:30:42.728Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-15T11:30:42.786Z info: Get top 5 business
+2023-09-15T11:31:13.560Z info: Get top 5 business
+2023-09-15T11:31:13.576Z info: Get all business
+2023-09-15T11:31:15.010Z info: Token Verefied
+2023-09-15T11:31:15.278Z info: Add new record of category entry - Nail Polish
+2023-09-15T11:31:17.822Z info: Get top 5 business
+2023-09-15T11:31:19.218Z info: Token Verefied
+2023-09-15T11:31:19.476Z info: Add new record of category entry - Barbershop
+2023-09-15T11:31:21.836Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-15T11:31:21.840Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:31:21.889Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-15T11:31:21.969Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-15T11:31:22.685Z info: Deleted expired events
+2023-09-15T11:33:06.753Z info: Get top 5 business
+2023-09-15T11:33:07.957Z info: Token Verefied
+2023-09-15T11:33:08.213Z info: Add new record of category entry - Barbershop
+2023-09-15T11:35:25.229Z info: Get all reviews of business: 64cb82a29903e35bd8583505
+2023-09-15T11:35:25.232Z info: Get gallery of business: 64cb82a29903e35bd8583505
+2023-09-15T11:35:25.234Z info: Get shop of business: 64cb82a29903e35bd8583505
+2023-09-15T11:35:25.370Z info: Get all events of calender business: 64cb82a29903e35bd8583505
+2023-09-15T11:35:25.492Z info: Deleted expired events
+2023-09-15T11:35:30.433Z info: Get top 5 business
+2023-09-15T11:35:50.242Z info: Token Verefied
+2023-09-15T11:35:50.495Z info: Add new record of category entry - Barbershop
+2023-09-15T11:36:52.315Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:36:52.321Z info: Get shop of business: 65034da35f489381d09b6df3
+2023-09-15T11:36:52.444Z info: Get all reviews of business: 65034da35f489381d09b6df3
+2023-09-15T11:36:52.576Z info: Deleted expired events
+2023-09-15T11:36:52.579Z info: Get all events of calender business: 65034da35f489381d09b6df3
+2023-09-15T11:37:52.283Z info: Added new picture to business: 65034da35f489381d09b6df3
+2023-09-15T11:39:54.711Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:39:59.709Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:40:18.660Z info: Removed picture id: qhxngz1szxujxgsdtras
+2023-09-15T11:42:08.707Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:42:11.709Z info: Get gallery of business: 65034da35f489381d09b6df3
+2023-09-15T11:42:36.985Z info: Get top 5 business
+2023-09-15T11:43:38.422Z info: Token Verefied
+2023-09-15T11:43:39.572Z info: Created new business: 6504436bb1a39acd4f216878
+2023-09-15T11:43:41.049Z info: Get top 5 business
+2023-09-15T11:43:41.390Z info: Get all business
+2023-09-15T11:43:41.515Z info: Get top 5 business
+2023-09-15T11:43:43.523Z info: Token Verefied
+2023-09-15T11:43:43.779Z info: Add new record of category entry - Nail Polish
+2023-09-15T11:43:47.434Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T11:43:47.437Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T11:43:47.456Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T11:43:47.630Z info: Deleted expired events
+2023-09-15T11:43:48.217Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T11:45:32.133Z info: Get all business
+2023-09-15T11:45:32.287Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T11:45:32.292Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T11:45:32.305Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T11:45:32.359Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T11:45:32.481Z info: Deleted expired events
+2023-09-15T11:45:35.696Z info: Get top 5 business
+2023-09-15T11:45:37.685Z info: Token Verefied
+2023-09-15T11:45:37.943Z info: Add new record of category entry - Barbershop
+2023-09-15T11:45:43.598Z info: Get top 5 business
+2023-09-15T11:45:44.273Z info: Token Verefied
+2023-09-15T11:45:44.530Z info: Add new record of category entry - Nail Polish
+2023-09-15T11:46:30.095Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T11:46:30.102Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T11:46:30.107Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T11:46:30.218Z info: Deleted expired events
+2023-09-15T11:46:30.227Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T11:46:38.381Z info: Token Verefied
+2023-09-15T11:46:38.507Z info: Get user info of lior@gmail.com
+2023-09-15T11:46:41.626Z info: Get top 5 business
+2023-09-15T11:46:42.354Z info: Token Verefied
+2023-09-15T11:46:42.611Z info: Add new record of category entry - Barbershop
+2023-09-15T11:46:45.733Z info: Get top 5 business
+2023-09-15T11:46:46.599Z info: Token Verefied
+2023-09-15T11:46:46.856Z info: Add new record of category entry - Barbershop
+2023-09-15T11:46:48.263Z info: Get top 5 business
+2023-09-15T11:46:48.943Z info: Token Verefied
+2023-09-15T11:46:49.196Z info: Add new record of category entry - Nail Polish
+2023-09-15T11:46:49.968Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T11:46:50.097Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T11:46:50.224Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T11:46:50.484Z info: Deleted expired events
+2023-09-15T11:46:50.613Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T11:48:17.917Z info: Updated background picture of business: 6504436bb1a39acd4f216878
+2023-09-15T11:48:18.311Z info: Get all business
+2023-09-15T11:48:18.475Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T11:48:18.476Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T11:48:18.500Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T11:48:18.601Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T11:48:18.720Z info: Deleted expired events
+2023-09-15T11:49:20.827Z info: Get top 5 business
+2023-09-15T11:55:31.175Z info: Token Verefied
+2023-09-15T11:55:31.421Z info: Add new record of category entry - Barbershop
+2023-09-15T11:55:33.992Z info: Get top 5 business
+2023-09-15T11:55:34.660Z info: Token Verefied
+2023-09-15T11:55:34.911Z info: Add new record of category entry - Nail Polish
+2023-09-15T11:55:35.911Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T11:55:35.917Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T11:55:35.919Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T11:55:36.030Z info: Deleted expired events
+2023-09-15T11:55:36.031Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T11:57:00.683Z info: Get top 5 business
+2023-09-15T11:57:01.745Z info: Token Verefied
+2023-09-15T11:57:02.004Z info: Add new record of category entry - Nail Polish
+2023-09-15T12:02:41.468Z info: Get all business
+2023-09-15T12:05:43.265Z info: Get all business
+2023-09-15T12:06:10.309Z info: Get all business
+2023-09-15T12:06:44.495Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:06:44.504Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:06:44.602Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:06:44.656Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:06:44.726Z info: Deleted expired events
+2023-09-15T12:07:14.303Z info: Get all business
+2023-09-15T12:07:14.459Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:07:14.460Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:07:14.503Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:07:14.592Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:07:14.702Z info: Deleted expired events
+2023-09-15T12:07:16.799Z info: Get top 5 business
+2023-09-15T12:07:19.396Z info: Token Verefied
+2023-09-15T12:07:19.635Z info: Add new record of category entry - Nail Polish
+2023-09-15T12:07:32.659Z info: Get all business
+2023-09-15T12:08:38.017Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:08:38.028Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:08:38.151Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:08:38.157Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:08:38.278Z info: Deleted expired events
+2023-09-15T12:08:39.758Z info: Get top 5 business
+2023-09-15T12:08:53.013Z info: Token Verefied
+2023-09-15T12:08:53.270Z info: Add new record of category entry - Barbershop
+2023-09-15T12:08:58.237Z info: Get top 5 business
+2023-09-15T12:09:03.388Z info: Token Verefied
+2023-09-15T12:09:03.637Z info: Add new record of category entry - Nail Polish
+2023-09-15T12:14:31.728Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:14:31.730Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:14:31.731Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:14:31.854Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:14:31.861Z info: Deleted expired events
+2023-09-15T12:14:34.511Z info: Get top 5 business
+2023-09-15T12:14:40.980Z info: Token Verefied
+2023-09-15T12:14:41.234Z info: Add new record of category entry - Barbershop
+2023-09-15T12:14:45.114Z info: Get all business
+2023-09-15T12:14:48.267Z info: Get top 5 business
+2023-09-15T12:14:49.476Z info: Token Verefied
+2023-09-15T12:14:49.727Z info: Add new record of category entry - Nail Polish
+2023-09-15T12:16:33.372Z info: Get all business
+2023-09-15T12:17:23.077Z info: Get all business
+2023-09-15T12:17:25.130Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:17:25.133Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:17:25.165Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:17:25.246Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:17:25.365Z info: Deleted expired events
+2023-09-15T12:18:10.887Z info: Updated background picture of business: 6504436bb1a39acd4f216878
+2023-09-15T12:18:11.338Z info: Get all business
+2023-09-15T12:18:11.499Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:18:11.500Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:18:11.528Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:18:11.597Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:18:11.722Z info: Deleted expired events
+2023-09-15T12:18:18.933Z info: Get all business
+2023-09-15T12:18:19.084Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:18:19.089Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:18:19.098Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:18:19.141Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:18:19.254Z info: Deleted expired events
+2023-09-15T12:19:16.482Z info: Token Verefied
+2023-09-15T12:19:16.599Z info: Get user info of lior@gmail.com
+2023-09-15T12:19:20.793Z info: Token Verefied
+2023-09-15T12:19:20.912Z error: Business doesn't exists
+2023-09-15T12:19:24.648Z info: Token Verefied
+2023-09-15T12:19:24.768Z error: Business doesn't exists
+2023-09-15T12:26:09.901Z info: Get top 5 business
+2023-09-15T12:26:18.995Z info: Token Verefied
+2023-09-15T12:26:19.416Z info: Add new record of category entry - Barbershop
+2023-09-15T12:26:40.959Z info: Get top 5 business
+2023-09-15T12:26:42.209Z info: Token Verefied
+2023-09-15T12:26:42.468Z info: Add new record of category entry - Nail Polish
+2023-09-15T12:26:43.328Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:43.492Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:43.614Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:43.974Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:44.105Z info: Deleted expired events
+2023-09-15T12:26:54.329Z info: Get all business
+2023-09-15T12:26:54.474Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:54.486Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:54.641Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:54.729Z info: Deleted expired events
+2023-09-15T12:26:55.229Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:58.515Z info: Get all business
+2023-09-15T12:26:58.664Z info: Get gallery of business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:58.670Z info: Get shop of business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:58.743Z info: Get all events of calender business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:58.816Z info: Get all reviews of business: 6504436bb1a39acd4f216878
+2023-09-15T12:26:58.860Z info: Deleted expired events
+2023-09-15T12:27:29.223Z info: Token Verefied
+2023-09-15T12:27:30.522Z info: Created new business: 65044db2b1a39acd4f216934
+2023-09-15T12:27:32.269Z info: Get top 5 business
+2023-09-15T12:27:32.389Z info: Get top 5 business
+2023-09-15T12:27:32.399Z info: Get all business
+2023-09-15T12:27:41.435Z info: Token Verefied
+2023-09-15T12:27:41.691Z info: Add new record of category entry - Barbershop
+2023-09-15T12:27:43.666Z info: Get gallery of business: 65044db2b1a39acd4f216934
+2023-09-15T12:27:43.667Z info: Get shop of business: 65044db2b1a39acd4f216934
+2023-09-15T12:27:43.759Z info: Get all events of calender business: 65044db2b1a39acd4f216934
+2023-09-15T12:27:43.869Z info: Deleted expired events
+2023-09-15T12:31:05.999Z info: Token Verefied
+2023-09-15T12:31:06.123Z info: Get user info of lior@gmail.com
+2023-09-15T12:31:07.500Z info: Get gallery of business: 65044db2b1a39acd4f216934
+2023-09-15T12:31:07.504Z info: Get all events of calender business: 65044db2b1a39acd4f216934
+2023-09-15T12:31:07.510Z info: Get shop of business: 65044db2b1a39acd4f216934
+2023-09-15T12:31:07.632Z info: Deleted expired events
+2023-09-15T12:32:18.792Z info: Updated background picture of business: 65044db2b1a39acd4f216934
+2023-09-15T12:32:19.358Z info: Get all business
+2023-09-15T12:32:19.508Z info: Get gallery of business: 65044db2b1a39acd4f216934
+2023-09-15T12:32:19.521Z info: Get shop of business: 65044db2b1a39acd4f216934
+2023-09-15T12:32:19.615Z info: Get all events of calender business: 65044db2b1a39acd4f216934
+2023-09-15T12:32:19.733Z info: Deleted expired events
+2023-09-15T12:58:03.523Z info: Get gallery of business: 65044db2b1a39acd4f216934
+2023-09-15T13:00:17.220Z info: Updated background picture of business: 65044db2b1a39acd4f216934
+2023-09-15T13:00:18.110Z info: Get all business
+2023-09-15T13:00:18.254Z info: Get gallery of business: 65044db2b1a39acd4f216934
+2023-09-15T13:00:18.255Z info: Get shop of business: 65044db2b1a39acd4f216934
+2023-09-15T13:00:18.479Z info: Deleted expired events
+2023-09-15T13:00:19.099Z info: Get all events of calender business: 65044db2b1a39acd4f216934
+2023-09-15T13:01:23.002Z info: Get all business
+2023-09-15T13:01:23.161Z info: Get gallery of business: 65044db2b1a39acd4f216934
+2023-09-15T13:01:23.170Z info: Get shop of business: 65044db2b1a39acd4f216934
+2023-09-15T13:01:23.255Z info: Get all events of calender business: 65044db2b1a39acd4f216934
+2023-09-15T13:01:23.370Z info: Deleted expired events
+2023-09-15T13:01:27.401Z info: Get top 5 business
+2023-09-15T13:01:32.905Z info: Token Verefied
+2023-09-15T13:01:33.159Z info: Add new record of category entry - Barbershop
+2023-09-15T13:01:37.403Z info: Get gallery of business: 64cb82a29903e35bd8583505
+2023-09-15T13:01:37.408Z info: Get shop of business: 64cb82a29903e35bd8583505
+2023-09-15T13:01:37.411Z info: Get all events of calender business: 64cb82a29903e35bd8583505
+2023-09-15T13:01:37.532Z info: Deleted expired events
+2023-09-15T13:01:38.166Z info: Get all reviews of business: 64cb82a29903e35bd8583505
+2023-09-15T13:01:40.530Z info: Get top 5 business
