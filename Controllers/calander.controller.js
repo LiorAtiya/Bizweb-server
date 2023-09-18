@@ -1,5 +1,6 @@
 const Calender = require("../Models/calender");
 const logger = require("../Utils/logs/logger");
+const User = require("../Models/userDetails");
 
 // //For Sending SMS API (Twillio)
 // const accountSid = process.env.TWILLIO_ACCOUNTSID
@@ -84,10 +85,10 @@ const deleteExpiredEvents = async (req, res) => {
   try {
     // Get current hour (localhost)
     let min, hours, currentTime;
-    if ((new Date().getHours()) < 10) {
-        hours = '0' + (new Date().getHours())
+    if (new Date().getHours() < 10) {
+      hours = "0" + new Date().getHours();
     } else {
-        hours = (new Date().getHours())
+      hours = new Date().getHours();
     }
 
     // // Get current hour (+2 for server of railway.app)
@@ -106,7 +107,7 @@ const deleteExpiredEvents = async (req, res) => {
     currentTime = hours + ":" + min;
 
     //Parse time to int
-    validityTime =
+    let validityTime =
       currentTime.split(":").reduce(function (seconds, v) {
         return +v + seconds * 60;
       }, 0) / 60;
@@ -118,7 +119,8 @@ const deleteExpiredEvents = async (req, res) => {
       (new Date().getMonth() + 1) +
       "/" +
       new Date().getFullYear();
-    validityDate = parseInt(
+
+    let validityDate = parseInt(
       currentDate.split("/").reduce(function (first, second) {
         return second + first;
       }, "")
@@ -130,26 +132,58 @@ const deleteExpiredEvents = async (req, res) => {
       {
         $pull: {
           availableHours: {
-            expiredDate: { $lte: validityDate },
-            expiredTime: { $lt: validityTime },
+            $or: [
+              {
+                expiredDate: { $lte: validityDate },
+                expiredTime: { $lt: validityTime },
+              }, // Condition 1
+              { expiredDate: { $lt: validityDate } }, // Condition 2
+            ],
           },
         },
       }
     );
+
     //Remove from list of appointments
     await Calender.findOneAndUpdate(
       { businessID: req.body.businessID },
       {
         $pull: {
           dates: {
-            expiredDate: { $lte: validityDate },
-            expiredTime: { $lt: validityTime },
+            $or: [
+              {
+                expiredDate: { $lte: validityDate },
+                expiredTime: { $lt: validityTime },
+              }, // Condition 1
+              { expiredDate: { $lt: validityDate } }, // Condition 2
+            ],
           },
         },
       }
     );
 
-    logger.info(`Deleted expired events`);
+    //Remove from list of user appointments (my appointment)
+    const allRecords = await User.find({}).exec();
+    allRecords.forEach(async (user) => {
+      await User.findOneAndUpdate(
+        { _id: user._id },
+        {
+          $pull: {
+            myAppointments: {
+              $or: [
+                {
+                  expiredDate: { $lte: validityDate },
+                  expiredTime: { $lt: validityTime },
+                }, // Condition 1
+                { expiredDate: { $lt: validityDate } }, // Condition 2
+              ],
+            },
+          },
+        }
+      );
+    });
+
+    // logger.info(`Deleted expired events`);
     return res.sendStatus(200);
   } catch (error) {
     logger.error(err);
