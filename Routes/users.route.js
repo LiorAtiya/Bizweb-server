@@ -13,6 +13,7 @@ const {
   decreaseQuantityInCart,
   removeProductFromCart,
   clearCart,
+  getMyBusiness,
 } = require("../Controllers/users.controller");
 
 //Update personal user details
@@ -20,6 +21,7 @@ router.put("/:id", updateUserInfo);
 router.get("/", authenticateToken, getUserInfo);
 router.post("/categoryEntry", authenticateToken, addRecordCategoryEntry);
 router.get("/trainBigML", trainBigML);
+router.get("/my-business", authenticateToken, getMyBusiness);
 router.post("/prediction", getPredictionOfBigML);
 router.put("/test/new-appointment", authenticateToken, addNewEvent);
 router.delete("/delete-appointment", authenticateToken, deleteEvent);

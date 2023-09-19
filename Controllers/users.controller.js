@@ -1,4 +1,5 @@
 const User = require("../Models/userDetails");
+const Business = require("../Models/businessDetails");
 const CategoryEntries = require("../Models/categoryEntries");
 const BigML = require("../Models/bml");
 const logger = require("../Utils/logs/logger");
@@ -20,7 +21,6 @@ const updateUserInfo = async (req, res) => {
 
     logger.info(`Account has been updated`);
     return res.sendStatus(200);
-
   } catch (error) {
     logger.error(error);
     return res.sendStatus(500);
@@ -33,8 +33,34 @@ const getUserInfo = async (req, res) => {
     const user = await User.findOne({ email: req.user.email });
     const { password, updatedAt, createdAt, ...other } = user._doc;
     logger.info(`Get user info of ${other.email}`);
-    
+
     return res.status(200).json(other);
+  } catch (err) {
+    logger.error(err);
+    return res.sendStatus(500);
+  }
+};
+
+const getMyBusiness = async (req, res) => {
+  try {
+    const user = await User.findOne({ email: req.user.email });
+    const allBusiness = await Business.find({}).exec();
+
+    let filteredBusiness = [];
+
+    user.business.forEach((id) => {
+      const business = allBusiness.find((busi) => {
+        return busi._id.toString() === id;
+      });
+
+      if (business !== undefined) {
+        filteredBusiness.push(business);
+      }
+    });
+
+    logger.info(`Get business of user: ${req.user.email}`);
+
+    return res.status(200).json(filteredBusiness);
   } catch (err) {
     logger.error(err);
     return res.sendStatus(500);
@@ -94,7 +120,6 @@ const getPredictionOfBigML = async (req, res) => {
 
 //Add appointment
 const addNewEvent = async (req, res) => {
-
   try {
     await User.findByIdAndUpdate(
       { _id: req.user._id },
@@ -254,4 +279,5 @@ module.exports = {
   decreaseQuantityInCart,
   removeProductFromCart,
   clearCart,
+  getMyBusiness,
 };

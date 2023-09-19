@@ -113,7 +113,7 @@ const deleteBusiness = async (req, res) => {
     //Delete from list of user
     await User.findOneAndUpdate(
       { _id: req.user._id },
-      { $pull: { business: businessID } }
+      { $pull: { business: businessID.toString() } }
     );
     //Delete calender of business
     await Calender.deleteOne({ businessID: businessID });

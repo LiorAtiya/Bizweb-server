@@ -123,3 +123,14 @@
 2023-09-15T13:54:13.903Z error: Business doesn't exists
 2023-09-15T13:54:36.891Z error: Cannot read properties of undefined (reading 'id')
 2023-09-15T13:59:31.780Z error: Cannot read properties of undefined (reading 'id')
+2023-09-18T17:37:25.643Z error: Cannot read properties of undefined (reading 'object')
+2023-09-18T17:39:27.038Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-18T17:39:49.732Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-18T17:39:54.477Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-19T13:22:55.004Z error: other is not defined
+2023-09-19T13:23:13.004Z error: other is not defined
+2023-09-19T13:23:18.001Z error: other is not defined
+2023-09-19T13:23:24.010Z error: other is not defined
+2023-09-19T13:23:30.016Z error: other is not defined
+2023-09-19T13:24:47.926Z error: other is not defined
+2023-09-19T13:24:54.027Z error: other is not defined

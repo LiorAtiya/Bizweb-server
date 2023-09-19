@@ -6201,3 +6201,890 @@
 2023-09-18T17:26:33.937Z info: Get shop of business: 63bef8121e23eb7c39683f8a
 2023-09-18T17:26:33.959Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
 2023-09-18T17:26:34.023Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:31:32.176Z info: Get top 5 business
+2023-09-18T17:31:38.612Z info: Get shop of business: 64392e166f55bd13f310249f
+2023-09-18T17:31:38.615Z info: Get gallery of business: 64392e166f55bd13f310249f
+2023-09-18T17:31:38.616Z info: Get all events of calender business: 64392e166f55bd13f310249f
+2023-09-18T17:31:38.621Z info: Get all reviews of business: 64392e166f55bd13f310249f
+2023-09-18T17:31:42.884Z info: Get top 5 business
+2023-09-18T17:35:17.546Z info: Get top 5 business
+2023-09-18T17:35:34.476Z info: Get top 5 business
+2023-09-18T17:37:25.643Z error: Cannot read properties of undefined (reading 'object')
+2023-09-18T17:38:31.411Z info: Token Verefied
+2023-09-18T17:38:31.538Z info: Get user info of lior@gmail.com
+2023-09-18T17:38:34.162Z info: Token Verefied
+2023-09-18T17:38:34.288Z info: Get user info of lior@gmail.com
+2023-09-18T17:38:34.409Z info: Get all business
+2023-09-18T17:38:34.871Z info: Token Verefied
+2023-09-18T17:38:35.469Z info: Get user info of lior@gmail.com
+2023-09-18T17:38:35.609Z info: Get all business
+2023-09-18T17:38:40.301Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:38:40.338Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:38:40.341Z info: Token Verefied
+2023-09-18T17:38:40.468Z info: Get top 5 business
+2023-09-18T17:38:40.486Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:38:40.602Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:38:40.628Z info: Add new record of category entry - Barbershop
+2023-09-18T17:39:17.867Z info: Get top 5 business
+2023-09-18T17:39:20.228Z info: Get shop of business: 63ef995fbca2676b75e4ad6a
+2023-09-18T17:39:20.232Z info: Get all events of calender business: 63ef995fbca2676b75e4ad6a
+2023-09-18T17:39:20.234Z info: Get all reviews of business: 63ef995fbca2676b75e4ad6a
+2023-09-18T17:39:20.236Z info: Get gallery of business: 63ef995fbca2676b75e4ad6a
+2023-09-18T17:39:27.038Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-18T17:39:31.776Z info: Token Verefied
+2023-09-18T17:39:31.901Z info: Get user info of lior@gmail.com
+2023-09-18T17:39:35.109Z info: Get top 5 business
+2023-09-18T17:39:41.112Z info: Token Verefied
+2023-09-18T17:39:41.365Z info: Add new record of category entry - Nail Polish
+2023-09-18T17:39:43.657Z info: Token Verefied
+2023-09-18T17:39:43.746Z info: Get top 5 business
+2023-09-18T17:39:43.783Z info: Get user info of lior@gmail.com
+2023-09-18T17:39:45.183Z info: Get gallery of business: 63ef995fbca2676b75e4ad6a
+2023-09-18T17:39:45.185Z info: Get shop of business: 63ef995fbca2676b75e4ad6a
+2023-09-18T17:39:45.187Z info: Get all reviews of business: 63ef995fbca2676b75e4ad6a
+2023-09-18T17:39:45.187Z info: Get all events of calender business: 63ef995fbca2676b75e4ad6a
+2023-09-18T17:39:49.732Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-18T17:39:54.477Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-18T17:50:37.255Z info: Get top 5 business
+2023-09-18T17:50:42.213Z info: Token Verefied
+2023-09-18T17:50:42.479Z info: Add new record of category entry - Barbershop
+2023-09-18T17:50:44.433Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:50:44.575Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:50:45.070Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:50:45.109Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:50:47.467Z info: Get top 5 business
+2023-09-18T17:50:50.482Z info: Token Verefied
+2023-09-18T17:50:50.733Z info: Add new record of category entry - Barbershop
+2023-09-18T17:50:51.359Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:50:51.362Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:50:51.369Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:50:51.990Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:51:04.562Z info: Get top 5 business
+2023-09-18T17:58:56.732Z info: Token Verefied
+2023-09-18T17:58:57.015Z info: Add new record of category entry - Barbershop
+2023-09-18T17:58:57.861Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:58:57.871Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:58:57.872Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:58:57.989Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:59:02.571Z info: Get all business
+2023-09-18T17:59:05.320Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:59:06.766Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:59:07.315Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:59:07.920Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-18T17:59:29.217Z info: Get top 5 business
+2023-09-18T18:04:44.962Z info: Token Verefied
+2023-09-18T18:04:45.225Z info: Add new record of category entry - Personal Trainers
+2023-09-18T18:04:46.190Z info: Get shop of business: 63df7439e4763bb4f4566f95
+2023-09-18T18:04:46.191Z info: Get all events of calender business: 63df7439e4763bb4f4566f95
+2023-09-18T18:04:46.192Z info: Get gallery of business: 63df7439e4763bb4f4566f95
+2023-09-18T18:04:46.193Z info: Get all reviews of business: 63df7439e4763bb4f4566f95
+2023-09-18T18:04:55.355Z info: Get top 5 business
+2023-09-18T18:04:57.883Z info: Token Verefied
+2023-09-18T18:04:58.016Z info: Get user info of lior@gmail.com
+2023-09-18T18:04:59.570Z info: Token Verefied
+2023-09-18T18:04:59.693Z info: Get user info of lior@gmail.com
+2023-09-18T18:05:01.428Z info: Token Verefied
+2023-09-18T18:05:01.550Z info: Get user info of lior@gmail.com
+2023-09-18T18:05:04.287Z info: Get top 5 business
+2023-09-18T18:05:05.668Z info: Token Verefied
+2023-09-18T18:05:05.917Z info: Add new record of category entry - Barbershop
+2023-09-18T18:05:06.691Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-18T18:05:06.692Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-18T18:05:06.692Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-18T18:05:06.692Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-18T18:05:13.409Z info: Get top 5 business
+2023-09-18T18:32:21.880Z info: Get all business
+2023-09-18T18:32:21.884Z info: Get top 5 business
+2023-09-18T18:32:26.458Z info: Get all business
+2023-09-18T18:32:26.467Z info: Get top 5 business
+2023-09-18T18:32:27.325Z info: Get top 5 business
+2023-09-18T18:32:27.330Z info: Get all business
+2023-09-18T18:32:30.642Z info: Token Verefied
+2023-09-18T18:32:30.970Z info: Get user info of lior@gmail.com
+2023-09-18T18:32:30.990Z info: Token Verefied
+2023-09-18T18:32:31.124Z info: Get user info of lior@gmail.com
+2023-09-18T18:32:32.187Z info: Token Verefied
+2023-09-18T18:32:32.306Z info: Get user info of lior@gmail.com
+2023-09-18T18:33:01.022Z info: Get all business
+2023-09-18T18:33:01.042Z info: Get top 5 business
+2023-09-18T18:34:44.240Z info: Token Verefied
+2023-09-18T18:34:44.492Z info: Add new record of category entry - Restaurants
+2023-09-18T18:34:47.273Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-18T18:34:47.291Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-18T18:34:47.367Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-18T18:34:47.576Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-18T22:28:15.635Z info: Get all business
+2023-09-18T22:28:15.648Z info: Get top 5 business
+2023-09-18T22:28:19.266Z info: Login Email: lior@gmail.com was successful
+2023-09-18T22:28:19.277Z info: Token Verefied
+2023-09-18T22:28:19.399Z info: Get user info of lior@gmail.com
+2023-09-18T22:28:20.824Z info: Get top 5 business
+2023-09-18T22:28:21.776Z info: Get top 5 business
+2023-09-18T22:28:21.792Z info: Get all business
+2023-09-18T22:28:24.244Z info: Token Verefied
+2023-09-18T22:28:24.486Z info: Get user info of lior@gmail.com
+2023-09-18T22:28:56.411Z info: Token Verefied
+2023-09-18T22:28:56.537Z info: Get user info of lior@gmail.com
+2023-09-18T22:31:34.630Z info: Token Verefied
+2023-09-18T22:31:35.795Z info: Created new business: 6508cfc79595981644fd665f
+2023-09-18T22:31:37.474Z info: Token Verefied
+2023-09-18T22:31:37.599Z info: Get user info of lior@gmail.com
+2023-09-18T22:31:37.731Z info: Get top 5 business
+2023-09-18T22:31:37.910Z info: Get all business
+2023-09-18T22:31:38.028Z info: Get top 5 business
+2023-09-18T22:31:43.665Z info: Token Verefied
+2023-09-18T22:31:43.788Z info: Get user info of lior@gmail.com
+2023-09-18T22:31:48.229Z info: Token Verefied
+2023-09-18T22:31:48.352Z info: Get user info of lior@gmail.com
+2023-09-18T22:31:48.457Z info: Get all business
+2023-09-18T22:31:52.626Z info: Get top 5 business
+2023-09-18T22:31:55.854Z info: Token Verefied
+2023-09-18T22:31:56.109Z info: Add new record of category entry - Barbershop
+2023-09-18T22:31:57.221Z info: Get shop of business: 6508cfc79595981644fd665f
+2023-09-18T22:31:57.225Z info: Get gallery of business: 6508cfc79595981644fd665f
+2023-09-18T22:31:57.330Z info: Get all events of calender business: 6508cfc79595981644fd665f
+2023-09-18T22:32:08.167Z info: Token Verefied
+2023-09-18T22:32:08.297Z info: Get user info of lior@gmail.com
+2023-09-18T22:32:15.179Z info: Token Verefied
+2023-09-18T22:32:15.302Z info: Get user info of lior@gmail.com
+2023-09-18T22:32:15.424Z info: Get all business
+2023-09-18T22:32:15.629Z info: Token Verefied
+2023-09-18T22:32:15.745Z info: Get user info of lior@gmail.com
+2023-09-18T22:32:15.830Z info: Token Verefied
+2023-09-18T22:32:15.861Z info: Get all business
+2023-09-18T22:32:16.039Z info: Token Verefied
+2023-09-18T22:32:16.118Z info: Get user info of lior@gmail.com
+2023-09-18T22:32:16.253Z info: Get all business
+2023-09-18T22:32:16.279Z info: Token Verefied
+2023-09-18T22:32:16.297Z info: Get user info of lior@gmail.com
+2023-09-18T22:32:16.391Z info: Get all business
+2023-09-18T22:32:16.401Z info: Get user info of lior@gmail.com
+2023-09-18T22:32:16.418Z info: Get all business
+2023-09-18T22:35:00.980Z info: Token Verefied
+2023-09-18T22:35:01.101Z info: Get user info of lior@gmail.com
+2023-09-18T22:35:17.535Z info: Token Verefied
+2023-09-18T22:35:17.659Z info: Get user info of lior@gmail.com
+2023-09-18T22:35:18.540Z info: Token Verefied
+2023-09-18T22:35:18.665Z info: Get user info of lior@gmail.com
+2023-09-18T22:35:30.423Z info: Token Verefied
+2023-09-18T22:35:30.548Z info: Get user info of lior@gmail.com
+2023-09-18T22:35:51.133Z info: Token Verefied
+2023-09-18T22:35:51.268Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:22.735Z info: Token Verefied
+2023-09-18T22:36:22.850Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:22.980Z info: Get all business
+2023-09-18T22:36:29.677Z info: Token Verefied
+2023-09-18T22:36:29.799Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:29.903Z info: Get all business
+2023-09-18T22:36:30.210Z info: Token Verefied
+2023-09-18T22:36:30.333Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:30.449Z info: Get all business
+2023-09-18T22:36:30.503Z info: Token Verefied
+2023-09-18T22:36:30.626Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:30.747Z info: Get all business
+2023-09-18T22:36:31.229Z info: Token Verefied
+2023-09-18T22:36:31.419Z info: Token Verefied
+2023-09-18T22:36:31.776Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:31.784Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:31.908Z info: Get all business
+2023-09-18T22:36:31.916Z info: Get all business
+2023-09-18T22:36:38.769Z info: Token Verefied
+2023-09-18T22:36:38.893Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:38.993Z info: Get all business
+2023-09-18T22:36:40.205Z info: Token Verefied
+2023-09-18T22:36:40.635Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:40.764Z info: Get all business
+2023-09-18T22:36:44.963Z info: Token Verefied
+2023-09-18T22:36:45.081Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:45.181Z info: Get all business
+2023-09-18T22:36:45.500Z info: Token Verefied
+2023-09-18T22:36:45.615Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:45.712Z info: Get all business
+2023-09-18T22:36:49.038Z info: Token Verefied
+2023-09-18T22:36:49.163Z info: Get user info of lior@gmail.com
+2023-09-18T22:36:49.291Z info: Get top 5 business
+2023-09-18T22:37:08.963Z info: Token Verefied
+2023-09-18T22:37:09.085Z info: Get user info of lior@gmail.com
+2023-09-18T22:37:09.182Z info: Get all business
+2023-09-18T22:37:09.930Z info: Token Verefied
+2023-09-18T22:37:10.051Z info: Get user info of lior@gmail.com
+2023-09-18T22:37:10.148Z info: Get all business
+2023-09-18T22:37:37.292Z info: Token Verefied
+2023-09-18T22:37:37.413Z info: Get user info of lior@gmail.com
+2023-09-18T22:37:39.384Z info: Token Verefied
+2023-09-18T22:37:39.509Z info: Get user info of lior@gmail.com
+2023-09-18T22:37:41.303Z info: Token Verefied
+2023-09-18T22:37:41.425Z info: Get user info of lior@gmail.com
+2023-09-18T22:37:41.522Z info: Get all business
+2023-09-18T22:37:42.782Z info: Token Verefied
+2023-09-18T22:37:43.466Z info: Get user info of lior@gmail.com
+2023-09-18T22:37:43.562Z info: Get all business
+2023-09-18T22:37:43.702Z info: Token Verefied
+2023-09-18T22:37:43.824Z info: Get user info of lior@gmail.com
+2023-09-18T22:37:43.928Z info: Get all business
+2023-09-18T22:37:46.719Z info: Token Verefied
+2023-09-18T22:37:46.843Z info: Get user info of lior@gmail.com
+2023-09-18T22:37:46.879Z info: Get top 5 business
+2023-09-18T22:38:05.482Z info: Token Verefied
+2023-09-18T22:38:05.603Z info: Get user info of lior@gmail.com
+2023-09-18T22:38:05.696Z info: Get all business
+2023-09-18T22:38:07.689Z info: Token Verefied
+2023-09-18T22:38:07.809Z info: Get user info of lior@gmail.com
+2023-09-18T22:38:07.926Z info: Get all business
+2023-09-18T22:38:08.994Z info: Token Verefied
+2023-09-18T22:38:09.666Z info: Get user info of lior@gmail.com
+2023-09-18T22:38:09.783Z info: Get all business
+2023-09-18T22:38:10.549Z info: Token Verefied
+2023-09-18T22:38:10.674Z info: Get user info of lior@gmail.com
+2023-09-18T22:38:10.791Z info: Get all business
+2023-09-18T22:38:11.656Z info: Token Verefied
+2023-09-18T22:38:11.778Z info: Get user info of lior@gmail.com
+2023-09-18T22:38:11.903Z info: Get all business
+2023-09-18T22:38:16.552Z info: Token Verefied
+2023-09-18T22:38:16.674Z info: Get user info of lior@gmail.com
+2023-09-18T22:38:16.754Z info: Get all business
+2023-09-18T22:38:17.604Z info: Token Verefied
+2023-09-18T22:38:17.725Z info: Get user info of lior@gmail.com
+2023-09-18T22:38:17.825Z info: Get all business
+2023-09-18T22:38:18.248Z info: Token Verefied
+2023-09-18T22:38:18.666Z info: Get user info of lior@gmail.com
+2023-09-18T22:38:18.787Z info: Get all business
+2023-09-18T22:38:21.935Z info: Token Verefied
+2023-09-18T22:38:22.053Z info: Get user info of lior@gmail.com
+2023-09-18T22:38:22.062Z info: Token Verefied
+2023-09-18T22:38:22.186Z info: Get user info of lior@gmail.com
+2023-09-18T22:39:02.547Z info: Token Verefied
+2023-09-18T22:39:02.670Z info: Get user info of lior@gmail.com
+2023-09-18T22:39:03.944Z info: Token Verefied
+2023-09-18T22:39:04.073Z info: Get user info of lior@gmail.com
+2023-09-18T22:39:05.380Z info: Get top 5 business
+2023-09-18T22:39:07.324Z info: Token Verefied
+2023-09-18T22:39:07.594Z info: Add new record of category entry - Barbershop
+2023-09-18T22:39:09.250Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-18T22:39:09.251Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-18T22:39:09.316Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-18T22:39:09.354Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-18T22:54:00.513Z info: Get top 5 business
+2023-09-18T22:54:02.839Z info: Token Verefied
+2023-09-18T22:54:03.083Z info: Add new record of category entry - Professionals
+2023-09-18T22:54:03.854Z info: Get all reviews of business: 6419ffb8418f97344a39771f
+2023-09-18T22:54:07.912Z info: Get top 5 business
+2023-09-19T11:07:16.752Z info: Get shop of business: 63ef995fbca2676b75e4ad6a
+2023-09-19T11:07:16.769Z info: Get gallery of business: 63ef995fbca2676b75e4ad6a
+2023-09-19T11:07:17.393Z info: Get all reviews of business: 63ef995fbca2676b75e4ad6a
+2023-09-19T11:07:17.418Z info: Get all events of calender business: 63ef995fbca2676b75e4ad6a
+2023-09-19T12:09:58.773Z info: Get all business
+2023-09-19T12:10:01.712Z info: Get gallery of business: 63ef995fbca2676b75e4ad6a
+2023-09-19T12:10:03.698Z info: Get shop of business: 63ef995fbca2676b75e4ad6a
+2023-09-19T12:10:03.707Z info: Get all events of calender business: 63ef995fbca2676b75e4ad6a
+2023-09-19T12:10:03.714Z info: Get all reviews of business: 63ef995fbca2676b75e4ad6a
+2023-09-19T12:10:03.965Z info: Get top 5 business
+2023-09-19T12:11:05.256Z info: Token Verefied
+2023-09-19T12:11:05.531Z info: Add new record of category entry - Barbershop
+2023-09-19T12:11:10.999Z info: Token Verefied
+2023-09-19T12:11:11.126Z info: Get user info of lior@gmail.com
+2023-09-19T12:11:14.777Z info: Token Verefied
+2023-09-19T12:11:15.770Z info: Background picture id: auuos3p07lqnov8q950b was deleted
+2023-09-19T12:11:16.166Z info: Business: 6508cfc79595981644fd665f deleted
+2023-09-19T12:11:16.429Z info: Token Verefied
+2023-09-19T12:11:16.551Z info: Get user info of lior@gmail.com
+2023-09-19T12:11:16.632Z info: Get all business
+2023-09-19T12:11:18.065Z info: Token Verefied
+2023-09-19T12:11:18.304Z info: Get user info of lior@gmail.com
+2023-09-19T12:11:18.411Z info: Get all business
+2023-09-19T12:11:18.712Z info: Token Verefied
+2023-09-19T12:11:19.051Z info: Token Verefied
+2023-09-19T12:11:19.237Z info: Token Verefied
+2023-09-19T12:11:19.319Z info: Get user info of lior@gmail.com
+2023-09-19T12:11:19.320Z info: Get user info of lior@gmail.com
+2023-09-19T12:11:19.409Z info: Get user info of lior@gmail.com
+2023-09-19T12:11:19.434Z info: Get all business
+2023-09-19T12:11:19.438Z info: Get all business
+2023-09-19T12:11:20.500Z info: Get all business
+2023-09-19T12:11:23.458Z info: Get top 5 business
+2023-09-19T12:11:25.256Z info: Token Verefied
+2023-09-19T12:11:25.385Z info: Get user info of lior@gmail.com
+2023-09-19T12:11:28.599Z info: Get top 5 business
+2023-09-19T12:11:30.496Z info: Token Verefied
+2023-09-19T12:11:30.754Z info: Add new record of category entry - Barbershop
+2023-09-19T12:15:42.568Z info: Token Verefied
+2023-09-19T12:15:43.740Z info: Created new business: 650990efc87226dc3dedce34
+2023-09-19T12:15:45.085Z info: Token Verefied
+2023-09-19T12:15:45.216Z info: Get user info of lior@gmail.com
+2023-09-19T12:15:45.342Z info: Get top 5 business
+2023-09-19T12:15:45.551Z info: Get all business
+2023-09-19T12:15:45.557Z info: Get top 5 business
+2023-09-19T12:15:47.792Z info: Token Verefied
+2023-09-19T12:15:48.244Z info: Get user info of lior@gmail.com
+2023-09-19T12:16:01.334Z info: Get top 5 business
+2023-09-19T12:16:04.131Z info: Token Verefied
+2023-09-19T12:16:04.393Z info: Add new record of category entry - Barbershop
+2023-09-19T12:16:05.663Z info: Get gallery of business: 650990efc87226dc3dedce34
+2023-09-19T12:16:05.672Z info: Get shop of business: 650990efc87226dc3dedce34
+2023-09-19T12:16:05.741Z info: Get all events of calender business: 650990efc87226dc3dedce34
+2023-09-19T12:16:15.896Z info: Token Verefied
+2023-09-19T12:16:16.021Z info: Get user info of lior@gmail.com
+2023-09-19T12:16:16.812Z info: Token Verefied
+2023-09-19T12:16:16.934Z info: Get user info of lior@gmail.com
+2023-09-19T12:16:17.028Z info: Get all business
+2023-09-19T12:16:19.494Z info: Token Verefied
+2023-09-19T12:16:20.405Z info: Get user info of lior@gmail.com
+2023-09-19T12:16:22.340Z info: Token Verefied
+2023-09-19T12:16:22.465Z info: Get user info of lior@gmail.com
+2023-09-19T12:16:22.583Z info: Get all business
+2023-09-19T12:16:22.990Z info: Token Verefied
+2023-09-19T12:16:23.163Z info: Get user info of lior@gmail.com
+2023-09-19T12:16:23.236Z info: Token Verefied
+2023-09-19T12:16:23.294Z info: Get all business
+2023-09-19T12:16:23.363Z info: Get user info of lior@gmail.com
+2023-09-19T12:16:23.475Z info: Token Verefied
+2023-09-19T12:16:23.483Z info: Get all business
+2023-09-19T12:16:23.603Z info: Get user info of lior@gmail.com
+2023-09-19T12:16:23.748Z info: Get all business
+2023-09-19T12:17:10.748Z info: Token Verefied
+2023-09-19T12:17:10.873Z info: Get user info of lior@gmail.com
+2023-09-19T12:17:10.983Z info: Get all business
+2023-09-19T12:17:13.629Z info: Token Verefied
+2023-09-19T12:17:13.875Z info: Get user info of lior@gmail.com
+2023-09-19T12:17:14.006Z info: Get all business
+2023-09-19T12:17:14.008Z info: Token Verefied
+2023-09-19T12:17:14.131Z info: Get user info of lior@gmail.com
+2023-09-19T12:17:14.230Z info: Get all business
+2023-09-19T12:18:14.133Z info: Token Verefied
+2023-09-19T12:18:14.254Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:20.817Z info: Token Verefied
+2023-09-19T12:18:20.949Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:25.313Z info: Token Verefied
+2023-09-19T12:18:25.436Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:33.142Z info: Token Verefied
+2023-09-19T12:18:33.267Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:35.665Z info: Token Verefied
+2023-09-19T12:18:35.787Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:35.862Z info: Get all business
+2023-09-19T12:18:37.099Z info: Token Verefied
+2023-09-19T12:18:37.220Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:37.321Z info: Get all business
+2023-09-19T12:18:37.582Z info: Token Verefied
+2023-09-19T12:18:37.809Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:37.907Z info: Token Verefied
+2023-09-19T12:18:37.937Z info: Get all business
+2023-09-19T12:18:38.033Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:38.122Z info: Get all business
+2023-09-19T12:18:38.656Z info: Token Verefied
+2023-09-19T12:18:38.822Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:38.942Z info: Get all business
+2023-09-19T12:18:39.272Z info: Token Verefied
+2023-09-19T12:18:39.877Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:39.975Z info: Get all business
+2023-09-19T12:18:55.287Z info: Token Verefied
+2023-09-19T12:18:55.420Z info: Get user info of lior@gmail.com
+2023-09-19T12:18:55.524Z info: Get all business
+2023-09-19T12:20:25.066Z info: Token Verefied
+2023-09-19T12:20:25.189Z info: Get user info of lior@gmail.com
+2023-09-19T12:20:25.313Z info: Get all business
+2023-09-19T12:21:29.668Z info: Token Verefied
+2023-09-19T12:21:29.794Z info: Get user info of lior@gmail.com
+2023-09-19T12:21:29.894Z info: Get all business
+2023-09-19T12:21:48.302Z info: Token Verefied
+2023-09-19T12:21:48.425Z info: Get user info of lior@gmail.com
+2023-09-19T12:21:54.489Z info: Token Verefied
+2023-09-19T12:21:54.613Z info: Get user info of lior@gmail.com
+2023-09-19T12:21:56.061Z info: Token Verefied
+2023-09-19T12:21:56.183Z info: Get user info of lior@gmail.com
+2023-09-19T12:21:56.286Z info: Get all business
+2023-09-19T12:21:57.091Z info: Token Verefied
+2023-09-19T12:21:57.206Z info: Get user info of lior@gmail.com
+2023-09-19T12:21:57.290Z info: Get all business
+2023-09-19T12:22:02.001Z info: Token Verefied
+2023-09-19T12:22:02.121Z info: Get user info of lior@gmail.com
+2023-09-19T12:22:04.783Z info: Token Verefied
+2023-09-19T12:22:04.906Z info: Get user info of lior@gmail.com
+2023-09-19T12:22:08.671Z info: Token Verefied
+2023-09-19T12:22:08.791Z info: Get user info of lior@gmail.com
+2023-09-19T12:22:14.019Z info: Token Verefied
+2023-09-19T12:22:14.139Z info: Get user info of lior@gmail.com
+2023-09-19T12:22:14.231Z info: Get all business
+2023-09-19T12:22:32.933Z info: Token Verefied
+2023-09-19T12:22:33.058Z info: Get user info of lior@gmail.com
+2023-09-19T12:22:33.139Z info: Get all business
+2023-09-19T12:22:35.589Z info: Get top 5 business
+2023-09-19T12:22:43.186Z info: Get all business
+2023-09-19T12:22:43.304Z info: Get top 5 business
+2023-09-19T12:22:43.855Z info: Get all business
+2023-09-19T12:22:43.868Z info: Get top 5 business
+2023-09-19T12:22:46.360Z info: Get all business
+2023-09-19T12:22:46.367Z info: Get top 5 business
+2023-09-19T12:22:47.505Z info: Get all business
+2023-09-19T12:22:47.507Z info: Get top 5 business
+2023-09-19T12:23:07.230Z info: Get top 5 business
+2023-09-19T12:23:07.238Z info: Get all business
+2023-09-19T12:23:09.256Z info: Get top 5 business
+2023-09-19T12:23:09.259Z info: Get all business
+2023-09-19T12:23:11.402Z info: Token Verefied
+2023-09-19T12:23:11.547Z info: Get user info of lior@gmail.com
+2023-09-19T12:23:34.952Z info: Token Verefied
+2023-09-19T12:23:35.077Z info: Get user info of lior@gmail.com
+2023-09-19T12:23:35.181Z info: Get all business
+2023-09-19T12:23:35.584Z info: Token Verefied
+2023-09-19T12:23:35.703Z info: Get user info of lior@gmail.com
+2023-09-19T12:23:35.811Z info: Get all business
+2023-09-19T12:23:35.887Z info: Token Verefied
+2023-09-19T12:23:36.051Z info: Get all business
+2023-09-19T12:23:36.054Z info: Get user info of lior@gmail.com
+2023-09-19T12:23:38.376Z info: Token Verefied
+2023-09-19T12:23:38.491Z info: Get user info of lior@gmail.com
+2023-09-19T12:23:40.258Z info: Token Verefied
+2023-09-19T12:23:40.380Z info: Get user info of lior@gmail.com
+2023-09-19T12:23:41.899Z info: Token Verefied
+2023-09-19T12:23:42.021Z info: Get user info of lior@gmail.com
+2023-09-19T12:23:51.380Z info: Token Verefied
+2023-09-19T12:23:51.510Z info: Get user info of lior@gmail.com
+2023-09-19T12:23:51.644Z info: Get all business
+2023-09-19T12:23:58.651Z info: Token Verefied
+2023-09-19T12:23:58.780Z info: Get user info of lior@gmail.com
+2023-09-19T12:23:58.880Z info: Get all business
+2023-09-19T12:24:01.545Z info: Token Verefied
+2023-09-19T12:24:01.798Z info: Get top 5 business
+2023-09-19T12:24:01.843Z info: Add new record of category entry - Barbershop
+2023-09-19T12:24:05.144Z info: Token Verefied
+2023-09-19T12:24:05.290Z info: Get user info of lior@gmail.com
+2023-09-19T12:39:16.271Z info: Token Verefied
+2023-09-19T12:39:16.397Z info: Get user info of lior@gmail.com
+2023-09-19T12:39:16.420Z info: Get all business
+2023-09-19T12:39:16.459Z info: Token Verefied
+2023-09-19T12:39:16.489Z info: Get all business
+2023-09-19T12:39:16.567Z info: Get all business
+2023-09-19T12:39:16.581Z info: Get user info of lior@gmail.com
+2023-09-19T12:39:16.890Z info: Token Verefied
+2023-09-19T12:39:17.012Z info: Get user info of lior@gmail.com
+2023-09-19T12:39:17.059Z info: Token Verefied
+2023-09-19T12:39:17.138Z info: Get all business
+2023-09-19T12:39:17.239Z info: Get user info of lior@gmail.com
+2023-09-19T12:39:17.368Z info: Get all business
+2023-09-19T12:41:16.418Z info: Token Verefied
+2023-09-19T12:41:16.541Z info: Get user info of lior@gmail.com
+2023-09-19T12:41:16.655Z info: Get all business
+2023-09-19T12:41:19.821Z info: Token Verefied
+2023-09-19T12:41:19.944Z info: Get user info of lior@gmail.com
+2023-09-19T12:41:20.179Z info: Get all business
+2023-09-19T12:41:21.891Z info: Token Verefied
+2023-09-19T12:41:22.005Z info: Get user info of lior@gmail.com
+2023-09-19T12:41:22.114Z info: Get all business
+2023-09-19T12:43:05.755Z info: Get top 5 business
+2023-09-19T12:43:07.736Z info: Token Verefied
+2023-09-19T12:43:07.859Z info: Get user info of lior@gmail.com
+2023-09-19T12:43:08.897Z info: Token Verefied
+2023-09-19T12:43:09.022Z info: Get user info of lior@gmail.com
+2023-09-19T12:43:09.146Z info: Get all business
+2023-09-19T12:43:17.905Z info: Token Verefied
+2023-09-19T12:43:18.029Z info: Get user info of lior@gmail.com
+2023-09-19T12:43:18.158Z info: Get all business
+2023-09-19T12:43:18.249Z info: Token Verefied
+2023-09-19T12:43:18.385Z info: Get all business
+2023-09-19T12:43:18.389Z info: Get user info of lior@gmail.com
+2023-09-19T12:43:18.441Z info: Token Verefied
+2023-09-19T12:43:18.576Z info: Get user info of lior@gmail.com
+2023-09-19T12:43:18.675Z info: Token Verefied
+2023-09-19T12:43:18.701Z info: Get all business
+2023-09-19T12:43:18.805Z info: Get all business
+2023-09-19T12:43:18.811Z info: Get user info of lior@gmail.com
+2023-09-19T12:43:20.396Z info: Token Verefied
+2023-09-19T12:43:20.517Z info: Get user info of lior@gmail.com
+2023-09-19T12:43:20.629Z info: Get all business
+2023-09-19T12:44:01.935Z info: Get top 5 business
+2023-09-19T12:44:04.026Z info: Token Verefied
+2023-09-19T12:44:04.157Z info: Get user info of lior@gmail.com
+2023-09-19T12:46:31.276Z info: Token Verefied
+2023-09-19T12:46:31.398Z info: Get user info of lior@gmail.com
+2023-09-19T12:46:31.517Z info: Get all business
+2023-09-19T12:48:43.708Z info: Token Verefied
+2023-09-19T12:48:43.832Z info: Get user info of lior@gmail.com
+2023-09-19T12:48:43.933Z info: Get all business
+2023-09-19T12:49:28.958Z info: Token Verefied
+2023-09-19T12:49:29.096Z info: Get user info of lior@gmail.com
+2023-09-19T12:49:29.163Z info: Get all business
+2023-09-19T12:51:08.649Z info: Token Verefied
+2023-09-19T12:51:08.771Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:16.651Z info: Token Verefied
+2023-09-19T12:51:16.771Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:23.652Z info: Token Verefied
+2023-09-19T12:51:23.773Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:26.653Z info: Token Verefied
+2023-09-19T12:51:26.774Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:29.657Z info: Token Verefied
+2023-09-19T12:51:29.778Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:34.651Z info: Token Verefied
+2023-09-19T12:51:34.771Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:35.652Z info: Token Verefied
+2023-09-19T12:51:35.773Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:43.126Z info: Token Verefied
+2023-09-19T12:51:43.245Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:43.466Z info: Get all business
+2023-09-19T12:51:44.360Z info: Token Verefied
+2023-09-19T12:51:44.489Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:44.558Z info: Get all business
+2023-09-19T12:51:44.759Z info: Token Verefied
+2023-09-19T12:51:45.229Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:45.346Z info: Get all business
+2023-09-19T12:51:48.523Z info: Token Verefied
+2023-09-19T12:51:48.642Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:48.663Z info: Token Verefied
+2023-09-19T12:51:49.222Z info: Get user info of lior@gmail.com
+2023-09-19T12:51:49.743Z info: Token Verefied
+2023-09-19T12:51:49.865Z info: Get user info of lior@gmail.com
+2023-09-19T12:58:31.652Z info: Token Verefied
+2023-09-19T12:58:31.772Z info: Get user info of lior@gmail.com
+2023-09-19T12:58:33.648Z info: Token Verefied
+2023-09-19T12:58:33.771Z info: Get user info of lior@gmail.com
+2023-09-19T12:58:34.655Z info: Token Verefied
+2023-09-19T12:58:34.775Z info: Get user info of lior@gmail.com
+2023-09-19T12:58:43.646Z info: Token Verefied
+2023-09-19T12:58:43.765Z info: Get user info of lior@gmail.com
+2023-09-19T12:58:48.639Z info: Token Verefied
+2023-09-19T12:58:48.760Z info: Get user info of lior@gmail.com
+2023-09-19T12:58:53.639Z info: Token Verefied
+2023-09-19T12:58:53.760Z info: Get user info of lior@gmail.com
+2023-09-19T12:58:55.647Z info: Token Verefied
+2023-09-19T12:58:55.768Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:09.654Z info: Token Verefied
+2023-09-19T12:59:09.776Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:15.895Z info: Token Verefied
+2023-09-19T12:59:16.016Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:16.113Z info: Get all business
+2023-09-19T12:59:19.152Z info: Get top 5 business
+2023-09-19T12:59:24.390Z info: Token Verefied
+2023-09-19T12:59:24.518Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:26.925Z info: Token Verefied
+2023-09-19T12:59:27.046Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:27.130Z info: Get all business
+2023-09-19T12:59:28.078Z info: Token Verefied
+2023-09-19T12:59:28.206Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:28.315Z info: Get all business
+2023-09-19T12:59:28.504Z info: Token Verefied
+2023-09-19T12:59:28.854Z info: Token Verefied
+2023-09-19T12:59:29.087Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:29.109Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:29.203Z info: Get all business
+2023-09-19T12:59:29.206Z info: Token Verefied
+2023-09-19T12:59:29.232Z info: Get all business
+2023-09-19T12:59:29.328Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:29.414Z info: Get all business
+2023-09-19T12:59:29.517Z info: Token Verefied
+2023-09-19T12:59:29.815Z info: Token Verefied
+2023-09-19T12:59:30.070Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:30.091Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:30.147Z info: Token Verefied
+2023-09-19T12:59:30.207Z info: Get all business
+2023-09-19T12:59:30.210Z info: Get all business
+2023-09-19T12:59:30.267Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:30.341Z info: Get all business
+2023-09-19T12:59:30.428Z info: Token Verefied
+2023-09-19T12:59:30.520Z info: Get all business
+2023-09-19T12:59:30.544Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:32.280Z info: Token Verefied
+2023-09-19T12:59:32.401Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:32.509Z info: Get all business
+2023-09-19T12:59:33.829Z info: Token Verefied
+2023-09-19T12:59:34.095Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:34.206Z info: Get all business
+2023-09-19T12:59:35.190Z info: Token Verefied
+2023-09-19T12:59:35.315Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:35.426Z info: Get all business
+2023-09-19T12:59:35.980Z info: Token Verefied
+2023-09-19T12:59:36.103Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:36.214Z info: Get all business
+2023-09-19T12:59:36.370Z info: Token Verefied
+2023-09-19T12:59:36.602Z info: Get all business
+2023-09-19T12:59:36.952Z info: Token Verefied
+2023-09-19T12:59:37.078Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:37.114Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:37.223Z info: Get all business
+2023-09-19T12:59:37.432Z info: Token Verefied
+2023-09-19T12:59:37.768Z info: Token Verefied
+2023-09-19T12:59:38.307Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:38.308Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:38.381Z info: Get all business
+2023-09-19T12:59:38.390Z info: Get all business
+2023-09-19T12:59:38.413Z info: Get all business
+2023-09-19T12:59:38.546Z info: Token Verefied
+2023-09-19T12:59:39.106Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:39.236Z info: Get all business
+2023-09-19T12:59:42.382Z info: Token Verefied
+2023-09-19T12:59:42.525Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:42.529Z info: Token Verefied
+2023-09-19T12:59:43.101Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:43.106Z info: Token Verefied
+2023-09-19T12:59:43.244Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:43.605Z info: Token Verefied
+2023-09-19T12:59:43.727Z info: Get user info of lior@gmail.com
+2023-09-19T12:59:43.823Z info: Get all business
+2023-09-19T13:01:33.707Z info: Token Verefied
+2023-09-19T13:01:33.828Z info: Get user info of lior@gmail.com
+2023-09-19T13:20:50.832Z info: Token Verefied
+2023-09-19T13:20:50.949Z info: Get user info of lior@gmail.com
+2023-09-19T13:20:51.024Z info: Get all business
+2023-09-19T13:21:00.892Z info: Token Verefied
+2023-09-19T13:21:01.011Z info: Get user info of lior@gmail.com
+2023-09-19T13:21:01.089Z info: Get all business
+2023-09-19T13:21:24.564Z info: Token Verefied
+2023-09-19T13:21:24.683Z info: Get user info of lior@gmail.com
+2023-09-19T13:21:24.779Z info: Get all business
+2023-09-19T13:21:30.490Z info: Token Verefied
+2023-09-19T13:21:30.612Z info: Get user info of lior@gmail.com
+2023-09-19T13:21:30.709Z info: Get all business
+2023-09-19T13:21:34.475Z info: Token Verefied
+2023-09-19T13:21:34.592Z info: Get user info of lior@gmail.com
+2023-09-19T13:21:34.685Z info: Get all business
+2023-09-19T13:21:37.705Z info: Token Verefied
+2023-09-19T13:21:37.828Z info: Get user info of lior@gmail.com
+2023-09-19T13:21:37.942Z info: Get all business
+2023-09-19T13:22:18.352Z info: Token Verefied
+2023-09-19T13:22:18.467Z info: Get user info of lior@gmail.com
+2023-09-19T13:22:18.556Z info: Get all business
+2023-09-19T13:22:22.081Z info: Token Verefied
+2023-09-19T13:22:22.196Z info: Get user info of lior@gmail.com
+2023-09-19T13:22:22.292Z info: Get all business
+2023-09-19T13:22:37.315Z info: Token Verefied
+2023-09-19T13:22:37.435Z info: Get user info of lior@gmail.com
+2023-09-19T13:22:37.528Z info: Get all business
+2023-09-19T13:22:40.677Z info: Token Verefied
+2023-09-19T13:22:40.800Z info: Get user info of lior@gmail.com
+2023-09-19T13:22:40.887Z info: Get all business
+2023-09-19T13:22:54.636Z info: Token Verefied
+2023-09-19T13:22:55.004Z error: other is not defined
+2023-09-19T13:23:12.630Z info: Token Verefied
+2023-09-19T13:23:13.004Z error: other is not defined
+2023-09-19T13:23:17.633Z info: Token Verefied
+2023-09-19T13:23:18.001Z error: other is not defined
+2023-09-19T13:23:23.634Z info: Token Verefied
+2023-09-19T13:23:24.010Z error: other is not defined
+2023-09-19T13:23:29.642Z info: Token Verefied
+2023-09-19T13:23:30.016Z error: other is not defined
+2023-09-19T13:24:47.559Z info: Token Verefied
+2023-09-19T13:24:47.779Z info: Get all business
+2023-09-19T13:24:47.926Z error: other is not defined
+2023-09-19T13:24:52.085Z info: Get top 5 business
+2023-09-19T13:24:53.650Z info: Token Verefied
+2023-09-19T13:24:54.027Z error: other is not defined
+2023-09-19T13:25:27.165Z info: Token Verefied
+2023-09-19T13:25:29.004Z info: Get all business
+2023-09-19T13:25:29.121Z info: Get business of user: lior@gmail.com
+2023-09-19T13:25:30.227Z info: Token Verefied
+2023-09-19T13:25:30.996Z info: Get all business
+2023-09-19T13:25:31.349Z info: Get business of user: lior@gmail.com
+2023-09-19T13:25:47.504Z info: Token Verefied
+2023-09-19T13:25:47.873Z info: Get business of user: lior@gmail.com
+2023-09-19T13:26:14.363Z info: Token Verefied
+2023-09-19T13:26:15.463Z info: Get all business
+2023-09-19T13:26:15.589Z info: Get business of user: lior@gmail.com
+2023-09-19T13:27:01.226Z info: Token Verefied
+2023-09-19T13:27:02.883Z info: Get all business
+2023-09-19T13:27:03.728Z info: Get business of user: lior@gmail.com
+2023-09-19T13:28:54.416Z info: Token Verefied
+2023-09-19T13:28:54.649Z info: Get all business
+2023-09-19T13:28:54.811Z info: Get business of user: lior@gmail.com
+2023-09-19T13:30:20.740Z info: Token Verefied
+2023-09-19T13:30:22.450Z info: Get all business
+2023-09-19T13:30:22.702Z info: Get business of user: lior@gmail.com
+2023-09-19T13:31:33.297Z info: Token Verefied
+2023-09-19T13:31:33.556Z info: Get all business
+2023-09-19T13:31:33.686Z info: Get business of user: lior@gmail.com
+2023-09-19T13:32:27.640Z info: Token Verefied
+2023-09-19T13:32:27.892Z info: Get all business
+2023-09-19T13:32:28.015Z info: Get business of user: lior@gmail.com
+2023-09-19T13:40:08.149Z info: Token Verefied
+2023-09-19T13:40:08.409Z info: Get all business
+2023-09-19T13:40:08.524Z info: Get business of user: lior@gmail.com
+2023-09-19T13:48:47.767Z info: Token Verefied
+2023-09-19T13:48:49.000Z info: Get all business
+2023-09-19T13:48:49.871Z info: Get business of user: lior@gmail.com
+2023-09-19T13:49:39.945Z info: Token Verefied
+2023-09-19T13:49:40.408Z info: Get all business
+2023-09-19T13:49:40.937Z info: Get business of user: lior@gmail.com
+2023-09-19T13:50:04.420Z info: Token Verefied
+2023-09-19T13:50:04.656Z info: Get all business
+2023-09-19T13:50:04.814Z info: Get business of user: lior@gmail.com
+2023-09-19T15:03:26.225Z info: Token Verefied
+2023-09-19T15:03:26.705Z info: Get all business
+2023-09-19T15:03:27.292Z info: Get business of user: lior@gmail.com
+2023-09-19T15:03:59.387Z info: Token Verefied
+2023-09-19T15:04:00.496Z info: Get all business
+2023-09-19T15:04:01.340Z info: Get business of user: lior@gmail.com
+2023-09-19T15:04:49.090Z info: Token Verefied
+2023-09-19T15:04:50.634Z info: Get all business
+2023-09-19T15:04:50.762Z info: Get business of user: lior@gmail.com
+2023-09-19T15:09:48.498Z info: Token Verefied
+2023-09-19T15:09:48.727Z info: Get all business
+2023-09-19T15:09:48.873Z info: Get business of user: lior@gmail.com
+2023-09-19T15:10:50.673Z info: Token Verefied
+2023-09-19T15:10:50.963Z info: Get all business
+2023-09-19T15:10:51.466Z info: Get business of user: lior@gmail.com
+2023-09-19T15:12:07.645Z info: Token Verefied
+2023-09-19T15:12:07.884Z info: Get all business
+2023-09-19T15:12:08.033Z info: Get business of user: lior@gmail.com
+2023-09-19T15:18:31.134Z info: Token Verefied
+2023-09-19T15:18:31.562Z info: Get all business
+2023-09-19T15:18:31.766Z info: Get business of user: lior@gmail.com
+2023-09-19T15:18:45.517Z info: Token Verefied
+2023-09-19T15:18:45.843Z info: Get all business
+2023-09-19T15:18:46.368Z info: Get business of user: lior@gmail.com
+2023-09-19T15:19:22.446Z info: Token Verefied
+2023-09-19T15:19:22.688Z info: Get all business
+2023-09-19T15:19:22.840Z info: Get business of user: lior@gmail.com
+2023-09-19T15:20:12.886Z info: Token Verefied
+2023-09-19T15:20:13.260Z info: Get business of user: lior@gmail.com
+2023-09-19T15:20:15.408Z info: Token Verefied
+2023-09-19T15:20:15.779Z info: Get business of user: lior@gmail.com
+2023-09-19T15:20:16.958Z info: Token Verefied
+2023-09-19T15:20:17.183Z info: Get all business
+2023-09-19T15:20:17.326Z info: Get business of user: lior@gmail.com
+2023-09-19T15:20:22.606Z info: Token Verefied
+2023-09-19T15:20:22.805Z info: Get all business
+2023-09-19T15:20:22.976Z info: Get business of user: lior@gmail.com
+2023-09-19T15:20:36.222Z info: Get top 5 business
+2023-09-19T15:20:37.841Z info: Token Verefied
+2023-09-19T15:20:38.207Z info: Get business of user: lior@gmail.com
+2023-09-19T15:21:02.785Z info: Token Verefied
+2023-09-19T15:21:03.139Z info: Get business of user: lior@gmail.com
+2023-09-19T15:21:05.626Z info: Token Verefied
+2023-09-19T15:21:05.976Z info: Get business of user: lior@gmail.com
+2023-09-19T15:21:06.613Z info: Token Verefied
+2023-09-19T15:21:06.965Z info: Get business of user: lior@gmail.com
+2023-09-19T15:21:09.704Z info: Token Verefied
+2023-09-19T15:21:10.054Z info: Get business of user: lior@gmail.com
+2023-09-19T15:21:13.300Z info: Token Verefied
+2023-09-19T15:21:13.505Z info: Get all business
+2023-09-19T15:21:13.646Z info: Get business of user: lior@gmail.com
+2023-09-19T15:21:36.581Z info: Token Verefied
+2023-09-19T15:21:36.953Z info: Get business of user: lior@gmail.com
+2023-09-19T15:22:17.282Z info: Token Verefied
+2023-09-19T15:22:17.668Z info: Get business of user: lior@gmail.com
+2023-09-19T15:22:22.258Z info: Token Verefied
+2023-09-19T15:22:22.474Z info: Get all business
+2023-09-19T15:22:22.610Z info: Get business of user: lior@gmail.com
+2023-09-19T15:22:24.304Z info: Token Verefied
+2023-09-19T15:22:24.779Z info: Get all business
+2023-09-19T15:22:24.892Z info: Token Verefied
+2023-09-19T15:22:25.146Z info: Get all business
+2023-09-19T15:22:25.572Z info: Get business of user: lior@gmail.com
+2023-09-19T15:22:25.980Z info: Get business of user: lior@gmail.com
+2023-09-19T15:22:51.032Z info: Token Verefied
+2023-09-19T15:22:51.384Z info: Get business of user: lior@gmail.com
+2023-09-19T15:22:53.726Z info: Token Verefied
+2023-09-19T15:22:54.079Z info: Get business of user: lior@gmail.com
+2023-09-19T15:22:56.353Z info: Token Verefied
+2023-09-19T15:22:56.707Z info: Get business of user: lior@gmail.com
+2023-09-19T15:22:57.745Z info: Token Verefied
+2023-09-19T15:22:57.950Z info: Get all business
+2023-09-19T15:22:58.092Z info: Get business of user: lior@gmail.com
+2023-09-19T15:22:59.102Z info: Token Verefied
+2023-09-19T15:22:59.413Z info: Get all business
+2023-09-19T15:22:59.565Z info: Token Verefied
+2023-09-19T15:22:59.962Z info: Get business of user: lior@gmail.com
+2023-09-19T15:23:00.116Z info: Get all business
+2023-09-19T15:23:00.253Z info: Get business of user: lior@gmail.com
+2023-09-19T15:23:08.311Z info: Token Verefied
+2023-09-19T15:23:08.663Z info: Get business of user: lior@gmail.com
+2023-09-19T15:23:14.806Z info: Token Verefied
+2023-09-19T15:23:15.159Z info: Get business of user: lior@gmail.com
+2023-09-19T15:23:15.881Z info: Token Verefied
+2023-09-19T15:23:16.095Z info: Get all business
+2023-09-19T15:23:16.249Z info: Get business of user: lior@gmail.com
+2023-09-19T15:23:59.053Z info: Token Verefied
+2023-09-19T15:24:00.404Z info: Get all business
+2023-09-19T15:24:00.526Z info: Get business of user: lior@gmail.com
+2023-09-19T15:24:25.785Z info: Token Verefied
+2023-09-19T15:24:26.161Z info: Get business of user: lior@gmail.com
+2023-09-19T15:24:28.294Z info: Token Verefied
+2023-09-19T15:24:28.514Z info: Get all business
+2023-09-19T15:24:28.668Z info: Get business of user: lior@gmail.com
+2023-09-19T15:24:35.051Z info: Token Verefied
+2023-09-19T15:24:35.409Z info: Get business of user: lior@gmail.com
+2023-09-19T15:24:35.530Z info: Token Verefied
+2023-09-19T15:24:35.620Z info: Get all business
+2023-09-19T15:24:35.882Z info: Get business of user: lior@gmail.com
+2023-09-19T15:24:40.693Z info: Token Verefied
+2023-09-19T15:24:41.055Z info: Get business of user: lior@gmail.com
+2023-09-19T15:24:48.094Z info: Token Verefied
+2023-09-19T15:24:48.295Z info: Get all business
+2023-09-19T15:24:48.447Z info: Get business of user: lior@gmail.com
+2023-09-19T15:24:50.505Z info: Token Verefied
+2023-09-19T15:24:51.345Z info: Get business of user: lior@gmail.com
+2023-09-19T15:24:56.666Z info: Token Verefied
+2023-09-19T15:24:56.789Z info: Get user info of lior@gmail.com
+2023-09-19T15:24:58.683Z info: Token Verefied
+2023-09-19T15:24:59.053Z info: Get business of user: lior@gmail.com
+2023-09-19T15:25:04.003Z info: Get top 5 business
+2023-09-19T15:25:04.444Z info: Token Verefied
+2023-09-19T15:25:04.706Z info: Add new record of category entry - Barbershop
+2023-09-19T15:25:05.679Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-19T15:25:05.687Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-19T15:25:05.779Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-19T15:25:05.812Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-19T15:25:06.833Z info: Get top 5 business
+2023-09-19T15:25:08.911Z info: Token Verefied
+2023-09-19T15:25:09.292Z info: Get business of user: lior@gmail.com
+2023-09-19T15:25:09.966Z info: Token Verefied
+2023-09-19T15:25:10.203Z info: Get all business
+2023-09-19T15:25:10.358Z info: Get business of user: lior@gmail.com
+2023-09-19T15:25:10.874Z info: Token Verefied
+2023-09-19T15:25:11.124Z info: Get all business
+2023-09-19T15:25:11.246Z info: Get business of user: lior@gmail.com
+2023-09-19T15:25:14.511Z info: Token Verefied
+2023-09-19T15:25:15.404Z info: Background picture id: lfsegrfuw01u7q8hskpw was deleted
+2023-09-19T15:25:15.792Z info: Business: 650990efc87226dc3dedce34 deleted
+2023-09-19T15:25:15.910Z info: Token Verefied
+2023-09-19T15:25:16.156Z info: Get all business
+2023-09-19T15:25:16.300Z info: Get business of user: lior@gmail.com
+2023-09-19T15:25:19.286Z info: Get top 5 business
+2023-09-19T15:25:20.609Z info: Token Verefied
+2023-09-19T15:25:20.864Z info: Add new record of category entry - Barbershop
+2023-09-19T15:25:22.314Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-19T15:25:22.315Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-19T15:25:22.327Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-19T15:25:22.371Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-19T15:25:24.630Z info: Get top 5 business
+2023-09-19T15:25:25.192Z info: Token Verefied
+2023-09-19T15:25:25.439Z info: Add new record of category entry - Barbershop
+2023-09-19T15:26:00.497Z info: Token Verefied
+2023-09-19T15:26:00.897Z info: Get business of user: lior@gmail.com
+2023-09-19T15:26:03.656Z info: Token Verefied
+2023-09-19T15:26:03.784Z info: Get user info of lior@gmail.com
+2023-09-19T15:26:05.541Z info: Token Verefied
+2023-09-19T15:26:05.674Z info: Get user info of lior@gmail.com
+2023-09-19T15:26:09.322Z info: Get top 5 business
+2023-09-19T17:19:39.671Z info: Token Verefied
+2023-09-19T17:19:40.658Z info: Add new record of category entry - Barbershop
+2023-09-19T17:19:44.285Z info: Get all events of calender business: 647c8d40343f635aabc3e0ee
+2023-09-19T17:19:44.913Z info: Get gallery of business: 647c8d40343f635aabc3e0ee
+2023-09-19T17:19:44.920Z info: Get shop of business: 647c8d40343f635aabc3e0ee
+2023-09-19T17:19:51.379Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-19T17:19:51.383Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-19T17:19:51.385Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-19T17:19:52.004Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-19T17:20:19.612Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-19T17:20:19.613Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-19T17:20:19.615Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-19T17:20:19.616Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-19T17:20:21.961Z info: Get top 5 business
+2023-09-19T17:20:22.649Z info: Token Verefied
+2023-09-19T17:20:22.895Z info: Add new record of category entry - Barbershop
+2023-09-19T17:20:24.660Z info: Get gallery of business: 63bf40d31e23eb7c39683fbd
+2023-09-19T17:20:24.662Z info: Get shop of business: 63bf40d31e23eb7c39683fbd
+2023-09-19T17:20:24.663Z info: Get all reviews of business: 63bf40d31e23eb7c39683fbd
+2023-09-19T17:20:24.664Z info: Get all events of calender business: 63bf40d31e23eb7c39683fbd
+2023-09-19T17:20:27.684Z info: Get top 5 business
+2023-09-19T17:20:29.891Z info: Get gallery of business: 63ef995fbca2676b75e4ad6a
+2023-09-19T17:20:29.892Z info: Get shop of business: 63ef995fbca2676b75e4ad6a
+2023-09-19T17:20:29.893Z info: Get all reviews of business: 63ef995fbca2676b75e4ad6a
+2023-09-19T17:20:29.894Z info: Get all events of calender business: 63ef995fbca2676b75e4ad6a
+2023-09-19T17:20:34.392Z info: Get top 5 business
+2023-09-19T17:21:20.644Z info: Token Verefied
+2023-09-19T17:21:20.886Z info: Add new record of category entry - Personal Trainers
+2023-09-19T17:21:23.454Z info: Get top 5 business
+2023-09-19T17:21:24.663Z info: Token Verefied
+2023-09-19T17:21:24.910Z info: Add new record of category entry - Nail Polish
+2023-09-19T17:21:28.027Z info: Token Verefied
+2023-09-19T17:21:28.147Z info: Get user info of lior@gmail.com
+2023-09-19T17:21:30.153Z info: Token Verefied
+2023-09-19T17:21:30.526Z info: Get business of user: lior@gmail.com
