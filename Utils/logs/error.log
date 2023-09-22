@@ -134,3 +134,7 @@
 2023-09-19T13:23:30.016Z error: other is not defined
 2023-09-19T13:24:47.926Z error: other is not defined
 2023-09-19T13:24:54.027Z error: other is not defined
+2023-09-22T10:38:05.224Z error: invalid signature
+2023-09-22T11:11:40.440Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-22T11:45:40.514Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-22T11:46:50.961Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"

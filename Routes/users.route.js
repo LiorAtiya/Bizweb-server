@@ -17,13 +17,12 @@ const {
 } = require("../Controllers/users.controller");
 
 //Update personal user details
-router.put("/:id", updateUserInfo);
 router.get("/", authenticateToken, getUserInfo);
 router.post("/categoryEntry", authenticateToken, addRecordCategoryEntry);
 router.get("/trainBigML", trainBigML);
 router.get("/my-business", authenticateToken, getMyBusiness);
 router.post("/prediction", getPredictionOfBigML);
-router.put("/test/new-appointment", authenticateToken, addNewEvent);
+router.put("/new-appointment", authenticateToken, addNewEvent);
 router.delete("/delete-appointment", authenticateToken, deleteEvent);
 router.put("/increase-quantity", authenticateToken, increaseQuantityInCart);
 router.put("/decrease-quantity", authenticateToken, decreaseQuantityInCart);
@@ -33,5 +32,6 @@ router.delete(
   removeProductFromCart
 );
 router.delete("/clear-cart", authenticateToken, clearCart);
+router.put("/:id", updateUserInfo);
 
 module.exports = router;

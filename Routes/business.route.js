@@ -30,7 +30,7 @@ router.get("/", getAllBusiness);
 router.put("/:id/reviews", addNewReview);
 router.delete("/:id/reviews", deleteReview);
 router.get("/:id/reviews", getAllReviews);
-router.put("/:id/shop", addProductToShop);
+router.put("/:id/shop", authenticateToken, addProductToShop);
 router.delete("/:id/shop", removeProductFromShop);
 router.get("/:id/shop", getShop);
 router.put("/:id/gallery", addNewPictureToGallery);

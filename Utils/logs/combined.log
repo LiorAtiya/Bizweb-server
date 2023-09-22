@@ -7088,3 +7088,247 @@
 2023-09-19T17:21:28.147Z info: Get user info of lior@gmail.com
 2023-09-19T17:21:30.153Z info: Token Verefied
 2023-09-19T17:21:30.526Z info: Get business of user: lior@gmail.com
+2023-09-19T17:24:13.005Z info: Get all business
+2023-09-19T17:24:13.021Z info: Get top 5 business
+2023-09-19T17:24:32.118Z info: Get all business
+2023-09-19T17:24:32.127Z info: Get top 5 business
+2023-09-19T21:07:58.926Z info: Token Verefied
+2023-09-19T21:07:59.929Z info: Add new record of category entry - Professionals
+2023-09-19T21:08:14.964Z info: Get top 5 business
+2023-09-19T21:08:44.044Z info: Get top 5 business
+2023-09-22T10:38:00.963Z info: Get all business
+2023-09-22T10:38:00.978Z info: Get top 5 business
+2023-09-22T10:38:05.224Z error: invalid signature
+2023-09-22T10:38:36.417Z info: Get all business
+2023-09-22T10:38:36.433Z info: Get top 5 business
+2023-09-22T10:38:45.856Z info: Login Email: lior@gmail.com was successful
+2023-09-22T10:38:45.867Z info: Token Verefied
+2023-09-22T10:38:45.989Z info: Get user info of lior@gmail.com
+2023-09-22T10:38:47.547Z info: Get top 5 business
+2023-09-22T10:38:47.597Z info: Get top 5 business
+2023-09-22T10:38:47.602Z info: Get all business
+2023-09-22T10:38:49.982Z info: Token Verefied
+2023-09-22T10:38:50.455Z info: Get user info of lior@gmail.com
+2023-09-22T10:38:51.565Z info: Token Verefied
+2023-09-22T10:38:51.941Z info: Get business of user: lior@gmail.com
+2023-09-22T10:38:53.091Z info: Token Verefied
+2023-09-22T10:38:53.344Z info: Get all business
+2023-09-22T10:38:53.467Z info: Get business of user: lior@gmail.com
+2023-09-22T10:38:56.392Z info: Get top 5 business
+2023-09-22T10:38:57.340Z info: Token Verefied
+2023-09-22T10:38:57.604Z info: Add new record of category entry - Barbershop
+2023-09-22T10:38:58.762Z info: Get shop of business: 647c8d40343f635aabc3e0ee
+2023-09-22T10:38:58.765Z info: Get gallery of business: 647c8d40343f635aabc3e0ee
+2023-09-22T10:38:58.854Z info: Get all events of calender business: 647c8d40343f635aabc3e0ee
+2023-09-22T10:39:06.820Z info: Get top 5 business
+2023-09-22T10:41:24.340Z info: Get top 5 business
+2023-09-22T10:41:27.152Z info: Get shop of business: 64392e166f55bd13f310249f
+2023-09-22T10:41:27.154Z info: Get gallery of business: 64392e166f55bd13f310249f
+2023-09-22T10:41:27.155Z info: Get all events of calender business: 64392e166f55bd13f310249f
+2023-09-22T10:41:27.255Z info: Get all reviews of business: 64392e166f55bd13f310249f
+2023-09-22T10:41:43.635Z info: Get all business
+2023-09-22T10:41:46.008Z info: Get gallery of business: 64392e166f55bd13f310249f
+2023-09-22T10:41:46.017Z info: Get shop of business: 64392e166f55bd13f310249f
+2023-09-22T10:41:46.028Z info: Get all reviews of business: 64392e166f55bd13f310249f
+2023-09-22T10:41:46.535Z info: Get all events of calender business: 64392e166f55bd13f310249f
+2023-09-22T11:11:40.440Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-22T11:13:26.056Z info: Get shop of business: 64392e166f55bd13f310249f
+2023-09-22T11:13:27.517Z info: Get shop of business: 64392e166f55bd13f310249f
+2023-09-22T11:13:42.417Z info: Get shop of business: 64392e166f55bd13f310249f
+2023-09-22T11:13:54.544Z info: Get shop of business: 64392e166f55bd13f310249f
+2023-09-22T11:13:55.670Z info: Get shop of business: 64392e166f55bd13f310249f
+2023-09-22T11:14:12.497Z info: Token Verefied
+2023-09-22T11:14:12.624Z info: Get user info of lior@gmail.com
+2023-09-22T11:14:14.705Z info: Token Verefied
+2023-09-22T11:14:15.088Z info: Get business of user: lior@gmail.com
+2023-09-22T11:14:21.939Z info: Get gallery of business: 63bf4db81e23eb7c39684118
+2023-09-22T11:14:22.110Z info: Get all events of calender business: 63bf4db81e23eb7c39684118
+2023-09-22T11:14:22.596Z info: Get shop of business: 63bf4db81e23eb7c39684118
+2023-09-22T11:14:22.599Z info: Get all reviews of business: 63bf4db81e23eb7c39684118
+2023-09-22T11:14:23.711Z info: Token Verefied
+2023-09-22T11:14:24.085Z info: Get business of user: lior@gmail.com
+2023-09-22T11:14:27.742Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:14:27.744Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:14:27.746Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:14:28.360Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:14:52.164Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:15:28.702Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:16:35.175Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:16:36.877Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:16:39.608Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:16:42.023Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:17:02.938Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:18:16.515Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:18:41.648Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:18:57.362Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:19:11.331Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:19:17.032Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:19:25.540Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:19:27.935Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:20:03.623Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:22:41.106Z info: Get all business
+2023-09-22T11:22:42.862Z info: Get all business
+2023-09-22T11:22:46.712Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:22:46.805Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:22:46.842Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:22:46.928Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:22:49.507Z info: Get all business
+2023-09-22T11:22:52.214Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:22:52.369Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:22:52.686Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:22:52.690Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:22:59.938Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:23:15.007Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:23:23.073Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:23:27.349Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:23:28.162Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:23:44.097Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:23:48.970Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:23:51.881Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:24:03.617Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:24:05.829Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:26:17.375Z info: Get all business
+2023-09-22T11:26:19.748Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:26:19.792Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:26:20.288Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:26:20.289Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:29:03.570Z info: Added new product to shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:29:14.515Z info: Get all business
+2023-09-22T11:29:15.800Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:29:16.879Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:29:16.885Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:29:17.420Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:37.155Z info: Token Verefied
+2023-09-22T11:31:37.293Z info: Added new product to shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:43.648Z info: Get all business
+2023-09-22T11:31:47.951Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:48.021Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:48.080Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:48.161Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:50.200Z info: Get all business
+2023-09-22T11:31:53.128Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:53.159Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:53.163Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:53.276Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:31:58.563Z info: Get all business
+2023-09-22T11:32:01.136Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:32:01.137Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:32:01.470Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:32:01.509Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:06.647Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:23.123Z info: Get all business
+2023-09-22T11:33:24.363Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:25.412Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:25.531Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:25.532Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:27.169Z info: Get all business
+2023-09-22T11:33:29.369Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:29.477Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:29.485Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:30.112Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:35.825Z info: Get all business
+2023-09-22T11:33:38.156Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:38.157Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:38.771Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:38.772Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:44.806Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:47.633Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:33:56.497Z info: Removed product: id1695382297122 from shop: 63c49c474fbb2942a7c08eed
+2023-09-22T11:40:29.689Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:40:56.026Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:41:00.041Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:41:07.034Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:45:40.514Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-22T11:46:50.961Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-22T11:49:01.896Z info: Get all business
+2023-09-22T11:49:06.260Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:49:06.264Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:49:06.376Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:49:06.390Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T11:49:08.294Z info: Token Verefied
+2023-09-22T12:00:54.528Z info: Get all business
+2023-09-22T12:00:59.130Z info: Get shop of business: 63c49c474fbb2942a7c08eed
+2023-09-22T12:00:59.134Z info: Get gallery of business: 63c49c474fbb2942a7c08eed
+2023-09-22T12:00:59.160Z info: Get all reviews of business: 63c49c474fbb2942a7c08eed
+2023-09-22T12:00:59.260Z info: Get all events of calender business: 63c49c474fbb2942a7c08eed
+2023-09-22T12:01:01.488Z info: Token Verefied
+2023-09-22T12:01:01.747Z info: Added new product: id1695382143419 to cart
+2023-09-22T12:01:06.550Z info: Token Verefied
+2023-09-22T12:01:06.676Z info: Get user info of lior@gmail.com
+2023-09-22T12:01:11.750Z info: Get top 5 business
+2023-09-22T12:01:17.300Z info: Token Verefied
+2023-09-22T12:01:17.427Z info: Get user info of lior@gmail.com
+2023-09-22T12:01:24.497Z info: Token Verefied
+2023-09-22T12:01:24.760Z info: Increased product: id1695382143419 to cart
+2023-09-22T12:01:24.974Z info: Token Verefied
+2023-09-22T12:01:25.096Z info: Get user info of lior@gmail.com
+2023-09-22T12:01:25.180Z info: Get all business
+2023-09-22T12:01:27.894Z info: Token Verefied
+2023-09-22T12:01:27.971Z info: Token Verefied
+2023-09-22T12:01:28.297Z info: Increased product: id1695382143419 to cart
+2023-09-22T12:01:28.306Z info: Increased product: id1695382143419 to cart
+2023-09-22T12:01:28.480Z info: Token Verefied
+2023-09-22T12:01:28.709Z info: Get user info of lior@gmail.com
+2023-09-22T12:01:28.827Z info: Get all business
+2023-09-22T12:01:31.131Z info: Token Verefied
+2023-09-22T12:01:31.722Z info: Decreased product: id1695382143419 from cart
+2023-09-22T12:01:31.900Z info: Token Verefied
+2023-09-22T12:01:32.022Z info: Get user info of lior@gmail.com
+2023-09-22T12:01:32.122Z info: Get all business
+2023-09-22T12:01:34.379Z info: Token Verefied
+2023-09-22T12:01:34.895Z info: Decreased product: id1695382143419 from cart
+2023-09-22T12:01:35.080Z info: Token Verefied
+2023-09-22T12:01:35.201Z info: Get user info of lior@gmail.com
+2023-09-22T12:01:35.285Z info: Get all business
+2023-09-22T12:02:48.940Z info: Get top 5 business
+2023-09-22T12:02:55.834Z info: Token Verefied
+2023-09-22T12:02:56.100Z info: Add new record of category entry - Barbershop
+2023-09-22T12:02:57.385Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:02:57.386Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:02:57.513Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:02:57.514Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:04:51.918Z info: Get all business
+2023-09-22T12:04:56.028Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:04:56.241Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:04:56.245Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:04:56.369Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:18.809Z info: Token Verefied
+2023-09-22T12:05:18.943Z info: A new avilable hour at 22/9/2023 | 19:00
+2023-09-22T12:05:22.435Z info: Get all business
+2023-09-22T12:05:24.000Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:24.610Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:25.461Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:25.780Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:34.684Z info: A new appointment was made by: ליאור at 22/9/2023 | 19:00
+2023-09-22T12:05:34.723Z info: Token Verefied
+2023-09-22T12:05:34.975Z info: A new appointment to registered user: 63a1d88941280504f541c984
+2023-09-22T12:05:36.971Z info: Get all business
+2023-09-22T12:05:38.410Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:38.881Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:39.879Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:39.916Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:44.066Z info: Token Verefied
+2023-09-22T12:05:44.195Z info: Get user info of lior@gmail.com
+2023-09-22T12:05:48.838Z info: Get top 5 business
+2023-09-22T12:05:50.011Z info: Token Verefied
+2023-09-22T12:05:50.269Z info: Add new record of category entry - Barbershop
+2023-09-22T12:05:50.914Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:50.917Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:50.919Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:50.920Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:05:57.539Z info: Token Verefied
+2023-09-22T12:05:57.663Z info: Get user info of lior@gmail.com
+2023-09-22T12:05:58.685Z info: Token Verefied
+2023-09-22T12:05:58.836Z info: Remove event: id1695384334406
+2023-09-22T12:05:58.855Z info: Token Verefied
+2023-09-22T12:05:58.990Z info: Remove event id1695384334406 from list of user 63a1d88941280504f541c984
+2023-09-22T12:05:59.250Z info: Token Verefied
+2023-09-22T12:05:59.372Z info: Get user info of lior@gmail.com
+2023-09-22T12:05:59.493Z info: Get all business
+2023-09-22T12:06:02.325Z info: Get top 5 business
+2023-09-22T12:06:02.751Z info: Token Verefied
+2023-09-22T12:06:03.038Z info: Add new record of category entry - Barbershop
+2023-09-22T12:06:03.899Z info: Get gallery of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:06:03.911Z info: Get shop of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:06:03.976Z info: Get all reviews of business: 63bef8121e23eb7c39683f8a
+2023-09-22T12:06:03.982Z info: Get all events of calender business: 63bef8121e23eb7c39683f8a
