@@ -186,7 +186,7 @@ const deleteExpiredEvents = async (req, res) => {
     // logger.info(`Deleted expired events`);
     return res.sendStatus(200);
   } catch (error) {
-    logger.error(err);
+    logger.error(error);
     return res.sendStatus(500);
   }
 };

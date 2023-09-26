@@ -138,3 +138,10 @@
 2023-09-22T11:11:40.440Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
 2023-09-22T11:45:40.514Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
 2023-09-22T11:46:50.961Z error: Cast to ObjectId failed for value "increase-quantity" (type string) at path "_id" for model "UserDetails"
+2023-09-26T10:03:17.692Z error: Cannot read properties of null (reading 'myShoppingCart')
+2023-09-26T10:05:07.477Z error: Cannot read properties of null (reading 'myShoppingCart')
+2023-09-26T10:09:10.554Z error: Cannot read properties of null (reading 'myShoppingCart')
+2023-09-26T10:16:04.229Z error: Cast to ObjectId failed for value "lior4007@gmail.com" (type string) at path "_id" for model "UserDetails"
+2023-09-26T10:16:40.890Z error: Cast to ObjectId failed for value "{ email: 'lior4007@gmail.com' }" (type Object) at path "_id" for model "UserDetails"
+2023-09-26T10:20:10.984Z error: Cannot read properties of null (reading 'myShoppingCart')
+2023-09-26T11:53:38.264Z error: Cannot read properties of undefined (reading 'quantity')

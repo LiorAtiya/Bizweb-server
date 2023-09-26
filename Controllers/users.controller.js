@@ -121,13 +121,13 @@ const getPredictionOfBigML = async (req, res) => {
 //Add appointment
 const addNewEvent = async (req, res) => {
   try {
-    await User.findByIdAndUpdate(
-      { _id: req.user._id },
+    await User.findOneAndUpdate(
+      { email: req.user.email },
       { $push: { myAppointments: req.body } }
     );
 
-    const user = await User.findOne({ _id: req.user._id });
-    logger.info(`A new appointment to registered user: ${req.user._id}`);
+    const user = await User.findOne({ email: req.user.email });
+    logger.info(`A new appointment to registered user: ${req.user.email}`);
 
     return res.json(user);
   } catch (err) {
@@ -140,7 +140,7 @@ const addNewEvent = async (req, res) => {
 const deleteEvent = async (req, res) => {
   try {
     await User.findOneAndUpdate(
-      { _id: req.user._id },
+      { email: req.user.email },
       {
         $pull: {
           myAppointments: {
@@ -150,9 +150,9 @@ const deleteEvent = async (req, res) => {
       }
     );
     logger.info(
-      `Remove event ${req.body.eventID} from list of user ${req.user._id}`
+      `Remove event ${req.body.eventID} from list of user ${req.user.email}`
     );
-    const user = await User.findOne({ _id: req.user._id });
+    const user = await User.findOne({ email: req.user.email });
 
     return res.json(user);
   } catch (err) {
@@ -163,14 +163,15 @@ const deleteEvent = async (req, res) => {
 //Add/Increase new product to cart
 const increaseQuantityInCart = async (req, res) => {
   try {
-    const user = await User.findOne({ _id: req.user._id });
+    const user = await User.findOne({ email: req.user.email });
     const itemIndex = user.myShoppingCart.findIndex(
       (item) => item.id === req.body.id
     );
+
     if (itemIndex >= 0) {
       user.myShoppingCart[itemIndex].quantity += 1;
       const afterChange = user.myShoppingCart[itemIndex].quantity;
-      const query = { _id: req.user._id, "myShoppingCart.id": req.body.id };
+      const query = { email: req.user.email, "myShoppingCart.id": req.body.id };
       const updateDocument = {
         $set: { "myShoppingCart.$.quantity": afterChange },
       };
@@ -178,8 +179,8 @@ const increaseQuantityInCart = async (req, res) => {
 
       logger.info(`Increased product: ${req.body.id} to cart`);
     } else {
-      await User.findByIdAndUpdate(
-        { _id: req.user._id },
+      await User.findOneAndUpdate(
+        { email: req.user.email },
         { $push: { myShoppingCart: req.body } }
       );
       logger.info(`Added new product: ${req.body.id} to cart`);
@@ -195,22 +196,22 @@ const increaseQuantityInCart = async (req, res) => {
 //Decrease product from my cart
 const decreaseQuantityInCart = async (req, res) => {
   try {
-    const user = await User.findOne({ _id: req.user._id });
+    const user = await User.findOne({ email: req.user.email });
     const itemIndex = user.myShoppingCart.findIndex(
       (item) => item.id === req.body.id
     );
     if (user.myShoppingCart[itemIndex].quantity > 1) {
       user.myShoppingCart[itemIndex].quantity -= 1;
       const afterChange = user.myShoppingCart[itemIndex].quantity;
-      const query = { _id: req.user._id, "myShoppingCart.id": req.body.id };
+      const query = { email: req.user.email, "myShoppingCart.id": req.body.id };
       const updateDocument = {
         $set: { "myShoppingCart.$.quantity": afterChange },
       };
       await User.updateOne(query, updateDocument);
       logger.info(`Decreased product: ${req.body.id} from cart`);
     } else {
-      await User.findByIdAndUpdate(
-        { _id: req.user._id },
+      await User.findOneAndUpdate(
+        { email: req.user.email },
         { $pull: { myShoppingCart: req.body } }
       );
       logger.info(`Removed product: ${req.body.id} from cart`);
@@ -226,11 +227,11 @@ const decreaseQuantityInCart = async (req, res) => {
 const removeProductFromCart = async (req, res) => {
   try {
     await User.findOneAndUpdate(
-      { _id: req.user._id },
+      { email: req.user.email },
       { $pull: { myShoppingCart: { id: req.body.productID } } }
     );
     logger.info(
-      `Remove product: ${req.body.productID} from cart of user: ${req.user._id}`
+      `Remove product: ${req.body.productID} from cart of user: ${req.user.email}`
     );
     return res.sendStatus(200);
   } catch (err) {
@@ -242,9 +243,9 @@ const removeProductFromCart = async (req, res) => {
 //Clear my cart
 const clearCart = async (req, res) => {
   try {
-    await User.findByIdAndUpdate({ _id: req.user._id }, { myShoppingCart: [] });
+    await User.findOneAndUpdate({ email: req.user.email }, { myShoppingCart: [] });
 
-    logger.info(`Clear cart of user: ${req.user._id}`);
+    logger.info(`Clear cart of user: ${req.user.email}`);
     return res.sendStatus(200);
   } catch (err) {
     logger.error(err);

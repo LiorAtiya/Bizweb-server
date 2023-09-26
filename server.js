@@ -11,6 +11,7 @@ const userRoute = require('./Routes/users.route')
 const authRoute = require('./Routes/auth.route')
 const businessRoute = require('./Routes/business.route')
 const calenderRoute = require('./Routes/calander.route')
+const paymentRoute = require('./Routes/payment.route')
 
 const app = express();
 
@@ -28,6 +29,7 @@ app.use('/api/users', userRoute);
 app.use('/api/auth', authRoute);
 app.use('/api/business', businessRoute);
 app.use('/api/calender', calenderRoute);
+app.use('/api/payment', paymentRoute);
 
 app.get("/", () => {
     console.log('Hello from Bizweb server')
